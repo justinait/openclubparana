@@ -20,7 +20,7 @@ function Home() {
 
       <div className='homeContainer'>
         <video autoPlay muted loop playsInline className='videoHero'>
-          <source src='/hero.webm' type="video/mp4" />
+          <source src="https://res.cloudinary.com/dsgxxcikg/video/upload/v1732548439/caiventures/openclub/gtssxqmrhr5hrauq71gr.mp4" type="video/mp4" />
           Tu navegador no soporta videos HTML5.
         </video>
         <img src={logo} alt="Open Club - Complejo turístico" className='logoHero' />
