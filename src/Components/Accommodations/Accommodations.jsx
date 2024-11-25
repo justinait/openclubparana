@@ -43,6 +43,9 @@ import resto from '../../assets/icons/resto.png'
 import parrilla from '../../assets/icons/parrilla.png'
 import tv from '../../assets/icons/tv.png'
 
+import prev from '../../assets/icons/arrowPrev.png'
+import next from '../../assets/icons/arrowNext.png'
+
 
 function Accommodations() {
   const [showPopup, setShowPopup] = useState(false);
@@ -166,17 +169,14 @@ function Accommodations() {
               X
             </button>
             <div className="carousel">
-              <button className="prev" onClick={handlePrev}>
-                {"<"}
-              </button>
+              <img src={prev} className="prev" onClick={handlePrev} />
               <img
                 src={currentImages[currentIndex]}
                 alt="Alojamiento"
                 className="carouselImage"
               />
-              <button className="next" onClick={handleNext}>
-                {">"}
-              </button>
+              <img src={next} className="next" onClick={handleNext} />
+
             </div>
           </div>
         </div>
