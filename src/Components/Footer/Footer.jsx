@@ -5,7 +5,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footerContainer'>
-      <img src={logo} alt="Open club complejo turístico" className='logoFooter' />
+      <img loading='lazy' src={logo} alt="Open club complejo turístico" className='logoFooter' />
       
       <div className='infoFooterContainer'>
 

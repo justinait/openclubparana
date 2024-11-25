@@ -39,7 +39,7 @@ function Navbar() {
     return (
         <div className='navbarContainer'>
             <Link to={'/'} className='logoNavbarA'>
-                <img className='logoNavbar'  onClick={handleClose} src={logo} alt="Open Club Paraná Complejo Turístico" />
+                <img loading='lazy' className='logoNavbar'  onClick={handleClose} src={logo} alt="Open Club Paraná Complejo Turístico" />
             </Link>
             
             <div>

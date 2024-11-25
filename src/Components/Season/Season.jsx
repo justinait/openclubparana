@@ -44,7 +44,7 @@ function Season() {
               season.map((e, i)=> (
                 <div key={i}>
                   <p>{e.name}</p>
-                  <img src={e.image} className='seasonImages' alt="" width={100}/>
+                  <img loading='lazy' src={e.image} className='seasonImages' alt="" width={100}/>
                 </div>
               ))
             }

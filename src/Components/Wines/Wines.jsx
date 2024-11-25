@@ -17,7 +17,7 @@ function Wines() {
   return (
     <div>
       <div className='winesContainer'>
-        <img src={logoWines} className='winesLogoImage' alt="VINOS DE RIOS" width={100}/>
+        <img loading='lazy' src={logoWines} className='winesLogoImage' alt="VINOS DE RIOS" width={100}/>
       </div>
       
 
@@ -34,7 +34,7 @@ function Wines() {
           {
             items.map((e, i)=> (
               <div key={i} className={`itemsEvents itemsWines ${i < 3 ? "group1" : "group2"}`}>
-                <img src="" alt="-" />
+                <img loading='lazy' src="" alt="-" />
                 <div>
                   <p>{e.name}</p>
                   <p>{e.description}</p>

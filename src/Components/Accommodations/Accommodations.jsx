@@ -48,10 +48,12 @@ import next from '../../assets/icons/arrowNext.png'
 
 
 function Accommodations() {
+  
   const [showPopup, setShowPopup] = useState(false);
   const [currentImages, setCurrentImages] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+
   const icons = [
     { name: 'wifi', image: wifi},
     { name: 'estacionamiento', image: parking},
@@ -93,6 +95,15 @@ function Accommodations() {
   const getPrevIndex = (index) => (index - 1 + currentImages.length) % currentImages.length;
   const getNextIndex = (index) => (index + 1) % currentImages.length;
 
+  const handleImageLoad = () => {
+    const allImages = document.querySelectorAll('.alojamientoImage');
+    const allLoaded = Array.from(allImages).every((img) => img.complete && img.naturalHeight !== 0);
+  
+    if (allLoaded) {
+      setImagesLoaded(true);
+    }
+  };
+  
   return (
     <div>
       <div className='accommodationsContainer'>
@@ -108,7 +119,7 @@ function Accommodations() {
           alojamiento.map((e, i)=> (
             <div key={i} className='alojamientoItem' onClick={() => openPopup(e.images)}>
               <p className='alojamientoP' >{e.name}</p>
-              <img src={e.image} alt={e.name} className='alojamientoImage' width={100}/>
+              <img loading='lazy' src={e.image} alt={e.name} className='alojamientoImage' width={100}/>
             </div>
           ))
         }
@@ -130,7 +141,7 @@ function Accommodations() {
             <div className='accommodationsIconsDiv'>
             {
               icons.map((e, i)=> (
-                <img src={e.image} alt={e.name} width='20' />
+                <img loading='lazy' src={e.image} alt={e.name} width='20' />
               ))
             }
             </div>
@@ -173,25 +184,32 @@ function Accommodations() {
               X
             </button>
             <div className="carousel">
-              <img src={prev} className="prev" onClick={handlePrev} />
+              <img src={prev} className="prev" alt='Imagen siguiente' onClick={handlePrev} loading='lazy'/>
 
               <img
                 src={currentImages[getPrevIndex(currentIndex)]}
                 alt="Previa"
+                loading='lazy'
                 className="carouselImage prevImage"
+                onLoad={handleImageLoad}
+                style={{ visibility: imagesLoaded ? 'visible' : 'hidden' }}
               />
               <img
                 src={currentImages[currentIndex]}
                 alt="Alojamiento"
                 className="carouselImage"
+                loading='lazy'
               />
               <img
                 src={currentImages[getNextIndex(currentIndex)]}
                 alt="Siguiente"
+                loading='lazy'
                 className="carouselImage nextImage"
+                onLoad={handleImageLoad}
+                style={{ visibility: imagesLoaded ? 'visible' : 'hidden' }}
               />
 
-              <img src={next} className="next" onClick={handleNext} />
+              <img src={next} className="next" alt='Imagen siguiente' onClick={handleNext} loading='lazy' />
 
             </div>
           </div>

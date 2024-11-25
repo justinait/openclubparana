@@ -18,7 +18,7 @@ function Agency() {
           <source src="https://res.cloudinary.com/dsgxxcikg/video/upload/v1732548439/caiventures/openclub/gtssxqmrhr5hrauq71gr.mp4" type="video/mp4" /> 
           Tu navegador no soporta videos HTML5.
         </video>
-        <img className='costaneraAgency' src={costanera} alt="Costanera 241" />
+        <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />
       </div>
 
       <div className='boxContainer'>
@@ -41,7 +41,7 @@ function Agency() {
           {
             agency.map((e, i)=> (
               <div key={i} className='touristHomeItem'>
-                <img src={e.image} alt="" width={100}/>
+                <img loading='lazy' src={e.image} alt="" width={100}/>
                 <p className='touristTitlesHome'>{e.name}</p>
               </div>
             ))

@@ -23,7 +23,7 @@ function Home() {
           <source src="https://res.cloudinary.com/dsgxxcikg/video/upload/v1732548439/caiventures/openclub/gtssxqmrhr5hrauq71gr.mp4" type="video/mp4" />
           Tu navegador no soporta videos HTML5.
         </video>
-        <img src={logo} alt="Open Club - Complejo turístico" className='logoHero' />
+        <img loading='lazy' src={logo} alt="Open Club - Complejo turístico" className='logoHero' />
       </div>
       <div className='aboutUsHomeContainer'>
         <div className='box'>
@@ -52,7 +52,7 @@ function Home() {
           {
             home.map(e=> (
               <Link to={e.id} className='touristHomeItem'>
-                <img src={e.image} alt=""/>
+                <img loading='lazy' src={e.image} alt=""/>
                 <p className='touristTitlesHome'>{e.name}</p>
               </Link>
             ))
