@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Montserrat Variable', sans-serif;
+  font-size: 11px;
+}
+
+h1, h4 {
+  font-family: 'Nokora', sans-serif;
+}
+
+:root {
+  --mainYellow: #F5C30B;
+  --color-lightWhiteText:#F6F6F6;
+  --color-darkWhite: #F1F1F1;
+  /* black 000 */
+}
+
+.box {
+  position: relative;
+  padding: 2%;
+  padding-left: 2px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6px;
+  background-color: var(--mainYellow);
+  border-radius: 10px; 
+}
+.box p {  
+  margin: 0em 1em;
+}
+.box h4 {
+  margin: 0em 1em;
+  line-height: 18px;
+}
+.reservarButton {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 5%;
+  line-height: 20px;
+  text-align: center;
+  background-color: var(--mainYellow);
+  color: var(--color-darkWhite);
+  border-radius: 20px;
+  border: none;
+}
+
+.boxCookies {
+  padding: 0 5%;
+  text-align: center;
+}
+.boxCookies button {
+  display: none;
+}
+
+.boxContainer {
+  background-color: #F6F6F6;
+  padding: 10%;
+  border-top: 3px var(--mainYellow) solid;
+  border-bottom: 3px var(--mainYellow) solid;
+}
+
+.contactTitle {
+  color: var(--mainYellow);
+  font-family: 'Nokora';
+  font-weight: 700;
+  line-height: 6.61px;
+  position: relative;
+  padding: 2% 3%;
+}
+
+.contactTitle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: var(--mainYellow);
+  border-radius: 10px; 
+}
+
+@media(min-width:700px) {
+
+  .boxCookies {
+    background-color: #000000B2;
+    color: white;
+    border-top: 1px solid var(--mainYellow);
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .boxCookies button, .reservarButton {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 5%;
+    line-height: 20px;
+    text-align: center;
+    background-color: var(--mainYellow);
+    color: var(--color-darkWhite);
+    border-radius: 20px;
+    border: none;
+  }
+}

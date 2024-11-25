@@ -1,0 +1,40 @@
+.agencyContainer{
+    width: 100%;
+    aspect-ratio: 3/2 !important;
+    background-size: cover;
+    position: relative;
+}
+.videoHeroAgency {
+    width: 100%;
+    position: relative;
+    top: 6vh;
+}
+.agencyContainer2 {
+    background-color: var(--color-darkWhite);
+    border-bottom: 3px var(--mainYellow) solid;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.agencyItemsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agencyTitle {
+    display: flex;
+    align-items: center;
+}
+.agencyTitle p {
+    font-size: 9px;
+}
+.costaneraAgency {
+    width: 100px;
+    position: absolute;
+    top: 90%;
+    right: 5px;
+}

@@ -1,0 +1,17 @@
+.contactContainer {
+    width: 100%;
+    aspect-ratio: 3/2 !important;
+    background-image: url('../../assets/contacthero.jpg');
+    background-size: cover;    
+    position: relative;
+}
+.googleMapIframe, #mapDiv {
+    margin: auto !important;
+    border-radius: 10px;
+    border: 3px solid var(--mainYellow) !important;
+}
+.contactContainer2 {
+    background-color: var(--color-darkWhite);
+    border-bottom: 3px var(--mainYellow) solid;
+    padding: 5% 0;
+}

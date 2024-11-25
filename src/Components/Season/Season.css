@@ -1,0 +1,19 @@
+.seasonContainer {
+    width: 100%;
+    aspect-ratio: 3/2 !important;
+    background-image: url('../../assets/seasonhero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.seasonImages {
+    border-radius:15px;
+}
+.seasonContainer2 {
+    background-color: var(--color-darkWhite);
+    border-bottom: 3px var(--mainYellow) solid;
+    padding: 5% 0;
+}
+.seasonImagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}

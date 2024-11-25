@@ -1,0 +1,39 @@
+.eventsContainer {
+    width: 100%;
+    aspect-ratio: 3/2 !important;
+    background-image: url('../../assets/eventshero.jpg');
+    background-size: cover;
+    position: relative;
+}
+.eventsBoxCookiesSeparator {
+    border-top: 3px var(--mainYellow) solid;
+    background-color: var(--color-darkWhite);
+    padding: 5%;
+}
+.eventsBoxContainer {
+    padding: 0% 10%;
+}
+.eventsH4Title {
+    width: 85%;
+    margin: 8% auto;
+}
+.itemsEventsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.itemsEventsContainer .reservarButton {
+    margin: 6%;
+}
+.itemsEvents p {
+    width: 32vw;
+}
+.group1,
+.group2 {
+    flex: 1; /* Asegura que ambos grupos ocupen el mismo espacio horizontal */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

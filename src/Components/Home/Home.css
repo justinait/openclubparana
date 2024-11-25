@@ -1,0 +1,73 @@
+.homeContainer {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 3/2 !important;
+}
+.videoHero {
+    object-fit: cover;
+    aspect-ratio: 3 / 2 !important;
+    top: 0;
+    width: 100%;
+    position: relative;
+}
+.logoHero {
+    width: 60%;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+.aboutUsHomeContainer {
+    background-color: #F6F6F6;
+    padding: 10%;
+    border-top: 3px var(--mainYellow) solid;
+    border-bottom: 3px var(--mainYellow) solid;
+}
+.homeContainer2 {
+    background-color: #F1F1F1;
+    padding: 10%;
+}
+.touristImagesHomeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.touristTitlesHome {
+    font-family: 'Nokora', sans-serif;
+    font-size: 9px;
+    border-radius:  0 0 10px 10px;
+    height: 20px;
+    display: flex;
+    background-color: var(--mainYellow);
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.touristHomeItem {
+    background-color: var(--mainYellow);
+    border-radius: 10px;
+    color: white;
+    margin-top: 4%;
+    text-decoration: none;
+}
+.touristHomeItem img {
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    width: 37vw;
+}
+
+#reviewsContainerYellow {
+    background-color: var(--mainYellow);
+    padding: 90px;
+}
+.go2048136271 {
+    display: none !important;
+}
+#trustmary-widget, .go2115419360 {
+    padding: 0!important;
+    margin-top: -280px !important;
+    font-size: 9px !important;
+}

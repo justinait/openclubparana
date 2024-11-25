@@ -1,0 +1,131 @@
+.accommodationsContainer {
+    width: 100%;
+    aspect-ratio: 3/2 !important;
+    background-image: url('../../assets/alojamientoshero.jpg');
+    background-size: cover;
+    position: relative;
+}
+.accomodationsContainer2 {
+    padding: 10%;
+    margin: auto;
+    background-color: var(--color-lightWhiteText);
+}
+.alojamientoItem {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.accommodationsItemsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.alojamientoImage {
+    aspect-ratio: 1/1 !important;
+    border: 2px solid var(--mainYellow);
+    border-radius: 5px;
+    width: 90%;
+}
+.alojamientoP {
+    margin: auto;
+    text-align: center;
+    font-family: 'Nokora';
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+.alojamientosInfoContainer {
+    padding: 7% 2.5%;
+}
+.alojamientosInfoContainer h6 {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.ourInstalationsBigContainer {
+    padding: 7% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ourTouristsContainerAlojamientos {
+    background-color: #D9D9D94A;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px var(--mainYellow) solid;
+    border-bottom: 3px var(--mainYellow) solid;
+    padding: 10%;
+}
+.ourTouristsContainerAlojamientos .box {
+    margin-bottom: 7%;
+}
+.lastTextAccommodations {
+    text-align: center;
+}
+.ourTouristsContainerAlojamientos ul {
+    padding-left: 2em;
+}
+.ourTouristsContainerAlojamientos li {
+    padding: 5px 0;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popupContent {
+    position: relative;
+    text-align: center;
+}
+  
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.carouselImage {
+    width: 70%;
+    aspect-ratio: 1/1 !important;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid var(--mainYellow);
+}
+  
+.prev,
+.next {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #f4c542;
+    cursor: pointer;
+}
+  
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+  
