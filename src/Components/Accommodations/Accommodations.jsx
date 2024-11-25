@@ -90,11 +90,13 @@ function Accommodations() {
         <div className='ourInstalationsBigContainer'>
           <div>
             <h6>NUESTRAS INSTALACIONES Y <br />SERVCIOS</h6>
+            <div className='accommodationsIconsDiv'>
             {
               icons.map((e, i)=> (
                 <img src={e.image} alt={e.name} width='20' />
               ))
             }
+            </div>
           </div>
 
           <button className='reservarButton'>Reservar</button>
