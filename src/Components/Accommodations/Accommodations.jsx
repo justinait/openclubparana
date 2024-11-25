@@ -1,9 +1,39 @@
 import React, { useState } from 'react'
 import './Accommodations.css'
-import duplex from '../../assets/duplex.png'
-import mono from '../../assets/mono.jpg'
-import mono1 from '../../assets/mono1.png'
-import mono2 from '../../assets/mono2.png'
+
+import monostd1 from '../../assets/accommodations/monostd/PORTADA.jpg'
+import monostd2 from '../../assets/accommodations/monostd/2.jpg'
+import monostd3 from '../../assets/accommodations/monostd/3.jpg'
+import monostd4 from '../../assets/accommodations/monostd/4.jpg'
+import monostd5 from '../../assets/accommodations/monostd/5.jpg'
+import monostd6 from '../../assets/accommodations/monostd/6.jpg'
+
+import monosup11 from '../../assets/accommodations/monosup1/PORTADA.jpg'
+import monosup12 from '../../assets/accommodations/monosup1/2.jpg'
+import monosup13 from '../../assets/accommodations/monosup1/3.jpg'
+import monosup14 from '../../assets/accommodations/monosup1/4.jpg'
+import monosup15 from '../../assets/accommodations/monosup1/5.jpg'
+import monosup16 from '../../assets/accommodations/monosup1/6.jpg'
+import monosup17 from '../../assets/accommodations/monosup1/7.jpg'
+
+import monosup21 from '../../assets/accommodations/monosup2/PORTADA.jpg'
+import monosup22 from '../../assets/accommodations/monosup2/2.jpg'
+import monosup23 from '../../assets/accommodations/monosup2/3.jpg'
+import monosup24 from '../../assets/accommodations/monosup2/4.jpg'
+import monosup25 from '../../assets/accommodations/monosup2/5.jpg'
+import monosup26 from '../../assets/accommodations/monosup2/6.jpeg'
+import monosup27 from '../../assets/accommodations/monosup2/7.jpeg'
+
+import duplex1 from '../../assets/accommodations/duplex/PORTADA.jpg'
+import duplex2 from '../../assets/accommodations/duplex/2.jpg'
+import duplex3 from '../../assets/accommodations/duplex/3.jpg'
+import duplex4 from '../../assets/accommodations/duplex/4.jpg'
+import duplex5 from '../../assets/accommodations/duplex/5.jpg'
+import duplex6 from '../../assets/accommodations/duplex/6.jpg'
+import duplex7 from '../../assets/accommodations/duplex/7.jpg'
+import duplex8 from '../../assets/accommodations/duplex/8.jpg'
+import duplex9 from '../../assets/accommodations/duplex/9.jpg'
+import duplex10 from '../../assets/accommodations/duplex/10.jpg'
 
 import wifi from '../../assets/icons/wifi.png'
 import parking from '../../assets/icons/parking.png'
@@ -31,10 +61,10 @@ function Accommodations() {
   ];
 
   const alojamiento = [
-    { name: 'DUPLEX', image: duplex, images: [duplex, mono, mono1]},
-    { name: 'MONO STD', image: mono, images: [duplex]},
-    { name: 'MONO SUP. I', image: mono1, images: [duplex]},
-    { name: 'MONO SUP. II', image: mono2, images: [duplex] }
+    { name: 'DUPLEX', image: duplex1, images: [duplex1, duplex2, duplex3,duplex4, duplex5, duplex6, duplex7, duplex8, duplex9, duplex10]},
+    { name: 'MONO STD', image: monostd1, images: [monostd1, monostd2, monostd3, monostd4, monostd5, monostd6]},
+    { name: 'MONO SUP. I', image: monosup11, images: [monosup11, monosup12, monosup13, monosup14, monosup15, monosup16, monosup17]},
+    { name: 'MONO SUP. II', image: monosup21, images: [monosup21, monosup22, monosup23, monosup24, monosup25, monosup26, monosup27] }
   ];
   const openPopup = (images) => {
     setCurrentImages(images);
