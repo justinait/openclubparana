@@ -123,9 +123,11 @@
 .next {
     background: none;
     border: none;
-    font-size: 2rem;
+    width: 10px;
     color: #f4c542;
+    z-index: 10;
     cursor: pointer;
+    margin: 15px;
 }
   
 .closeButton {
