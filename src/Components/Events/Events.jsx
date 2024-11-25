@@ -5,15 +5,16 @@ function Events() {
   
   const items = [
     { name: 'Servicios de Gastronomía'},
-    { name: 'Servicio de Bebidas'},
-    { name: 'Vinoteca de vinos entrerrianos' },
-    { name: 'Dos Salones de usos múltiples'},
-    { name: 'Amplios espacios al aire libre'},
     { name: 'Conectividad WIFI'},
+    { name: 'Servicio de Bebidas'},
     { name: 'Mobiliario, mantelería y enseres'},
+    { name: 'Vinoteca de vinos entrerrianos' },
     { name: 'Cuatro (4) piscinas'},
+    { name: 'Dos Salones de usos múltiples'},
     { name: 'Bar de Temporada'},
+    { name: 'Amplios espacios al aire libre'},
     { name: 'Dos (2) Canchas de Padel'}
+    
   ];
   
   return (

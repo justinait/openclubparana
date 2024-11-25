@@ -8,7 +8,7 @@
 .eventsBoxCookiesSeparator {
     border-top: 3px var(--mainYellow) solid;
     background-color: var(--color-darkWhite);
-    padding: 5%;
+    padding: 5% 9%;
 }
 .eventsBoxContainer {
     padding: 0% 10%;
@@ -29,11 +29,12 @@
 }
 .itemsEvents p {
     width: 32vw;
+    font-size: 9px;
 }
 .group1,
 .group2 {
-    flex: 1; /* Asegura que ambos grupos ocupen el mismo espacio horizontal */
+    flex: 1;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 2px;
 }
