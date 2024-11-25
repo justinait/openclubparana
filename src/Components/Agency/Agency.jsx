@@ -2,13 +2,12 @@ import React from 'react'
 import './Agency.css'
 import nautico from '../../assets/agencyrio.jpg'
 import wines from '../../assets/agencywines.jpg'
-import mono2 from '../../assets/mono2.png'
 import costanera from '../../assets/logoCostanera.png'
 
 function Agency() {
   
   const agency = [
-    { name: 'ATARDECER CON BRINDIS', image: mono2 },
+    { name: 'ATARDECER CON BRINDIS', image: nautico },
     { name: 'ISLA CURUPÍ', image: nautico},
     { name: 'VISITA A VIÑEDOS', image: wines},
   ];

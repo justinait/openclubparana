@@ -89,6 +89,10 @@ function Accommodations() {
         (prevIndex - 1 + currentImages.length) % currentImages.length
     );
   };
+
+  const getPrevIndex = (index) => (index - 1 + currentImages.length) % currentImages.length;
+  const getNextIndex = (index) => (index + 1) % currentImages.length;
+
   return (
     <div>
       <div className='accommodationsContainer'>
@@ -170,11 +174,23 @@ function Accommodations() {
             </button>
             <div className="carousel">
               <img src={prev} className="prev" onClick={handlePrev} />
+
+              <img
+                src={currentImages[getPrevIndex(currentIndex)]}
+                alt="Previa"
+                className="carouselImage prevImage"
+              />
               <img
                 src={currentImages[currentIndex]}
                 alt="Alojamiento"
                 className="carouselImage"
               />
+              <img
+                src={currentImages[getNextIndex(currentIndex)]}
+                alt="Siguiente"
+                className="carouselImage nextImage"
+              />
+
               <img src={next} className="next" onClick={handleNext} />
 
             </div>
@@ -185,4 +201,4 @@ function Accommodations() {
   )
 }
 
-export default Accommodations
+export default Accommodations;
