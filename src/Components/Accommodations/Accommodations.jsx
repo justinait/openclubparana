@@ -6,7 +6,7 @@ import monostd2 from '../../assets/accommodations/monostd/2.jpg'
 import monostd3 from '../../assets/accommodations/monostd/3.jpg'
 import monostd4 from '../../assets/accommodations/monostd/4.jpg'
 import monostd5 from '../../assets/accommodations/monostd/5.jpg'
-import monostd6 from '../../assets/accommodations/monostd/6.jpg'
+import monostd6 from '../../assets/accommodations/monostd/7.jpg'
 
 import monosup11 from '../../assets/accommodations/monosup1/PORTADA.jpg'
 import monosup12 from '../../assets/accommodations/monosup1/2.jpg'
