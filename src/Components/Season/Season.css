@@ -7,6 +7,9 @@
 }
 .seasonImages {
     border-radius:15px;
+    width: 29%;
+    margin: 4px;
+    height: fit-content;
 }
 .seasonContainer2 {
     background-color: var(--color-darkWhite);
@@ -16,6 +19,7 @@
 .seasonImagesContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 

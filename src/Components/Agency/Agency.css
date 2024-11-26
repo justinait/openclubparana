@@ -49,6 +49,9 @@
     display: flex;
     flex-direction: column;
 }
+.agencyItemsContainer .touristHomeItem {
+    margin-top: 8%;
+}
 @media(min-width:1000px) {
     
     .videoHero {

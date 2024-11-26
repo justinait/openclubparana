@@ -13,8 +13,8 @@ function Season() {
     {  image: gerva},
     {  image: season2},
     {  image: season3 },
-    {  image: season4},
     {  image: season5},
+    {  image: season4},
     {  image: season6 }
   ];
 
@@ -23,7 +23,7 @@ function Season() {
       <div className='seasonContainer'></div>
 
       <div>
-        <div className='boxContainer'>
+        <div className='boxContainer boxContainerAgency'>
           <div className='box'>
             <h4>Temporada de Verano</h4>
             <p>
@@ -32,7 +32,8 @@ function Season() {
               Dentro del complejo contamos con un bar de tragos y comidas rápidas, reservas de canchas de pádel, alquiler de reposeras,
               fogoneros y parrillas, como también posibilidad de reservar excursiones náuticas o terrestres en la ciudad.
               <br /><br />
-              Tenemos convenios con distintos alojamientos de Paraná que incluyen en su estadía la visita a nuestro complejo. <strong>¡Consultanos cuales!</strong>
+              Tenemos convenios con distintos alojamientos de Paraná que incluyen en su estadía la visita a nuestro complejo.
+              <br /> <strong>¡Consultanos cuales!</strong>
             </p>
           </div>
         </div>
@@ -42,10 +43,7 @@ function Season() {
           <div className='seasonImagesContainer'>
             {
               season.map((e, i)=> (
-                <div key={i}>
-                  <p>{e.name}</p>
-                  <img loading='lazy' src={e.image} className='seasonImages' alt="" width={100}/>
-                </div>
+                <img loading='lazy' src={e.image} className='seasonImages' alt="" width={100 }key={i}/>
               ))
             }
           </div>

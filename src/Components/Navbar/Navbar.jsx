@@ -31,7 +31,7 @@ function Navbar() {
         { nombre: 'Eventos', id: 'eventos', className: ''},
         { nombre: 'Vinoteca', id: 'vinoteca', className: ''},
         { nombre: 'Agencia de viajes', id: 'agencia', className: ''},
-        { nombre: 'Temporada', id: 'temporada', className: ''},
+        { nombre: 'Temporada de verano', id: 'temporada', className: ''},
         { nombre: 'Contacto', id: 'contacto', className: ''},
         { nombre: 'Reservar', id: 'book', className: ''}
     ];
