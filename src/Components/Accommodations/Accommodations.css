@@ -229,5 +229,9 @@
     .ourTouristsContainerAlojamientos li {
         padding: 4px 0;
     }
+    .prev, .next {
+        width: 20px;
+        margin: 36px;
+    }
 
 }
