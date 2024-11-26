@@ -66,7 +66,7 @@ function Accommodations() {
   ];
 
   const alojamiento = [
-    { name: 'DUPLEX', image: duplex1, images: [duplex1, duplex2, duplex3,duplex4, duplex5, duplex6, duplex7, duplex8, duplex9, duplex10]},
+    { name: 'DUPLEX', image: duplex1, images: [duplex1, duplex2, duplex3, duplex4, duplex5, duplex6, duplex7, duplex8, duplex9, duplex10]},
     { name: 'MONO STD', image: monostd1, images: [monostd1, monostd2, monostd3, monostd4, monostd5, monostd6]},
     { name: 'MONO SUP. I', image: monosup11, images: [monosup11, monosup12, monosup13, monosup14, monosup15, monosup16, monosup17]},
     { name: 'MONO SUP. II', image: monosup21, images: [monosup21, monosup22, monosup23, monosup24, monosup25, monosup26, monosup27] }

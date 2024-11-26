@@ -38,3 +38,27 @@
     flex-direction: row;
     gap: 2px;
 }
+
+@media(min-width:700px) {
+    .eventsBoxCookiesSeparator {
+        background-color: #000000B2;
+        padding: 3% 4%;
+        transform: translateY(-100%) translateX(0%);
+    }
+    .eventsH4Title {
+        width: 90%;
+        margin: 5% auto;
+        padding: 0;
+    }
+    .itemsEventsContainer {
+        width: 55vw;
+        margin: auto;
+        margin-bottom: 4%;
+    }
+    .itemsEvents p {
+        width: 21vw;
+    }
+    .group1, .group2 {
+        margin: 0px 3%;
+    }
+}

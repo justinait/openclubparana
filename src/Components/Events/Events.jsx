@@ -45,7 +45,7 @@ function Events() {
               </div>
             ))
           }
-          <button className='reservarButton'>Reservar</button>
+          <button className='reservarButton tabletOff'>Reservar</button>
         </div>
       </div>
     </div>
