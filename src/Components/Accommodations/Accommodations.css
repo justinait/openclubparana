@@ -191,22 +191,28 @@
     .alojamientosInfoContainer {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: flex-start;
         padding: 7% 1.5%;
+        font-size: 11px;
+        justify-content: space-between;
     }
 
     .ourInstalations {        
         order: 1;
-        width: 35%;
+        width: 33.3%;
+        width: fit-content;
     }
     .horariosAlojamientos {
+        width: 33.3%;
+        width: fit-content;
         order: 2;
     }
 
-    .alojamientosInfoContainer .reservarButton {
+    .reservarAlojamientoContainer {
+        width: 30%;
         order: 3;
-        margin-left: 11%;
+        display: flex;
+        justify-content: flex-end;
     }
 
 }

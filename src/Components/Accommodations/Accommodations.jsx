@@ -148,8 +148,9 @@ function Accommodations() {
               }
             </div>
           </div>
-
-          <button className='reservarButton'>Reservar</button>
+            <div className='reservarAlojamientoContainer'>
+              <button className='reservarButton'>Reservar</button>
+            </div>
         </div>
 
       </div>
