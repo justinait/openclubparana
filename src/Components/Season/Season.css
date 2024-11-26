@@ -21,8 +21,16 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
+.seasonInfoContainer {
+    width: 60%;
+}
+.seasonInfoAndContactContainer .agencyContactDiv {
+    width: 30%;
+}
+.seasonInfoAndContactContainer{
+    display: flex;
+    margin: 7%;
+}
 @media(min-width:1000px) {
     
     .videoHero {

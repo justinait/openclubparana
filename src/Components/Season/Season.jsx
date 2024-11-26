@@ -6,6 +6,7 @@ import season3 from '../../assets/season3.png'
 import season4 from '../../assets/season4.png'
 import season5 from '../../assets/season5.jpg'
 import season6 from '../../assets/season6.png'
+import { Link } from 'react-router-dom'
 
 function Season() {
 
@@ -47,24 +48,30 @@ function Season() {
               ))
             }
           </div>
-          <div className='box'>
-            <h4>Info</h4>
-            <p>
-              <strong>Ingresos</strong>
-              <br />
-              - Pases Individuales por el día<br />
-              - Pack por diez (10) pases.
-            </p>
+
+          <div className='seasonInfoAndContactContainer'>
+            <div className='seasonInfoContainer'>
+              <div className='box'>
+                <h4>Info</h4>
+                <p>
+                  <strong>Ingresos</strong>
+                  <br />
+                  - Pases Individuales por el día<br />
+                  - Pack por diez (10) pases.
+                </p>
+              </div>
+              <p>*No es necesario reservar la visita por el día, se abona al ingresar.</p>
+            </div>
+
+            <div className='agencyContactDiv'>
+              <p className='contactTitle'>CONTACTO</p>
+
+              <Link className='contactLinkButton'>Whatsapp</Link>
+              <Link className='contactLinkButton'>Intagram</Link>
+
+            </div>
           </div>
 
-          <div>
-            <p className='contactTitle'>CONTACTO</p>
-
-            <p>Whatsapp</p>
-            <p>Intagram</p>
-
-            <p>*No es necesario reservar la visita por el día, se abona al ingresar.</p>
-          </div>
         </div>
       </div>
     </div>
