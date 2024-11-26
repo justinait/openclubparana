@@ -22,6 +22,21 @@
 .winesEventsContainer {
     margin: 7% 0;
 }
+.contactLinkButton {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px 15px;
+    line-height: 20px;
+    text-align: center;
+    background-color: var(--mainYellow);
+    color: var(--color-darkWhite);
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+}
+.contactBoxWine .contactTitle {
+    margin-bottom: 15px;
+}
 @media(min-width:1000px) {
     
     .videoHero {

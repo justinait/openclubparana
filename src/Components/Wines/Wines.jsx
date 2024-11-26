@@ -47,7 +47,7 @@ function Wines() {
 
         <div className='contactBoxWine'>
           <p className='contactTitle'>CONTACTO</p>
-          <Link>Vinos de Ríos</Link>
+          <Link className='contactLinkButton'>Vinos de Ríos</Link>
         </div>
 
       </div>
