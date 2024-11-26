@@ -72,3 +72,18 @@
     margin-top: -285px !important;
     font-size: 9px !important;
 }
+
+@media(min-width:700px) {
+    .touristImagesHomeContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .touristHomeItem img {
+        width: 24vw
+    }
+    .touristTitlesHome {
+        font-size: 11px;
+        height: 25px;
+    }
+}
