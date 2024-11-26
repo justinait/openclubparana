@@ -222,9 +222,11 @@
         font-size: 12px;
     }
     .ourTouristsContainerAlojamientos .box{
-        width: 46%;
+        width: 46.5%;
         margin: 0 10px 30px 10px;
         padding-right: 0;
+        height: fit-content;
+        padding-bottom: 2.5%;
     }
     .ourTouristsContainerAlojamientos li {
         padding: 4px 0;
@@ -232,6 +234,9 @@
     .prev, .next {
         width: 20px;
         margin: 36px;
+    }
+    .ourTouristsContainerAlojamientos ul {
+        padding-left: 2.5em;
     }
 
 }

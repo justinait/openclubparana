@@ -161,7 +161,7 @@ function Accommodations() {
           <h4>Nuestros turistas</h4>
           <p>Formando parte de Open Club, a través del programa
           <strong> “Nuestros Turistas”</strong>, entre ellos destacamos:</p>
-          <br /><br />
+          <br /><br className='tabletOff' />
           <p>Acceso exclusivo a nuestra Carpeta de Huéspedes, donde te mostramos todas las actividades imperdibles de Paraná.</p>
         </div>
 
