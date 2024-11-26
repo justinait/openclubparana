@@ -11,8 +11,17 @@
     top: 90%;
     right: 5px;
 }
+.descriptionItemText{
+    font-size: 7px !important;
+}
 
-
+.contactBoxWine {
+    width: fit-content;
+    margin: 40px auto 0 auto;
+}
+.winesEventsContainer {
+    margin: 7% 0;
+}
 @media(min-width:1000px) {
     
     .videoHero {

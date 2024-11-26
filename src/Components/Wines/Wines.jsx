@@ -7,11 +7,11 @@ function Wines() {
   
   const items = [
     { name: 'Excursiones temáticas'},
-    { name: 'Visitas a las bodegas y viñedos'},
-    { name: 'Maridajes especiales', description: 'y gastronomía con identidad'},
     { name: 'Paquetes turísticos', description: 'que vinculan viñedos y bodegas de Entre Ríos' },
+    { name: 'Visitas a las bodegas y viñedos'},
     { name: 'Viajes de incentivo'},
-    { name: 'Eventos especiales sociales y corporativos'}
+    { name: 'Maridajes especiales', description: 'y gastronomía con identidad'},
+    { name: 'Eventos especiales', description: 'sociales y corporativos'}
   ];
   
   return (
@@ -25,19 +25,19 @@ function Wines() {
         <div className='box'>
           <h4>Vinoteca</h4>
           <p>
-            Vinos de Ríos es la primera y única vinoteca dedicada 100% a etiquetas entrerrianas. 
+            Vinos de Ríos es la primera y única vinoteca dedicada 100% a etiquetas entrerrianas. <br />
             Además de brindar la posibilidad de degustar y comprar vinos de muchas bodegas y viñedos entrerrianos, la vinoteca articula una muy buena propuesta de enoturismo con la posibilidad de conocer la historia de la vitivinicultura de la provincia, a través de
           </p>
         </div>
 
-        <div className='itemsEventsContainer'>
+        <div className='itemsEventsContainer winesEventsContainer'>
           {
             items.map((e, i)=> (
               <div key={i} className={`itemsEvents itemsWines ${i < 3 ? "group1" : "group2"}`}>
                 <img loading='lazy' src="" alt="-" />
                 <div>
                   <p>{e.name}</p>
-                  <p>{e.description}</p>
+                  <p className='descriptionItemText'>{e.description}</p>
                 </div>
               </div>
 
@@ -45,7 +45,7 @@ function Wines() {
           }
         </div>
 
-        <div>
+        <div className='contactBoxWine'>
           <p className='contactTitle'>CONTACTO</p>
           <Link>Vinos de Ríos</Link>
         </div>
