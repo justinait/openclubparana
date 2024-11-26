@@ -17,3 +17,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+
+@media(min-width:1000px) {
+    
+    .videoHero {
+        aspect-ratio: 16 / 9 !important;
+    }
+}

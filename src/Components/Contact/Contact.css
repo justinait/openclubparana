@@ -15,3 +15,11 @@
     border-bottom: 3px var(--mainYellow) solid;
     padding: 5% 0;
 }
+
+
+@media(min-width:1000px) {
+    
+    .videoHero {
+        aspect-ratio: 16 / 9 !important;
+    }
+}

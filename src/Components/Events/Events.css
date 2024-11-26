@@ -62,3 +62,11 @@
         margin: 0px 3%;
     }
 }
+
+
+@media(min-width:1000px) {
+    
+    .videoHero {
+        aspect-ratio: 16 / 9 !important;
+    }
+}

@@ -74,6 +74,9 @@
 }
 
 @media(min-width:700px) {
+    .aboutUsHomeContainer, .homeContainer2 {
+        padding: 5% 10%;
+    }
     .touristImagesHomeContainer {
         flex-direction: row;
         justify-content: space-between;
@@ -91,8 +94,33 @@
         height: 280px;
     }
     #trustmary-widget, .go2115419360 {
-        padding: 0 !important;
         margin-top: -395px !important;
+        font-size: 11px !important;
+    }
+}
+@media(min-width:1000px) {
+    .homeContainer {
+        aspect-ratio: 16 / 9 !important;
+    }
+    .videoHero {
+        aspect-ratio: 16 / 9 !important;
+    }
+    
+    .touristHomeItem img {
+        width: 22vw;
+    }
+    .touristImagesHomeContainer {
+        justify-content: space-evenly;
+    }
+    .touristTitlesHome {
+        font-size: 13px;
+        height: 30px;
+    }
+    #reviewsContainerYellow {
+        height: 340px;
+    }
+    #trustmary-widget, .go2115419360 {
+        margin-top: -445px !important;
         font-size: 11px !important;
     }
 }
