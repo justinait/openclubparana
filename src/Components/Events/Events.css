@@ -51,12 +51,13 @@
         padding: 0;
     }
     .itemsEventsContainer {
-        width: 55vw;
+        width: 67vw;
         margin: auto;
         margin-bottom: 4%;
     }
     .itemsEvents p {
-        width: 21vw;
+        width: 26vw;
+        font-size: 12px;
     }
     .group1, .group2 {
         margin: 0px 3%;
@@ -73,10 +74,10 @@
         width: fit-content;
     }
     .itemsEvents p {
-        width: 15vw;
+        font-size: 15px;
     }
     
     .itemsEventsContainer {
-        width: 42vw;
+        width: 66vw;
     }
 }
