@@ -111,23 +111,41 @@ h1, h4 {
   .boxCookies {
     background-color: #000000B2;
     color: white;
-    border-top: 1px solid var(--mainYellow);
-    font-size: 8px;
+    font-size: 11px;
+    width: 90%;
+    position: absolute;
+    transform: translateY(-108%) translateX(-5%);
+    padding: 3% 5%;
+    border-top: 3px solid var(--mainYellow);
     display: flex;
     align-items: center;
-    position: absolute;
-    bottom: 0;
+    justify-content: space-between;
   }
   
   .boxCookies button, .reservarButton {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
-    padding: 4px 5%;
+    padding: 4px 3%;
     line-height: 20px;
     text-align: center;
     background-color: var(--mainYellow);
     color: var(--color-darkWhite);
     border-radius: 20px;
     border: none;
+    display: unset;
+  }
+  .boxCookies p {
+    width: 80%;
+    text-align: left;
+  }
+  .tabletOff {
+    display: none;
+  }
+}
+
+@media(min-width: 865px){
+  
+  .boxCookies {
+    transform: translateY(-174%) translateX(-8%);
   }
 }

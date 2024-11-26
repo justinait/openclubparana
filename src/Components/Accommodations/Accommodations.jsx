@@ -109,48 +109,49 @@ function Accommodations() {
       <div className='accommodationsContainer'>
       </div>
       <div className='accomodationsContainer2'>
-        <p className='boxCookies'>Nuestro complejo ofrece una alternativa distinta de alojamiento, ubicado a trescientos metros del Río Paraná. 
-          Esta opción única no solo te brinda acceso a las instalaciones mencionadas, sino también una cercanía privilegiada 
-          a todos los servicios y amenidades que ofrecemos a través del paquete de beneficios “Nuestro Turista”
-        </p>
-
-      <div className='accommodationsItemsContainer'>
-        {
-          alojamiento.map((e, i)=> (
-            <div key={i} className='alojamientoItem' onClick={() => openPopup(e.images)}>
-              <p className='alojamientoP' >{e.name}</p>
-              <img loading='lazy' src={e.image} alt={e.name} className='alojamientoImage'/>
-            </div>
-          ))
-        }
-      </div>
-
-      <div className='alojamientosInfoContainer'>
-        
-        <div>
-          <h6>HORARIO DE INGRESOS Y EGRESOS:</h6>
-          <p>
-            CHECK-IN:  A PARTIR DE LAS 13:00 HS <br />
-            CHECK-OUT: HASTA LAS 11:00 HS
+        <div className='boxCookies'>
+          <p>Nuestro complejo ofrece una alternativa distinta de alojamiento, ubicado a trescientos metros del Río Paraná. 
+            Esta opción única no solo te brinda acceso a las instalaciones mencionadas, sino también una cercanía privilegiada 
+            a todos los servicios y amenidades que ofrecemos a través del paquete de beneficios “Nuestro Turista”
           </p>
+          <button>Reservar</button>
         </div>
 
-        <div className='ourInstalationsBigContainer'>
-          <div>
-            <h6>NUESTRAS INSTALACIONES Y <br />SERVCIOS</h6>
+        <div className='accommodationsItemsContainer'>
+          {
+            alojamiento.map((e, i)=> (
+              <div key={i} className='alojamientoItem' onClick={() => openPopup(e.images)}>
+                <p className='alojamientoP' >{e.name}</p>
+                <img loading='lazy' src={e.image} alt={e.name} className='alojamientoImage'/>
+              </div>
+            ))
+          }
+        </div>
+
+        <div className='alojamientosInfoContainer'>
+
+          <div className='horariosAlojamientos'>
+            <h6>HORARIO DE INGRESOS Y EGRESOS:</h6>
+            <p>
+              CHECK-IN: A PARTIR DE LAS 13:00 HS <br />
+              CHECK-OUT: HASTA LAS 11:00 HS
+            </p>
+          </div>
+
+          <div className='ourInstalations'>
+            <h6>NUESTRAS INSTALACIONES Y <br className='tabletOff' />SERVICIOS</h6>
             <div className='accommodationsIconsDiv'>
-            {
-              icons.map((e, i)=> (
-                <img loading='lazy' key={i} src={e.image} alt={e.name} width='20' />
-              ))
-            }
+              {
+                icons.map((e, i) => (
+                  <img loading='lazy' key={i} src={e.image} alt={e.name} width='20' />
+                ))
+              }
             </div>
           </div>
 
           <button className='reservarButton'>Reservar</button>
         </div>
 
-      </div>
       </div>
 
       <div className='ourTouristsContainerAlojamientos'>
@@ -180,9 +181,7 @@ function Accommodations() {
       {showPopup && (
         <div className="popupOverlay" onClick={closePopup}>
           <div className="popupContent" onClick={(e) => e.stopPropagation()}>
-            <button className="closeButton" onClick={closePopup}>
-              X
-            </button>
+            <button className="closeButton" onClick={closePopup}> X </button>
             <div className="carousel">
               <button>
                 <img src={prev} className="prev" alt='Imagen siguiente' onClick={handlePrev} loading='lazy'/>
