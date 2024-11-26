@@ -47,3 +47,9 @@ a:hover {
 .activeNavbar {
     font-weight: 600 !important;
 }
+
+@media(min-width:700px) {
+    .logoNavbarA, .logoNavbar {
+        width: 150px;
+    }
+}

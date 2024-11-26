@@ -16,7 +16,14 @@
 }
 
 @media(min-width:700px) {
+    .footerContainer {
+        font-size: 11px;
+        height: 100px;
+    }
     .logoFooter {
         width: 20%;
+    }
+    .infoFooterContainer {
+        padding: 2% 1%;
     }
 }

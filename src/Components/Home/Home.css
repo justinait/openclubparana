@@ -86,4 +86,13 @@
         font-size: 11px;
         height: 25px;
     }
+    
+    #reviewsContainerYellow {
+        height: 280px;
+    }
+    #trustmary-widget, .go2115419360 {
+        padding: 0 !important;
+        margin-top: -395px !important;
+        font-size: 11px !important;
+    }
 }
