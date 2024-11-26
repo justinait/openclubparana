@@ -15,7 +15,7 @@ function Agency() {
     <div>
       <div className='agencyContainer'>
         <video autoPlay muted loop playsInline className='videoHeroAgency'>
-          <source src="https://res.cloudinary.com/dsgxxcikg/video/upload/v1732548439/caiventures/openclub/gtssxqmrhr5hrauq71gr.mp4" type="video/mp4" /> 
+          <source src="" type="video/mp4" /> 
           Tu navegador no soporta videos HTML5.
         </video>
         <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />

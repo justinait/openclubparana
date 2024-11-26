@@ -8,19 +8,22 @@
 .winesLogoImage {
     width: 100px;
     position: absolute;
-    top: 90%;
+    top: 75%;
     right: 5px;
 }
 .descriptionItemText{
     font-size: 7px !important;
 }
-
+.boxContainerWines {
+    padding: 6% 10%;
+}
 .contactBoxWine {
     width: fit-content;
     margin: 40px auto 0 auto;
 }
 .winesEventsContainer {
-    margin: 7% 0;
+    margin: 9% 0;
+    font-weight: 500;
 }
 .contactLinkButton {
     font-size: 10px;

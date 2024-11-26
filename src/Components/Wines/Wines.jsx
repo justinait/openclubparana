@@ -21,7 +21,7 @@ function Wines() {
       </div>
       
 
-      <div className='boxContainer'>
+      <div className='boxContainer boxContainerWines'>
         <div className='box'>
           <h4>Vinoteca</h4>
           <p>
