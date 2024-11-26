@@ -17,7 +17,7 @@
 
 @media(min-width:700px) {
     .footerContainer {
-        font-size: 11px;
+        font-size: 12px;
         height: 100px;
     }
     .logoFooter {
@@ -25,5 +25,10 @@
     }
     .infoFooterContainer {
         padding: 2% 1%;
+    }
+}
+@media(min-width:700px) {
+    .footerContainer {
+        font-size: 13px;
     }
 }

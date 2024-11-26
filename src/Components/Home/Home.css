@@ -113,7 +113,7 @@
         justify-content: space-evenly;
     }
     .touristTitlesHome {
-        font-size: 13px;
+        font-size: 14px;
         height: 30px;
     }
     #reviewsContainerYellow {
@@ -121,6 +121,6 @@
     }
     #trustmary-widget, .go2115419360 {
         margin-top: -445px !important;
-        font-size: 11px !important;
+        font-size: 14px !important;
     }
 }

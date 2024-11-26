@@ -115,7 +115,7 @@ h1, h4 {
   .boxCookies {
     background-color: #000000B2;
     color: white;
-    font-size: 11px;
+    font-size: 12.5px;
     width: 92%;
     position: absolute;
     transform: translateY(-108%) translateX(-5%);
@@ -150,5 +150,17 @@ h1, h4 {
 @media(min-width:1000px) {
   .boxCookies {
     width: 91%;
+    font-size: 15px;
+  }
+  body {
+    font-size: 15px;
+  }
+  
+  h1, h4 {
+    font-size: 18px;
+  }    
+  .boxCookies button, .reservarButton {
+    font-size: 18px;
+    padding: 7px 25px;
   }
 }

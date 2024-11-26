@@ -254,4 +254,21 @@
     .alojamientoItem {
         width: 24%;
     }
+    .alojamientoP {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .alojamientoImage {
+        border-radius: 10px;
+    }
+    .alojamientosInfoContainer {
+        font-size: 13px;
+    }
+    .alojamientosInfoContainer h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .ourTouristsContainerAlojamientos {
+        font-size: 13px;
+    }
 }
