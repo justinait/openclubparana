@@ -98,6 +98,10 @@ h1, h4 {
   h1, h4 {
     font-size: 16px;
   }
+  .box {
+    padding: 1%;
+    padding-left: 2px;
+  }
   .box h4 {
     line-height: 30px;
     margin: 0 15px;
@@ -140,5 +144,11 @@ h1, h4 {
   }
   .tabletOff {
     display: none;
+  }
+}
+
+@media(min-width:1000px) {
+  .boxCookies {
+    width: 91%;
   }
 }

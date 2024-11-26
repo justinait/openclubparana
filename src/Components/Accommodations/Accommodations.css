@@ -240,3 +240,18 @@
     }
 
 }
+@media(min-width:1000px) {
+    .accommodationsContainer {
+        aspect-ratio: 16 / 9 !important;
+    }
+    .alojamientosInfoContainer {
+        padding: 4.5% 1.5%;
+    }
+    .accomodationsContainer2 {
+        padding: 1% 4% 0 4%;
+    }
+    
+    .alojamientoItem {
+        width: 24%;
+    }
+}

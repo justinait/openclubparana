@@ -69,4 +69,14 @@
     .videoHero {
         aspect-ratio: 16 / 9 !important;
     }
+    .eventsH4Title {
+        width: fit-content;
+    }
+    .itemsEvents p {
+        width: 15vw;
+    }
+    
+    .itemsEventsContainer {
+        width: 42vw;
+    }
 }

@@ -12,7 +12,7 @@ function Navbar() {
 
 
     const handleOpen = () => {
-        if (windowWidth <= 1023) {
+        if (windowWidth <= 1200) {
             setOpenMenu(!openMenu);
         }
     }
