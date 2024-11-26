@@ -208,11 +208,26 @@
         order: 2;
     }
 
-    .reservarAlojamientoContainer {
-        width: 30%;
+    .reservarAlojamientoContainer {        
+        min-width: 24%;
+        max-width: 30%;
         order: 3;
         display: flex;
         justify-content: flex-end;
+    }
+    .ourTouristsContainerAlojamientos {
+        flex-direction: row;
+        justify-content: center;
+        padding: 7%;
+        font-size: 12px;
+    }
+    .ourTouristsContainerAlojamientos .box{
+        width: 46%;
+        margin: 0 10px 30px 10px;
+        padding-right: 0;
+    }
+    .ourTouristsContainerAlojamientos li {
+        padding: 4px 0;
     }
 
 }
