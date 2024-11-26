@@ -38,8 +38,17 @@
     top: 90%;
     right: 5px;
 }
-
-
+.boxContainerAgency {
+    padding: 5% 10%;
+}
+#agencySubtitle {
+    margin: 0;
+}
+.agencyContactDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
 @media(min-width:1000px) {
     
     .videoHero {

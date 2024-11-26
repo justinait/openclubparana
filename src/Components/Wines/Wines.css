@@ -25,18 +25,6 @@
     margin: 9% 0;
     font-weight: 500;
 }
-.contactLinkButton {
-    font-size: 10px;
-    font-weight: 600;
-    padding: 8px 15px;
-    line-height: 20px;
-    text-align: center;
-    background-color: var(--mainYellow);
-    color: var(--color-darkWhite);
-    border-radius: 20px;
-    border: none;
-    text-decoration: none;
-}
 .contactBoxWine .contactTitle {
     margin-bottom: 15px;
 }

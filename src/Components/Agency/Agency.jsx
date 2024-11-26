@@ -3,6 +3,7 @@ import './Agency.css'
 import nautico from '../../assets/agencyrio.jpg'
 import wines from '../../assets/agencywines.jpg'
 import costanera from '../../assets/logoCostanera.png'
+import { Link } from 'react-router-dom'
 
 function Agency() {
   
@@ -21,12 +22,12 @@ function Agency() {
         <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />
       </div>
 
-      <div className='boxContainer'>
+      <div className='boxContainer boxContainerAgency'>
         <div className='box'>
           
           <div className='agencyTitle'>
             <h4>Costanera 241</h4>
-            <p>Empresa de viajes y turismo</p>
+            <p id='agencySubtitle'>Empresa de viajes y turismo</p>
           </div>
           <p>
             La Mayor Organización de Turismo en la Región.
@@ -48,11 +49,11 @@ function Agency() {
           }
         </div>
 
-        <div>
+        <div className='agencyContactDiv'>
           <p className='contactTitle'>CONTACTO</p>
-          <p>Costanera 241</p>
-          <p>Paraná tu rio</p>
-          <p>Vinos de ríos</p>
+          <Link className='contactLinkButton'>Costanera 241</Link>
+          <Link className='contactLinkButton'>Paraná tu rio</Link>
+          <Link className='contactLinkButton'>Vinos de ríos</Link>
         </div>
       </div>
     </div>

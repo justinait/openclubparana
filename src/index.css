@@ -40,7 +40,7 @@ h1, h4 {
 }
 .box h4 {
   margin: 0em 1em;
-  line-height: 17px;
+  line-height: 20px;
 }
 .reservarButton {
   font-size: 11px;
@@ -89,6 +89,18 @@ h1, h4 {
   border-radius: 10px; 
 }
 
+.contactLinkButton {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 8px 15px;
+  line-height: 20px;
+  text-align: center;
+  background-color: var(--mainYellow);
+  color: var(--color-darkWhite);
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+}
 @media(min-width:700px) {
 
   body {
