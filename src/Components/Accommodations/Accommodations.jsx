@@ -119,7 +119,7 @@ function Accommodations() {
           alojamiento.map((e, i)=> (
             <div key={i} className='alojamientoItem' onClick={() => openPopup(e.images)}>
               <p className='alojamientoP' >{e.name}</p>
-              <img loading='lazy' src={e.image} alt={e.name} className='alojamientoImage' width={100}/>
+              <img loading='lazy' src={e.image} alt={e.name} className='alojamientoImage'/>
             </div>
           ))
         }
@@ -141,7 +141,7 @@ function Accommodations() {
             <div className='accommodationsIconsDiv'>
             {
               icons.map((e, i)=> (
-                <img loading='lazy' src={e.image} alt={e.name} width='20' />
+                <img loading='lazy' key={i} src={e.image} alt={e.name} width='20' />
               ))
             }
             </div>
@@ -184,15 +184,16 @@ function Accommodations() {
               X
             </button>
             <div className="carousel">
-              <img src={prev} className="prev" alt='Imagen siguiente' onClick={handlePrev} loading='lazy'/>
+              <button>
+                <img src={prev} className="prev" alt='Imagen siguiente' onClick={handlePrev} loading='lazy'/>
+              </button>
 
               <img
                 src={currentImages[getPrevIndex(currentIndex)]}
                 alt="Previa"
                 loading='lazy'
-                className="carouselImage prevImage"
+                className={`carouselImage prevImage ${imagesLoaded ? 'visibleImageAccommodation' : 'hiddenImageAcommodation'}`}
                 onLoad={handleImageLoad}
-                style={{ visibility: imagesLoaded ? 'visible' : 'hidden' }}
               />
               <img
                 src={currentImages[currentIndex]}
@@ -204,12 +205,13 @@ function Accommodations() {
                 src={currentImages[getNextIndex(currentIndex)]}
                 alt="Siguiente"
                 loading='lazy'
-                className="carouselImage nextImage"
+                className={`carouselImage nextImage ${imagesLoaded ? 'visibleImageAccommodation' : 'hiddenImageAcommodation'}`}
                 onLoad={handleImageLoad}
-                style={{ visibility: imagesLoaded ? 'visible' : 'hidden' }}
               />
 
-              <img src={next} className="next" alt='Imagen siguiente' onClick={handleNext} loading='lazy' />
+              <button>
+                <img src={next} className="next" alt='Imagen siguiente' onClick={handleNext} loading='lazy' />
+              </button>
 
             </div>
           </div>

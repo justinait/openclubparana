@@ -50,8 +50,8 @@ function Home() {
 
         <div className='touristImagesHomeContainer'>
           {
-            home.map(e=> (
-              <Link to={e.id} className='touristHomeItem'>
+            home.map((e, i)=> (
+              <Link to={e.id} key={i} className='touristHomeItem'>
                 <img loading='lazy' src={e.image} alt=""/>
                 <p className='touristTitlesHome'>{e.name}</p>
               </Link>
