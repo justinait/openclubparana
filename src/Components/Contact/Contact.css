@@ -37,7 +37,13 @@
     display: flex;
     padding: 5px 11.5px;
 }
-
+@media(min-with:700px){
+    
+    .contactContainer2 {
+        border-bottom: 4px var(--mainYellow) solid;
+        border-top: 4px var(--mainYellow) solid;
+    }
+}
 @media(min-width:1000px) {
     
     .videoHero {

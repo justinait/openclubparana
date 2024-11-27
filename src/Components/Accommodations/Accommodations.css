@@ -238,6 +238,11 @@
     .ourTouristsContainerAlojamientos ul {
         padding-left: 2.5em;
     }
+    
+    .ourTouristsContainerAlojamientos {
+        border-top: 4px var(--mainYellow) solid;
+        border-bottom: 4px var(--mainYellow) solid;
+    }
 
 }
 @media(min-width:1000px) {

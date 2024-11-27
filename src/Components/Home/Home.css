@@ -95,6 +95,11 @@
     #trustmary-widget, .go2115419360 {
         font-size: 13px !important;
     }
+    
+    .aboutUsHomeContainer {
+        border-top: 4px var(--mainYellow) solid;
+        border-bottom: 4px var(--mainYellow) solid;
+    }
 }
 @media(min-width:1000px) {
     .homeContainer {
