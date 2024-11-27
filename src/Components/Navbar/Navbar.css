@@ -51,6 +51,15 @@ a:hover {
     font-weight: 600 !important;
 }
 
+.navbarContainerOpenMenu {
+    background-color: var(--mainYellow);
+}
+.bookNavbar {
+    color: var(--mainYellow) !important;
+    background-color: white;
+    padding-bottom: 0% !important;
+}
+
 @media(min-width:700px) {
     .logoNavbarA, .logoNavbar {
         width: 150px;
