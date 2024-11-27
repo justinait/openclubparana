@@ -8,24 +8,34 @@
 .googleMapIframe, #mapDiv {
     margin: auto !important;
     border-radius: 7px;
-    border: 3px solid var(--mainYellow) !important;
+    border: 2px solid var(--mainYellow) !important;
 }
 .contactContainer2 {
     background-color: var(--color-darkWhite);
     border-bottom: 3px var(--mainYellow) solid;
     border-top: 3px var(--mainYellow) solid;
-    padding: 5% 15%;
+    padding: 0% 15%;
 }
 .contactDirection {
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 .mailContact {
     text-decoration: underline;
     font-size: 10px;
 }
 .mailContactDescription {
+    line-height: 15px;
     font-size: 10px;
+}
+.contactContainer3 .contactTitle {
+    padding: 5%;
+    margin: 1em 0;
+}
+.contactContainer3 .reservarButton {
+    margin: 12% auto;
+    display: flex;
+    padding: 5px 11.5px;
 }
 
 @media(min-width:1000px) {

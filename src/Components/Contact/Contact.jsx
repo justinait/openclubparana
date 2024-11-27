@@ -21,7 +21,7 @@ function Contact() {
 
         <GoogleMap />
 
-        <div>
+        <div className='contactContainer3'>
           <p className='contactTitle'>CONTACTO</p>
           <div>
             {/* icons */}
@@ -29,6 +29,8 @@ function Contact() {
 
           <p className='mailContact'>openclub@costanera241.tur.ar</p>
           <p className='mailContactDescription'>*También podes encontrarnos en Booking o Airbnb</p>
+
+          <button className='reservarButton'>Contactános</button>
         </div>
 
       </div>
