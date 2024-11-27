@@ -24,7 +24,7 @@
     background-color: var(--mainYellow);
 }
 .navbarOptions {
-    padding: 15% 9%;
+    padding: 15% 9% 25%;
     display: flex;
     flex-direction: column;
 }
@@ -32,15 +32,15 @@
     color: white;
     z-index: 100;
     text-decoration: none;
-    width: 15%;
+    width: fit-content;
     padding-bottom: 4%;
     white-space: nowrap;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 13.41px;
     text-align: left;
-
 }
+
 a:focus {
     font-weight: 500;
 } 
@@ -57,7 +57,10 @@ a:hover {
 .bookNavbar {
     color: var(--mainYellow) !important;
     background-color: white;
-    padding-bottom: 0% !important;
+    width: fit-content;
+    padding: 6px 10px !important;
+    border-radius: 15px;
+    margin-left: -8px;
 }
 
 @media(min-width:700px) {
