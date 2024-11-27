@@ -61,8 +61,7 @@
 
 #reviewsContainerYellow {
     background-color: var(--mainYellow);
-    padding: 1px;
-    height: 200px;
+    padding: 50px 0 40px;
 }
 .go2048136271 {
     display: none !important;
@@ -91,10 +90,9 @@
     }
     
     #reviewsContainerYellow {
-        height: 280px;
+        padding: 65px 0 40px;
     }
     #trustmary-widget, .go2115419360 {
-        margin-top: -395px !important;
         font-size: 13px !important;
     }
 }
@@ -116,11 +114,7 @@
         font-size: 14px;
         height: 30px;
     }
-    #reviewsContainerYellow {
-        height: 340px;
-    }
     #trustmary-widget, .go2115419360 {
-        margin-top: -445px !important;
         font-size: 14px !important;
     }
 }

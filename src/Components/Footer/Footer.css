@@ -3,7 +3,6 @@
     background-color: var(--color-darkWhite);
     width: 92%;
     font-size: 8px;
-    height: 85px;
 }
 .logoFooter {
     width: 30%;
@@ -18,7 +17,6 @@
 @media(min-width:700px) {
     .footerContainer {
         font-size: 12px;
-        height: 100px;
     }
     .logoFooter {
         width: 20%;

@@ -28,6 +28,21 @@
 .contactBoxWine .contactTitle {
     margin-bottom: 15px;
 }
+
+@media(min-width: 700px) {
+    
+    .winesEventsContainer {
+        margin: 9% auto;
+        width: 71vw;
+    }
+    .descriptionItemText {
+        font-size: 9px !important;
+    }
+    .itemsEvents p {
+        width: 28vw;
+    }
+}
+
 @media(min-width:1000px) {
     
     .videoHero {

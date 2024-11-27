@@ -159,6 +159,12 @@ h1, h4 {
   .tabletOff {
     display: none;
   }
+  .contactTitle {
+    font-size: 15px;
+  }
+  .contactLinkButton {
+    font-size: 13px;
+  }
 }
 
 @media(min-width:1000px) {
