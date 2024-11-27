@@ -60,10 +60,10 @@ function Season() {
                   - Pack por diez (10) pases.
                 </p>
               </div>
-              <p>*No es necesario reservar la visita por el día, se abona al ingresar.</p>
+              <p className='aclarationSeason'>*No es necesario reservar la visita por el día, se abona al ingresar.</p>
             </div>
 
-            <div className='agencyContactDiv'>
+            <div className='agencyContactDiv seasonContactDiv'>
               <p className='contactTitle'>CONTACTO</p>
 
               <Link className='contactLinkButton'>Whatsapp</Link>
