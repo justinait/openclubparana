@@ -93,12 +93,10 @@ a:hover {
         height: 50px;
     }
     .navbarOptionsContainer {
-        width: 65%;
+        width: 55%;
         position: unset;
         height: unset;
         z-index: unset;
-        top: unset;
-        right: unset;
         padding: unset;
         background: unset;
     }
@@ -108,7 +106,6 @@ a:hover {
         justify-content: space-between;
         padding: 0;
         align-items: center;
-        
     }
     .navbarOptions a{
         font-weight: 500;
@@ -117,7 +114,7 @@ a:hover {
         height: 12px;
         color: black;
         cursor: pointer;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 400;
         text-align: center;
     }
