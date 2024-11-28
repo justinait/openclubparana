@@ -65,6 +65,19 @@ a:hover {
 
 @media(min-width:700px) {
     .logoNavbarA, .logoNavbar {
-        width: 150px;
+        width: 180px;
+    }
+    .navbarOptions {
+        padding: 13% 9% 20%;
+    }
+    .navbarOptions a {
+        font-size: 16px;
+    }
+    .bookNavbar {
+        padding: 8px 12px !important;
+        margin-left: -10px;
+    }
+    .navbarOptionsContainer {
+        top: 50px;
     }
 }
