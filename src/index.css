@@ -62,6 +62,7 @@ h1, h4 {
 }
 .boxCookies button {
   display: none;
+  font-family: 'Montserrat Variable', sans-serif;
 }
 
 .boxContainer {

@@ -8,10 +8,12 @@ function Contact() {
       <div className='contactContainer'>
       </div>
       <div className='boxCookies eventsBoxCookiesSeparator'>
-        Somos el Complejo Turístico Open Club, ubicados en Paraná, E.R. más precisamente en el Complejo Playas del Thompson. 
-        En un entorno de belleza natural y arquitectura cuidada ofrecemos una serie de productos y servicios únicos en la ciudad. 
-        Entre ellos destacamos, apartamentos premium, eventos exclusivos, nuestra propia agencia de viajes, vinoteca de vinos 
-        entrerrianos, temporada de verano con bar y piscinas, y otros.
+        <p>
+          Somos el Complejo Turístico Open Club, ubicados en Paraná, E.R. más precisamente en el Complejo Playas del Thompson. 
+          En un entorno de belleza natural y arquitectura cuidada ofrecemos una serie de productos y servicios únicos en la ciudad. 
+          Entre ellos destacamos, apartamentos premium, eventos exclusivos, nuestra propia agencia de viajes, vinoteca de vinos 
+          entrerrianos, temporada de verano con bar y piscinas, y otros.
+        </p>
         
         <button>Contactanos</button>
       </div>
