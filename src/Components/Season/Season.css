@@ -79,6 +79,10 @@
     font-size: 9px;
     margin-top: 25px;
 }
+.contactSeasonLinks {
+    display: flex;
+    flex-direction: column;
+}
 .desktop1200On {
     display: none;
 }
@@ -135,5 +139,13 @@
     }
     .desktop1200On {
         display: block;
+    }
+    .contactSeasonLinks {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .contactSeasonLinks .contactLinkButton {
+        margin-right: 15px;
+        width: 90px;
     }
 }

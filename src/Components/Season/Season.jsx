@@ -65,9 +65,10 @@ function Season() {
 
             <div className='seasonContactDiv'>
               <p className='contactTitle'>CONTACTO</p>
-
-              <Link className='contactLinkButton'>Whatsapp</Link>
-              <Link className='contactLinkButton'>Intagram</Link>
+              <div className='contactSeasonLinks'>
+                <Link className='contactLinkButton'>Whatsapp</Link>
+                <Link className='contactLinkButton'>Intagram</Link>
+              </div>
 
               <p className='aclarationSeason desktop1200On'>*No es necesario reservar la visita por el día, se abona al ingresar.</p>
             </div>

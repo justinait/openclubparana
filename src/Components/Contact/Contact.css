@@ -64,9 +64,12 @@
     
     .contactContainer {
         aspect-ratio: 16 / 9 !important;
+        background-position-y: 25%;
     }
 
 }
 @media(min-width:1200px){
-    
+    .contactContainer {
+        background-position-y: 35%;
+    }
 }
