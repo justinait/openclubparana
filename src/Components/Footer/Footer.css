@@ -30,3 +30,17 @@
         font-size: 13px;
     }
 }
+@media(min-width:1200px) {
+    .footerContainer {
+        font-size: 13px;
+        padding: 5% 10%;
+        width: 80%;
+    }
+    .logoFooter {
+        width: 150px;
+    }
+    .infoFooterContainer {
+        padding: 1%;
+        width: 99%;
+    }
+}
