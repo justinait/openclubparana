@@ -30,7 +30,7 @@ function Agency() {
             <p id='agencySubtitle'>Empresa de viajes y turismo</p>
           </div>
           <p>
-            La Mayor Organización de Turismo en la Región.
+            La Mayor Organización de Turismo en la Región. <br />
             Con una experiencia de más de 30 años, la empresa cuenta con 10 áreas de distintos productos turísticos, entre ellas destacamos:
             Paraná Tu Río y Vinos de Ríos. las cuales te invitan a disfrutar distintas excursiones en la ciudad.
           </p>

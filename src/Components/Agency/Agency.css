@@ -97,6 +97,10 @@
 }
 @media(min-width:1200px){
     .boxContainerAgency {
-        padding: 3% 10%;
+        padding: 4% 13%;
+    }
+    .agencyItemsContainer {
+        justify-content: space-between;
+        width: 90%;
     }
 }
