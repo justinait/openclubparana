@@ -112,7 +112,7 @@ function Accommodations() {
         <div className='boxCookies'>
           <p>Nuestro complejo ofrece una alternativa distinta de alojamiento, ubicado a trescientos metros del Río Paraná. 
             Esta opción única no solo te brinda acceso a las instalaciones mencionadas, sino también una cercanía privilegiada 
-            a todos los servicios y amenidades que ofrecemos a través del paquete de beneficios “Nuestro Turista”
+            a todos los servicios y amenidades que ofrecemos a través del paquete de beneficios “Nuestro Turista”.
           </p>
           <button>Reservar</button>
         </div>
@@ -162,10 +162,10 @@ function Accommodations() {
           <p>Formando parte de Open Club, a través del programa
           <strong> “Nuestros Turistas”</strong>, entre ellos destacamos:</p>
           <br /><br className='tabletOff' />
-          <p>Acceso exclusivo a nuestra Carpeta de Huéspedes, donde te mostramos todas las actividades imperdibles de Paraná.</p>
+          <p className='width70PcAccommodations'>Acceso exclusivo a nuestra Carpeta de Huéspedes, donde te mostramos todas las actividades imperdibles de Paraná.</p>
         </div>
 
-        <div className='box'>
+        <div className='box biggerBoxAccommodations'>
           <ul>
             <li><strong>30% OFF</strong> en Excursiones de Costanera 241</li>
             <li><strong>20% OFF</strong> en Excursiones Náuticas con Paraná Tu Río.</li>

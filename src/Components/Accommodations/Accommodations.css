@@ -56,6 +56,7 @@
 .alojamientosInfoContainer h6 {
     font-weight: 700;
     font-size: 11px;
+    font-family: 'Nokora';
 }
 .accommodationsIconsDiv {
     display: flex;
@@ -266,14 +267,62 @@
     .alojamientoImage {
         border-radius: 10px;
     }
-    .alojamientosInfoContainer {
-        font-size: 13px;
-    }
     .alojamientosInfoContainer h6 {
         font-size: 14px;
         line-height: 24px;
     }
-    .ourTouristsContainerAlojamientos {
+    .alojamientosInfoContainer, .ourTouristsContainerAlojamientos {
         font-size: 13px;
+    }
+}
+
+@media(min-width:1200px) {
+    .accomodationsContainer2 {
+        padding: 1% 10% 0 10%;
+    }
+    .accommodationsItemsContainer {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .alojamientoItem {
+        width: 25%;
+    }
+    .alojamientoP {
+        font-size: 17px;
+    }
+    .alojamientoImage {
+        border: 4px solid var(--mainYellow);
+    }
+    .alojamientosInfoContainer {
+        padding: 5% 3%;
+    }
+    .alojamientosInfoContainer h6 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .alojamientosInfoContainer, .ourTouristsContainerAlojamientos {
+        font-size: 15px;
+    }
+    .ourTouristsContainerAlojamientos {
+        padding: 4% 15%;
+    }
+    .width70PcAccommodations  {
+        width: 66%;
+    }
+    .ourTouristsContainerAlojamientos .box {
+        width: 46%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .ourTouristsContainerAlojamientos .biggerBoxAccommodations {
+        width: 49%;
+    }
+}
+
+@media(min-width: 1400px) {
+    
+    .ourTouristsContainerAlojamientos {
+        padding: 4% 18%;
+        /* ponele. jaa miralo, a la mitad del duplex */
     }
 }

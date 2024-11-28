@@ -203,12 +203,14 @@ h1, h4 {
 
 
 @media(min-width:1200px) {
-  
+  body {
+    font-size: 15px;
+  }
   .box::before {
     width: 13px;
   }
   h4 {
-    font-size: 24px;
+    font-size: 23px;
     line-height: 40px;
   }
   .box h4 {
@@ -217,5 +219,19 @@ h1, h4 {
   }
   .box p {
     margin: 0 0 0 30px;
+  }
+  .boxCookies {
+    transform: translateY(-110%) translateX(-11%);
+  }
+  .boxCookies button, .reservarButton {
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+}
+
+@media(min-width:1400px) {
+  
+  h4 {
+    font-size: 25px;
   }
 }
