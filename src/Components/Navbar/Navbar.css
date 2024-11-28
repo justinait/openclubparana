@@ -84,3 +84,9 @@ a:hover {
         top: 50px;
     }
 }
+
+@media(min-width: 1200px) {
+    .logoNavbarA, .logoNavbar {
+        width: 130px;
+    }
+}
