@@ -27,6 +27,7 @@ function Contact() {
           <p className='contactTitle'>CONTACTO</p>
           <div>
             {/* icons */}
+            {/* https://booking.bebetterhotels.com/reservation/openclub */}
           </div>
 
           <p className='mailContact'>openclub@costanera241.tur.ar</p>
@@ -41,5 +42,14 @@ function Contact() {
     </div>
   )
 }
+// IMÁGENES Y VIDEOS DE PRESENTACIÓN. 
+// Nos encontramos en Bravard 276, (link de google maps) 
+// Contáctanos a través de: 
+// WhatsApp: 3434052762 
+// Instagram: openclubparana
+// Mail: openclub@costanera241.tur.ar
+// Reservas de Alojamiento (https://booking.bebetterhotels.com/reservation/openclub)
+// También podes encontrarnos en Booking o Airbnb
+
 
 export default Contact
