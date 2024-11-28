@@ -32,7 +32,7 @@ function Navbar() {
         { nombre: 'Eventos', id: 'eventos', className: ''},
         { nombre: 'Vinoteca', id: 'vinoteca', className: ''},
         { nombre: 'Agencia de viajes', id: 'agencia', className: ''},
-        { nombre: 'Temporada de verano', id: 'temporada', className: ''},
+        { nombre: 'Temporada', id: 'temporada', className: ''},
         { nombre: 'Contacto', id: 'contacto', className: ''},
         { nombre: 'Reservar', id: 'book', className: 'bookNavbar'}
     ];
@@ -48,14 +48,14 @@ function Navbar() {
                 }
             </Link>
             
-            <div>
+            <div className='menuNavbarIconsContainer'>
                 {
                     !openMenu ?
                     <>
                         <SearchRoundedIcon />
-                        <MenuRoundedIcon onClick={handleOpen}/> 
+                        <MenuRoundedIcon className='menuNavbarIcons' onClick={handleOpen}/> 
                     </> :
-                    <CloseRoundedIcon onClick={handleClose} sx={{ color: 'white' }} /> 
+                    <CloseRoundedIcon onClick={handleClose} className='menuNavbarIcons' sx={{ color: 'white' }} /> 
                 }
                 
             </div>

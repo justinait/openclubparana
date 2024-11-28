@@ -97,4 +97,7 @@
     .itemsEventsContainer {
         width: 54vw;
     }
+    .eventsH4Title {
+        margin: 4% auto;
+    }
 }

@@ -89,4 +89,40 @@ a:hover {
     .logoNavbarA, .logoNavbar {
         width: 130px;
     }
+
+    .navbarContainer{
+        height: 50px;
+    }
+    .navbarOptionsContainer {
+
+        width: 65%;
+        position: unset;
+        height: unset;
+        z-index: unset;
+        top: unset;
+        right: unset;
+        padding: unset;
+        background: unset;
+    }
+    .navbarOptions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        align-items: center;
+        
+    }
+    .navbarOptions a{
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        height: 12px;
+        text-align: center;
+        cursor: pointer;
+
+    }
+    .menuNavbarIconsContainer {
+        display: none;
+    }
 }
