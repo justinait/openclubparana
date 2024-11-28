@@ -59,6 +59,10 @@
         width: 26vw;
         font-size: 12px;
     }
+    /* !!!!!! */
+    .itemsEvents p {
+        width: 28vw;
+    }
     .group1, .group2 {
         margin: 0px 3%;
     }
@@ -80,7 +84,17 @@
         font-size: 15px;
     }
     
+    
     .itemsEventsContainer {
         width: 66vw;
+    }
+}
+
+@media(min-width:1200px) {
+    .itemsEvents p {
+        width: 19vw;
+    }
+    .itemsEventsContainer {
+        width: 54vw;
     }
 }

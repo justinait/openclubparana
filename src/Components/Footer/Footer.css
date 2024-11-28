@@ -33,8 +33,8 @@
 @media(min-width:1200px) {
     .footerContainer {
         font-size: 13px;
-        padding: 5% 10%;
-        width: 80%;
+        padding: 2% 5%;
+        width: 90%;
     }
     .logoFooter {
         width: 150px;

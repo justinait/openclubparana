@@ -221,6 +221,7 @@ h1, h4 {
     margin: 0 0 0 30px;
   }
   .boxCookies {
+    width: 92%;
     transform: translateY(-110%) translateX(-11%);
   }
   .boxCookies button, .reservarButton {

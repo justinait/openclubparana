@@ -38,9 +38,6 @@
     .descriptionItemText {
         font-size: 9px !important;
     }
-    .itemsEvents p {
-        width: 28vw;
-    }
 }
 
 @media(min-width:1000px) {
