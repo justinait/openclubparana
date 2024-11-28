@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../../assets/logo.png'
 import logoWhite from '../../assets/logoblanco.png'
 import './Navbar.css'
@@ -8,9 +8,15 @@ import { Link } from 'react-router-dom';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
 function Navbar() {
-    const windowWidth = window.innerWidth;
-    const [openMenu, setOpenMenu] = (windowWidth <= 1200) ? useState(false): useState(true)
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [openMenu, setOpenMenu] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState('')
+    
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const handleOpen = () => {
         if (windowWidth <= 1200) {
@@ -38,7 +44,7 @@ function Navbar() {
     ];
 
     return (
-        <div className={` navbarContainer ${openMenu ? 'navbarContainerOpenMenu' : ''}`}>
+        <div className={` navbarContainer ${openMenu && windowWidth <= 1200 ? 'navbarContainerOpenMenu' : ''}`}>
             <Link to={'/'} className='logoNavbarA'>
                 {
                     !openMenu ?
@@ -59,7 +65,7 @@ function Navbar() {
                 }
                 
             </div>
-            {openMenu &&
+            {(openMenu || windowWidth >=1200) &&
             <div className='navbarOptionsContainer'>
                 <div className='navbarOptions'>
                     {

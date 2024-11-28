@@ -37,8 +37,8 @@
     white-space: nowrap;
     font-size: 12px;
     font-weight: 700;
-    line-height: 13.41px;
     text-align: left;
+    line-height: 1;
 }
 
 a:focus {
@@ -89,12 +89,10 @@ a:hover {
     .logoNavbarA, .logoNavbar {
         width: 130px;
     }
-
     .navbarContainer{
         height: 50px;
     }
     .navbarOptionsContainer {
-
         width: 65%;
         position: unset;
         height: unset;
@@ -113,16 +111,25 @@ a:hover {
         
     }
     .navbarOptions a{
-        font-size: 14px;
         font-weight: 500;
         margin: 0;
         padding: 0;
         height: 12px;
-        text-align: center;
+        color: black;
         cursor: pointer;
-
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
     }
     .menuNavbarIconsContainer {
         display: none;
+    }
+    .bookNavbar {
+        background-color: var(--mainYellow);
+        color: white !important;
+        width: fit-content;
+        padding: 6px 10px !important;
+        border-radius: 15px;
+        margin-left: -8px;
     }
 }
