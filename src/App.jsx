@@ -11,12 +11,14 @@ import Agency from "./Components/Agency/Agency";
 import Season from "./Components/Season/Season";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
+import CheckScroll from "./CheckScroll";
 
 function App() {
 
   return (
     <BrowserRouter>
       <Navbar/>
+      <CheckScroll />
       <Routes>
         
         <Route path='/' element={< Home />} />
