@@ -52,13 +52,14 @@
         display: flex;
         flex-wrap: wrap;
         align-items: flex-end;
+        padding: 4% 14%;
     }
     .boxContainerWines .box {
         width: 100%;
         margin-bottom: 3%;
     }
     .winesEventsContainer {
-        width: 50vw;
+        width: 60vw;
         margin: 0% auto;
     }
 }

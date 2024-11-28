@@ -85,7 +85,7 @@
 }
 @media(min-width:1000px) {
     
-    .videoHero {
+    .agencyContainer {
         aspect-ratio: 16 / 9 !important;
     }
     .agencyTitle p {
@@ -93,5 +93,10 @@
     }
     .agencyItemsContainer .touristHomeItem {
         margin: 3% 0;
+    }
+}
+@media(min-width:1200px){
+    .boxContainerAgency {
+        padding: 3% 10%;
     }
 }
