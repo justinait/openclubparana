@@ -79,10 +79,19 @@
         display: flex;
         flex-direction: column;
     }
+    .costaneraAgency {
+        width: 250px;
+    }
 }
 @media(min-width:1000px) {
     
     .videoHero {
         aspect-ratio: 16 / 9 !important;
+    }
+    .agencyTitle p {
+        font-size: 12px;
+    }
+    .agencyItemsContainer .touristHomeItem {
+        margin: 3% 0;
     }
 }

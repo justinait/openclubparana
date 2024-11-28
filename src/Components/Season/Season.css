@@ -84,10 +84,25 @@
     .seasonContactDiv .contactTitle {
         margin-bottom: 15px;
     }
+    .seasonImagesContainer {
+        width: 80%;
+    }
+    .seasonInfoAndContactContainer {
+        display: flex;
+        margin: 10%;
+    }
+    .aclarationSeason {
+        font-size: 11px;
+        width: 67%;
+    }
 }
 @media(min-width:1000px) {
     
     .videoHero {
         aspect-ratio: 16 / 9 !important;
+    }
+    .aclarationSeason {
+        width: 100%;
+        font-size: 12px;
     }
 }

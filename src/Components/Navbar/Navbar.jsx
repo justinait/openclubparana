@@ -9,7 +9,7 @@ import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
 function Navbar() {
     const windowWidth = window.innerWidth;
-    const [openMenu, setOpenMenu] = (windowWidth <= 1023) ? useState(false): useState(true)
+    const [openMenu, setOpenMenu] = (windowWidth <= 1200) ? useState(false): useState(true)
     const [selectedCategory, setSelectedCategory] = useState('')
 
     const handleOpen = () => {
@@ -19,7 +19,7 @@ function Navbar() {
     }
     
     const handleClose = (id) => {
-        if (windowWidth <= 1023) {
+        if (windowWidth <= 1200) {
             setOpenMenu(false);
             if(id){
                 setSelectedCategory(id);
