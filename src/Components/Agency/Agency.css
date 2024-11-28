@@ -52,6 +52,34 @@
 .agencyItemsContainer .touristHomeItem {
     margin-top: 8%;
 }
+
+.agencyContactLinksDiv {
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:700px){
+    .agencyTitle p {
+        font-size: 10px;
+    }
+    .agencyItemsContainer {
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+    }
+    .agencyContainer2 {
+        padding: 5% 10%;
+    }
+    .agencyContactDiv {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 35px;
+    }
+    .agencyContactLinksDiv {
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media(min-width:1000px) {
     
     .videoHero {

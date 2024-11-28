@@ -50,10 +50,15 @@ function Agency() {
         </div>
 
         <div className='agencyContactDiv'>
+          
           <p className='contactTitle'>CONTACTO</p>
-          <Link className='contactLinkButton'>Costanera 241</Link>
-          <Link className='contactLinkButton'>Paraná tu rio</Link>
-          <Link className='contactLinkButton'>Vinos de ríos</Link>
+          
+          <div className='agencyContactLinksDiv'>
+            <Link className='contactLinkButton'>Costanera 241</Link>
+            <Link className='contactLinkButton'>Paraná tu rio</Link>
+            <Link className='contactLinkButton'>Vinos de ríos</Link>
+          </div>
+
         </div>
       </div>
     </div>
