@@ -64,6 +64,9 @@ a:hover {
 }
 
 @media(min-width:700px) {
+    .navbarContainer {
+        height: 50px;
+    }
     .logoNavbarA, .logoNavbar {
         width: 180px;
     }
