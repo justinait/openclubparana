@@ -304,7 +304,7 @@
         font-size: 15px;
     }
     .ourTouristsContainerAlojamientos {
-        padding: 4% 15%;
+        padding: 3% 15%;
     }
     .width70PcAccommodations  {
         width: 66%;
@@ -312,10 +312,13 @@
     .ourTouristsContainerAlojamientos .box {
         width: 46%;
         margin: 0;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .ourTouristsContainerAlojamientos .biggerBoxAccommodations {
         width: 49%;
+    }
+    .popupContent {
+        width: 70%;
     }
 }
 
