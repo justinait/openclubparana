@@ -48,6 +48,11 @@
 }
 
 @media(min-width: 1200px) {
+    .winesContainer {    
+        aspect-ratio: unset !important;
+        height: 100vh;
+        background-position-y: 55%;
+    }
     .boxContainerWines {
         display: flex;
         flex-wrap: wrap;
@@ -61,5 +66,13 @@
     .winesEventsContainer {
         width: 60vw;
         margin: 0% auto;
+    }
+    .winesLogoImage {
+        width: 300px;
+    }
+}
+@media(min-width: 1400px) {
+    .descriptionItemText {
+        font-size: 10px !important;
     }
 }

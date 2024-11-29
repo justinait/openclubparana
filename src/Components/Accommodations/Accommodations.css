@@ -320,15 +320,15 @@
     .popupContent {
         width: 70%;
     }
-}
-
-@media(min-width: 1400px) {
-    
     .accommodationsContainer {
         aspect-ratio: unset !important;
         height: 100vh;
         background-position: center;
     }
+}
+
+@media(min-width: 1400px) {
+    
     .ourTouristsContainerAlojamientos {
         padding: 4% 18%;
     }

@@ -100,4 +100,9 @@
     .eventsH4Title {
         margin: 4% auto;
     }
+    .eventsContainer {
+        aspect-ratio: unset !important;
+        height: 100vh;
+        background-position-y: 55%;
+    }
 }
