@@ -115,6 +115,11 @@
 }
 
 @media(min-width: 1200px) {
+    .seasonContainer {
+        aspect-ratio: unset !important;
+        height: 100vh;
+        background-position-y: 55%;
+    }
     .seasonImagesContainer {
         width: 60%;
         margin: 0;
@@ -148,4 +153,8 @@
         margin-right: 15px;
         width: 90px;
     }
+    .seasonInfoContainer h4 {
+        font-size: 20px;
+    }
+    
 }

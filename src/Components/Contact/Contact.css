@@ -71,12 +71,14 @@
 @media(min-width:1200px){
     .contactContainer {
         background-position-y: 35%;
+        aspect-ratio: unset !important;
+        height: 100vh;
     }
     .contactContainer2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 50px 150px;
-        padding: 3% 15%;
+        padding: 4% 15%;
     }
     
     .contactContainer2 > .contactDirection {
@@ -102,4 +104,13 @@
         display: none;
     }
 
+    .googleMapIframe, #mapDiv {
+        height: 320px;
+    }
+}
+@media(min-width:1400px) {
+
+    .googleMapIframe, #mapDiv {
+        height: 380px;
+    }
 }

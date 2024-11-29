@@ -51,7 +51,7 @@ function Season() {
 
           <div className='seasonInfoAndContactContainer'>
             <div className='seasonInfoContainer'>
-              <div className='box'>
+              <div className='box smallerSeparatorBox'>
                 <h4>Info</h4>
                 <p>
                   <strong>Ingresos</strong>
