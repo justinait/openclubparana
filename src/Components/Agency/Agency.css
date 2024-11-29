@@ -110,3 +110,8 @@
         max-height: 100vh;
     }
 }
+@media(min-width:1800px) {
+    .agencyTitle p {
+        font-size: 14px;
+    }
+}

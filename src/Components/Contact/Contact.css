@@ -114,3 +114,18 @@
         height: 380px;
     }
 }
+@media(min-width:1800px) {
+    .contactContainer2 {
+        padding: 4% 18%;
+    }
+    .googleMapIframe, #mapDiv {
+        height: 410px;
+    }
+    .mailContact, .contactDirection {
+        font-size: 17px;
+    }
+    .mailContactDescription {
+        font-size: 11px;
+        line-height: 22px;
+    }
+}

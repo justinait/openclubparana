@@ -249,7 +249,7 @@ h1, h4 {
 }
 @media(min-width:1800px) {
   body {
-    font-size: 17px;
+    font-size: 18px;
   }
   .box h4 {
     line-height: 2;
@@ -257,5 +257,17 @@ h1, h4 {
   }
   .box p {
     margin: 0 0 0 30px;
+  }
+  .boxCookies {
+    font-size: 18px;
+    width: 85%;
+    padding: 2.5% 8%;
+    line-height: 23px;
+  }
+  .contactLinkButton {
+    font-size: 14px;
+  }
+  .contactTitle{
+    font-size: 17px;
   }
 }
