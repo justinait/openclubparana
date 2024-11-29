@@ -152,3 +152,16 @@
         font-size: 15px !important;
     }
 }
+@media(min-width:1800px) {
+    
+    .touristImagesHomeContainer {
+        padding: 0px 7%;
+    }    
+    .touristHomeItem img {
+        width: 20vw;
+    }    
+    .touristTitlesHome {
+        font-size: 17px;
+        height: 40px;
+    }
+}

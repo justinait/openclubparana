@@ -90,6 +90,7 @@ a:hover {
         width: 130px;
     }
     .navbarContainer{
+        padding: 0.1% 4%;
         height: 50px;
     }
     .navbarOptionsContainer {
@@ -135,5 +136,19 @@ a:hover {
     }
     .navbarOptions a{
         font-size: 14px;
+    }
+    .navbarContainer {
+        padding: 0.3% 4%;
+    }
+}
+@media(min-width:1800px) {
+    .logoNavbarA, .logoNavbar {
+        width: 145px;
+    }
+    .navbarOptions a{
+        font-size: 16px;
+    }
+    .navbarContainer {
+        padding: 0.5% 4%;
     }
 }

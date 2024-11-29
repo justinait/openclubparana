@@ -247,3 +247,15 @@ h1, h4 {
   }
 
 }
+@media(min-width:1800px) {
+  body {
+    font-size: 17px;
+  }
+  .box h4 {
+    line-height: 2;
+    margin: 0 30px;
+  }
+  .box p {
+    margin: 0 0 0 30px;
+  }
+}
