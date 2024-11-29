@@ -108,13 +108,12 @@ a:hover {
         align-items: center;
     }
     .navbarOptions a{
+        font-size: 13px;
         font-weight: 500;
         margin: 0;
         padding: 0;
-        height: 12px;
         color: black;
         cursor: pointer;
-        font-size: 13px;
         font-weight: 400;
         text-align: center;
     }
@@ -128,5 +127,13 @@ a:hover {
         padding: 6px 10px !important;
         border-radius: 15px;
         margin-left: -8px;
+    }
+}
+@media(min-width:1400px) {
+    .navbarOptionsContainer {
+        width: 50%;
+    }
+    .navbarOptions a{
+        font-size: 14px;
     }
 }
