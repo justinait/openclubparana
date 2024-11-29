@@ -235,8 +235,11 @@ h1, h4 {
 }
 
 @media(min-width:1400px) {
-  
+  body {
+    font-size: 15px;
+  }
   h4 {
     font-size: 25px;
   }
+
 }

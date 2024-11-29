@@ -324,8 +324,15 @@
 
 @media(min-width: 1400px) {
     
+    .accommodationsContainer {
+        aspect-ratio: unset !important;
+        height: 100vh;
+        background-position: center;
+    }
     .ourTouristsContainerAlojamientos {
         padding: 4% 18%;
-        /* ponele. jaa miralo, a la mitad del duplex */
+    }
+    .alojamientoP {
+        font-size: 18px;
     }
 }

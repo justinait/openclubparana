@@ -135,4 +135,20 @@
     #trustmary-widget, .go2115419360 {
         font-size: 15px !important;
     }
+    .homeContainer {
+        aspect-ratio: unset !important;
+    }
+    .videoHero {
+        max-height: 100vh;
+    }
+}
+@media(min-width:1400px) {
+
+    .touristTitlesHome {
+        font-size: 15px;
+        height: 30px;
+    }
+    #trustmary-widget, .go2115419360 {
+        font-size: 15px !important;
+    }
 }
