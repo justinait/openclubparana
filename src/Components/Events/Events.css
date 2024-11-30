@@ -102,7 +102,7 @@
     }
     .eventsContainer {
         aspect-ratio: unset !important;
-        height: 100vh;
+        height: 99vh;
         background-position-y: 55%;
     }
 }

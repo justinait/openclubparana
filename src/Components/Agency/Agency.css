@@ -107,7 +107,7 @@
         aspect-ratio: unset !important;
     }
     .videoHeroAgency {
-        max-height: 100vh;
+        max-height: 99vh;
     }
 }
 @media(min-width:1800px) {

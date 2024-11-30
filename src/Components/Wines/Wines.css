@@ -8,8 +8,8 @@
 .winesLogoImage {
     width: 100px;
     position: absolute;
-    top: 75%;
     right: 5px;
+    bottom: 0px;
 }
 .descriptionItemText{
     font-size: 7px !important;
@@ -30,7 +30,9 @@
 }
 
 @media(min-width: 700px) {
-    
+    .winesLogoImage {
+        width: 220px;
+    }    
     .winesEventsContainer {
         margin: 9% auto;
         width: 71vw;
@@ -41,7 +43,9 @@
 }
 
 @media(min-width:1000px) {
-    
+    .winesLogoImage {
+        width: 250px;
+    }
     .winesContainer  {
         aspect-ratio: 16 / 9 !important;
     }
@@ -50,7 +54,7 @@
 @media(min-width: 1200px) {
     .winesContainer {    
         aspect-ratio: unset !important;
-        height: 100vh;
+        height: 99vh;
         background-position-y: 55%;
     }
     .boxContainerWines {
@@ -74,5 +78,14 @@
 @media(min-width: 1400px) {
     .descriptionItemText {
         font-size: 10px !important;
+    }
+}
+@media(min-width: 1800px) {
+
+    .winesLogoImage {
+        width: 400px;
+    }
+    .descriptionItemText {
+        font-size: 11px !important;
     }
 }

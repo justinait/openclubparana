@@ -117,7 +117,7 @@
 @media(min-width: 1200px) {
     .seasonContainer {
         aspect-ratio: unset !important;
-        height: 100vh;
+        height: 99vh;
         background-position-y: 55%;
     }
     .seasonImagesContainer {

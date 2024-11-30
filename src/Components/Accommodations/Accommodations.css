@@ -322,7 +322,7 @@
     }
     .accommodationsContainer {
         aspect-ratio: unset !important;
-        height: 100vh;
+        height: 99vh;
         background-position: center;
     }
 }

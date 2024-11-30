@@ -72,7 +72,7 @@
     .contactContainer {
         background-position-y: 35%;
         aspect-ratio: unset !important;
-        height: 100vh;
+        height: 99vh;
     }
     .contactContainer2 {
         display: grid;
