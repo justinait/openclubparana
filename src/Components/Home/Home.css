@@ -108,7 +108,10 @@
     .videoHero {
         aspect-ratio: 16 / 9 !important;
     }
-    
+    .logoHero {
+        width: 50%;
+        right: 25%;
+    }
     .touristHomeItem img {
         width: 22vw;
     }
@@ -125,6 +128,11 @@
 }
 
 @media(min-width:1200px){
+    .logoHero {
+        width: 30%;
+        right: 35%;
+        top: 20%;
+    }
     .touristImagesHomeContainer {
         padding: 0 2%;
     }
