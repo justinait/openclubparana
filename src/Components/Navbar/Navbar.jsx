@@ -6,11 +6,13 @@ import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { Link } from 'react-router-dom';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import SearchBar from './SearchBar';
 
 function Navbar() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [openMenu, setOpenMenu] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState('')
+    const [showSearchBar, setShowSearchBar] = useState(false); 
     
     useEffect(() => {
         const handleResize = () => setWindowWidth(window.innerWidth);
@@ -33,15 +35,20 @@ function Navbar() {
         }
     }
 
+    const toggleSearchBar = () => {
+        setShowSearchBar((prev) => !prev); 
+    };
+
     const secciones = [
-        { nombre: 'Alojamiento', id: 'alojamientos', className: '' },
-        { nombre: 'Eventos', id: 'eventos', className: ''},
-        { nombre: 'Vinoteca', id: 'vinoteca', className: ''},
-        { nombre: 'Agencia de viajes', id: 'agencia', className: ''},
-        { nombre: 'Temporada', id: 'temporada', className: ''},
-        { nombre: 'Contacto', id: 'contacto', className: ''},
-        { nombre: 'Reservar', id: 'book', className: 'bookNavbar'}
+        { nombre: 'Alojamiento', id: 'alojamientos', keywords: ['habitaciones', 'hospedaje'], className: '' },
+        { nombre: 'Eventos', id: 'eventos', keywords: ['fiestas', 'reuniones'], className: '' },
+        { nombre: 'Vinoteca', id: 'vinoteca', keywords: ['vinos', 'malbec', 'bodega'], className: '' },
+        { nombre: 'Agencia de viajes', id: 'agencia', keywords: ['viajes', 'tours', 'excursiones'], className: '' },
+        { nombre: 'Temporada', id: 'temporada', keywords: ['verano', 'otoño'], className: '' },
+        { nombre: 'Contacto', id: 'contacto', keywords: ['info', 'mensaje', 'consulta'], className: '' },
+        { nombre: 'Reservar', id: 'book', keywords: ['booking', 'reserva'], className: 'bookNavbar' }
     ];
+    
 
     return (
         <div className={` navbarContainer ${openMenu && windowWidth <= 1200 ? 'navbarContainerOpenMenu' : ''}`}>
@@ -58,13 +65,15 @@ function Navbar() {
                 {
                     !openMenu ?
                     <>
-                        <SearchRoundedIcon />
+                        {showSearchBar && <SearchBar secciones={secciones} onClose={toggleSearchBar} />}
+                        <SearchRoundedIcon  onClick={toggleSearchBar} />
                         <MenuRoundedIcon className='menuNavbarIcons' onClick={handleOpen}/> 
                     </> :
                     <CloseRoundedIcon onClick={handleClose} className='menuNavbarIcons' sx={{ color: 'white' }} /> 
                 }
                 
             </div>
+            
             {(openMenu || windowWidth >=1200) &&
             <div className='navbarOptionsContainer'>
                 <div className='navbarOptions'>
