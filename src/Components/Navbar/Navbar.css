@@ -62,6 +62,9 @@ a:hover {
     border-radius: 15px;
     margin-left: -8px;
 }
+.navbarMenuAndSearchContainer {
+    display: flex;
+}
 .menuNavbarIconsContainer {
     display: flex;
 }
@@ -204,6 +207,9 @@ a:hover {
         height: 1px;
         border-radius: 14px;
         background-color: var(--mainYellow);
+    }
+    .navbarMenuAndSearchContainer {
+        order: 3;
     }
 }
 @media(min-width:1400px) {

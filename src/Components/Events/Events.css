@@ -105,12 +105,12 @@
         height: 99vh;
         background-position-y: 55%;
     }
-}
-
-@media(min-width:1800px) {
     .eventsBoxCookiesSeparator {
         width: 92%;
     }
+}
+
+@media(min-width:1800px) {
     .itemsEvents p {
         font-size: 17px;
         width: 15vw;

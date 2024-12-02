@@ -36,7 +36,10 @@ function Navbar() {
     }
 
     const toggleSearchBar = () => {
-        setShowSearchBar((prev) => !prev); 
+        if( windowWidth <= 1200 )
+            setShowSearchBar((prev) => !prev); 
+        else
+            setShowSearchBar(true);
     };
 
     const secciones = [
@@ -61,16 +64,20 @@ function Navbar() {
                 }
             </Link>
             
-            <div className='menuNavbarIconsContainer'>
-                {
-                    !openMenu ?
-                    <>
-                        {showSearchBar && <SearchBar secciones={secciones} onClose={toggleSearchBar} />}
-                        <SearchRoundedIcon  onClick={toggleSearchBar} />
-                        <MenuRoundedIcon className='menuNavbarIcons' onClick={handleOpen}/> 
-                    </> :
-                    <CloseRoundedIcon onClick={handleClose} className='menuNavbarIcons' sx={{ color: 'white' }} /> 
-                }
+
+            <div className='navbarMenuAndSearchContainer'>
+                <>
+                    {showSearchBar && <SearchBar secciones={secciones} onClose={toggleSearchBar} />}
+                    <SearchRoundedIcon  onClick={toggleSearchBar} />
+                </> 
+                <div className='menuNavbarIconsContainer'>
+                    {
+                        !openMenu ?
+                            <MenuRoundedIcon className='menuNavbarIcons' onClick={handleOpen}/> 
+                        :
+                        <CloseRoundedIcon onClick={handleClose} className='menuNavbarIcons' sx={{ color: 'white' }} /> 
+                    }
+                </div>
                 
             </div>
             
