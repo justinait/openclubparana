@@ -77,7 +77,6 @@ a:hover {
     background-color: #D9D9D9;
     border-radius: 30px;
     border: none;
-
 }
 
 .clearButton {
@@ -190,6 +189,21 @@ a:hover {
         padding: 6px 10px !important;
         border-radius: 15px;
         margin-left: -8px;
+    }
+    .activeNavbar {
+        position: relative;
+        display: inline-block;
+        font-weight: 400 !important;
+    }
+    .activeNavbar::after {
+        content: '';
+        position: absolute;
+        left: 22%;
+        bottom: -7px;
+        width: 60%;
+        height: 1px;
+        border-radius: 14px;
+        background-color: var(--mainYellow);
     }
 }
 @media(min-width:1400px) {

@@ -29,9 +29,9 @@ function Navbar() {
     const handleClose = (id) => {
         if (windowWidth <= 1200) {
             setOpenMenu(false);
-            if(id){
-                setSelectedCategory(id);
-            }
+        }
+        if(id){
+            setSelectedCategory(id);
         }
     }
 
