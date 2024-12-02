@@ -130,3 +130,13 @@
         opacity: 0;
     }
 }
+@media(min-width:1400px)  {
+
+    .top75 {
+        top: 82vh;
+    }
+    
+    .top50 {
+        top: 60vh;
+    }
+}
