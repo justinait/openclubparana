@@ -12,6 +12,7 @@ import Season from "./Components/Season/Season";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import CheckScroll from "./CheckScroll";
+import Links from "./Components/Links/Links";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <CheckScroll />
+      <Links />
       <Routes>
         
         <Route path='/' element={< Home />} />
