@@ -4,6 +4,7 @@ import nautico from '../../assets/agencyrio.jpg'
 import wines from '../../assets/agencywines.jpg'
 import costanera from '../../assets/logoCostanera.png'
 import { Link } from 'react-router-dom'
+import video from '../../assets/agencyhero.mp4'
 
 function Agency() {
   
@@ -16,7 +17,7 @@ function Agency() {
     <div>
       <div className='agencyContainer'>
         <video autoPlay muted loop playsInline className='videoHeroAgency'>
-          <source src="" type="video/mp4" /> 
+          <source src={video} type="video/mp4" /> 
           Tu navegador no soporta videos HTML5.
         </video>
         <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />
