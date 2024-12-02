@@ -30,12 +30,16 @@ function Links() {
         const scrollPosition = window.scrollY;
         const footerPosition = document.querySelector('#footerContainer')?.offsetTop;
   
-        console.log(footerPosition);
-        
-        if (footerPosition && scrollPosition + window.innerHeight >= footerPosition) {
-          setIsHidden(true);  // Ocultar el componente cuando esté a 200px del footer
+        if (location.pathname === '/' && window.innerWidth >= 1200) {
+          if (footerPosition && scrollPosition + window.innerHeight >= footerPosition - 300) {
+            setIsHidden(true);  // Ocultar el componente cuando esté a 200px del footer
+          }
         } else {
-          setIsHidden(false);  // Mostrar el componente si no estamos cerca del footer
+          if (footerPosition && scrollPosition + window.innerHeight >= footerPosition + 50) {
+            setIsHidden(true);  // Ocultar el componente cuando esté a 200px del footer
+          } else {
+            setIsHidden(false);  // Mostrar el componente si no estamos cerca del footer
+          }
         }
       };
   
