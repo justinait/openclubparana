@@ -14,7 +14,7 @@
     width: 30px;
     z-index: 50;
 }
-.linkStar p {
+.linkStarP {
     background-color: #F6F6F6;
     color: #BD9500;
     font-family: 'Nokora';
@@ -26,6 +26,12 @@
     border-radius: 25px;
     position: relative;
     right: 10px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.linkStar:hover .linkStarP {
+    display: block;
 }
 .linkWsp {
     background-color: var(--mainYellow);
@@ -40,4 +46,13 @@
 }
 .linkWsp img {
     width: 16px;
+}
+.linkStarP.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.linkStarP.hide {
+    opacity: 0;
+    transform: translateY(10px);
 }
