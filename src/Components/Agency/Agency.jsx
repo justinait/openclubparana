@@ -16,7 +16,7 @@ function Agency() {
   return (
     <div>
       <div className='agencyContainer'>
-        <video autoPlay muted loop playsInline className='videoHeroAgency'>
+        <video autoPlay muted loop playsInline className='videoHeroAgency' loading='lazy'>
           <source src={video} type="video/mp4" /> 
           Tu navegador no soporta videos HTML5.
         </video>
