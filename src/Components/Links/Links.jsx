@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import './Links.css'
 import star from '../../assets/icons/star.png'
 import wsp from '../../assets/icons/wspblanco.png'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 function Links() {
     const [showText, setShowText] = useState(false);
-    const [hideText, setHideText] = useState(false);
+    const [hideText, setHideText] = useState(false); 
   
     useEffect(() => {
       const showTimeout = setTimeout(() => {
@@ -14,14 +14,14 @@ function Links() {
   
             const hideTimeout = setTimeout(() => {
                 setHideText(true);
-            }, 4000);
+            }, 3000);
     
             return () => clearTimeout(hideTimeout);
 
-        }, 2000);
+        }, 1000);
   
         return () => clearTimeout(showTimeout);
-    }, [showText]);
+    }, [location]);
 
   return (
     <div className='linksContainer'>
@@ -38,4 +38,7 @@ function Links() {
   )
 }
 
-export default Links
+export default (props) => {
+    const location = useLocation();
+    return <Links key={location.pathname} {...props} />;
+};
