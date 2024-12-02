@@ -3,16 +3,18 @@ import logo from '../../assets/logo.png'
 import logoWhite from '../../assets/logoblanco.png'
 import './Navbar.css'
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { Link } from 'react-router-dom';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import SearchBar from './SearchBar';
+import star from '../../assets/icons/star.png'
+import search from '../../assets/icons/search.png'
+
 
 function Navbar() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [openMenu, setOpenMenu] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState('')
-    const [showSearchBar, setShowSearchBar] = useState(false); 
+    const [showSearchBar, setShowSearchBar] = useState( windowWidth <= 1200 ? false : true); 
     
     useEffect(() => {
         const handleResize = () => setWindowWidth(window.innerWidth);
@@ -68,7 +70,8 @@ function Navbar() {
             <div className='navbarMenuAndSearchContainer'>
                 <>
                     {showSearchBar && <SearchBar secciones={secciones} onClose={toggleSearchBar} />}
-                    <SearchRoundedIcon  onClick={toggleSearchBar} />
+                    <img className='searchIcon' src={search} onClick={toggleSearchBar} />
+                    <img src={star} alt="DESTACADOS" className='starNavbar'/>
                 </> 
                 <div className='menuNavbarIconsContainer'>
                     {
