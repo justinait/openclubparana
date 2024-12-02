@@ -32,7 +32,7 @@
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .linkStar:hover .linkStarP {
-    display: block;
+    opacity: 1;
 }
 .linkWsp {
     background-color: var(--mainYellow);
@@ -56,4 +56,23 @@
 .linkStarP.hide {
     opacity: 0;
     transform: translateY(10px);
+}
+
+@media(min-width:700px) {
+    .linksContainer {
+        top: 40vh;
+    }
+    .linkWsp img {
+        width: 21px;
+    }
+    .linkWsp {
+        width: 35px;
+        height: 35px;
+        margin-top: 8px;
+    }
+
+    .linkStar img {
+        width: 40px;
+        z-index: 50;
+    }
 }
