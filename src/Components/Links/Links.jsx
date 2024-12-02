@@ -7,6 +7,7 @@ import { Link, useLocation } from 'react-router-dom'
 function Links() {
     const [showText, setShowText] = useState(false);
     const [hideText, setHideText] = useState(false); 
+    const [fixed, setFixed] = useState(false);
   
     useEffect(() => {
       const showTimeout = setTimeout(() => {
@@ -22,9 +23,24 @@ function Links() {
   
         return () => clearTimeout(showTimeout);
     }, [location]);
+    
+    useEffect(() => {
+        const handleScroll = () => {
+
+          if (window.scrollY > 1200) {  // Aquí cambias el valor según lo que necesites
+            setFixed(true);
+          } else {
+            setFixed(false);
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+        
+        return () => window.removeEventListener('scroll', handleScroll);  // Limpieza al desmontar
+      }, []);
 
   return (
-    <div className='linksContainer'>
+    <div className={`linksContainer ${fixed ? 'fixed' : ''}`}>
         <Link to='/alojamientos' className='linkStar'>
             <img src={star} alt="Destacados" />
             <p className={`linkStarP ${showText ? "show" : ""} ${hideText ? "hide" : ""}`}>Accede a los beneficios exclusivos</p>
