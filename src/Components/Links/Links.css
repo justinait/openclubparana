@@ -117,4 +117,16 @@
       opacity: 0;
       visibility: hidden;
     }
+
+    .top75 {
+        top: 84vh;
+    }
+    
+    .top50 {
+        top: 65vh;
+    }
+  
+    .opacity0 {
+        opacity: 0;
+    }
 }

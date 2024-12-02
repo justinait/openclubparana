@@ -8,8 +8,24 @@ function Links() {
     const [showText, setShowText] = useState(false);
     const [hideText, setHideText] = useState(false); 
     const [isHidden, setIsHidden] = useState(false); 
-    const [fixed, setFixed] = useState(false);
-  
+    
+    const getTopPosition = () => {
+      switch (location.pathname) {
+        case '/':
+        case '/agencia':
+        case '/temporada':
+        case '/vinoteca':
+          return 'top75'; // top: 75vh
+        case '/alojamientos':
+        case '/eventos':
+          return 'top50'; // top: 50vh
+        case '/contacto':
+          return 'opacity0'; // opacity: 0
+        default:
+          return '';
+      }
+    };
+
     useEffect(() => {
       const showTimeout = setTimeout(() => {
         setShowText(true);
@@ -48,8 +64,10 @@ function Links() {
       return () => window.removeEventListener('scroll', handleScroll);  // Limpieza al desmontar
     }, [location]);
 
+    const topClass = getTopPosition();
+    
   return (
-    <div className={`linksContainer ${isHidden ? 'hidden' : ''}`}>
+    <div className={`linksContainer ${topClass} ${isHidden ? 'hidden' : ''}`}>
       <Link to='/alojamientos' className='linkStar'>
         <img src={star} alt="Destacados" />
         <p className={`linkStarP ${showText ? "show" : ""} ${hideText ? "hide" : ""}`}>Accede a los beneficios exclusivos</p>

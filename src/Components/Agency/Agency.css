@@ -110,9 +110,11 @@
     }
     .agencyContainer {
         aspect-ratio: unset !important;
+        height: 99vh;
     }
     .videoHeroAgency {
-        max-height: 99vh;
+        aspect-ratio: unset !important;
+        height: 99vh;
     }
 }
 @media(min-width:1800px) {
