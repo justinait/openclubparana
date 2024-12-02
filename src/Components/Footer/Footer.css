@@ -1,10 +1,8 @@
-.footerContainer {
+#footerContainer {
     padding: 4%;
     background-color: var(--color-darkWhite);
     width: 92%;
-    z-index: 100;
     font-size: 8px;
-    position: absolute;
 }
 .logoFooter {
     width: 30%;
@@ -17,7 +15,7 @@
 }
 
 @media(min-width:700px) {
-    .footerContainer {
+    #footerContainer {
         font-size: 12px;
     }
     .logoFooter {
@@ -28,12 +26,12 @@
     }
 }
 @media(min-width:700px) {
-    .footerContainer {
+    #footerContainer {
         font-size: 13px;
     }
 }
 @media(min-width:1200px) {
-    .footerContainer {
+    #footerContainer {
         font-size: 13px;
         padding: 2% 5%;
         width: 90%;
@@ -55,7 +53,7 @@
     .infoFooterContainer {
         padding: 1% 0.5%;
     }
-    .footerContainer {
+    #footerContainer {
         font-size: 14px;
     }
 }

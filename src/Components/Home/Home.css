@@ -62,9 +62,6 @@
 #reviewsContainerYellow {
     background-color: var(--mainYellow);
     padding: 50px 0 40px;
-    
-    z-index: 100;
-    position: relative;
 }
 .go2048136271 {
     display: none !important;

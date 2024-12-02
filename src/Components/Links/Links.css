@@ -113,4 +113,8 @@
         width: 45px;
         z-index: 50;
     }
+    .linksContainer.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
 }
