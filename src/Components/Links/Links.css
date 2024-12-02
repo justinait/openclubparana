@@ -76,3 +76,22 @@
         z-index: 50;
     }
 }
+@media(min-width:700px) {
+    .linksContainer {
+        top: 33vh;
+        padding-left: 20px;
+    }
+    .linkWsp img {
+        width: 25px;
+    }
+    .linkWsp {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .linkStar img {
+        width: 45px;
+        z-index: 50;
+    }
+}
