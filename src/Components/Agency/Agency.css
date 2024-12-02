@@ -5,9 +5,11 @@
     position: relative;
 }
 .videoHeroAgency {
+    object-fit: cover;
+    aspect-ratio: 3 / 2 !important;
+    top: 0;
     width: 100%;
     position: relative;
-    top: 6vh;
 }
 .agencyContainer2 {
     background-color: var(--color-darkWhite);
@@ -85,6 +87,9 @@
 }
 @media(min-width:1000px) {
     
+    .videoHeroAgency {
+        aspect-ratio: 16 / 9 !important;
+    }
     .agencyContainer {
         aspect-ratio: 16 / 9 !important;
     }
