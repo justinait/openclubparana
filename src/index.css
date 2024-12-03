@@ -79,6 +79,7 @@ h1, h4 {
   line-height: 6.61px;
   position: relative;
   padding: 13px 16px;
+  width: fit-content;
 }
 
 .contactTitle::before {
@@ -104,6 +105,27 @@ h1, h4 {
   border: none;
   text-decoration: none;
   margin: 4px;
+}
+.contactLinkButtonContainer {
+  display: flex;
+  align-items: center; 
+  position: relative;
+  width: fit-content;
+  padding: 10px 20px;
+}
+.contactLinkButtonContainer .contactLinkButton {
+  margin-left: 0;
+  padding-left: 30px;
+}
+.contactLinkButtonContainer .contactCircleIcons {
+  margin: 0;
+  width: 34px;
+  height: 34px;
+  
+  position: absolute;
+  top: 50%;
+  left: 25px; /* Ajusta la posición horizontal del círculo */
+  transform: translate(-50%, -50%);
 }
 @media(min-width:700px) {
 

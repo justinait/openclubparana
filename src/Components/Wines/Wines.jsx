@@ -50,8 +50,9 @@ function Wines() {
 
         <div className='contactBoxWine'>
           <p className='contactTitle'>CONTACTO</p>
-          <div>
-          <a className='contactCircleIcons' target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></a>
+
+          <div className='contactLinkButtonContainer'>
+            <a className='contactCircleIcons' target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434718404'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></a>
             <Link className='contactLinkButton'>Vinos de Ríos</Link>
           </div>
         </div>
