@@ -314,7 +314,7 @@
     } 
 }
 @media(min-width:1000px) {
-    .accommodationsContainer {
+    .carouselHero {
         aspect-ratio: 16 / 9 !important;
     }
     .alojamientosInfoContainer {
@@ -387,13 +387,16 @@
     .popupContent {
         width: 70%;
     }
-    .accommodationsContainer {
+    .carouselHero {
         aspect-ratio: unset !important;
         height: 99vh;
         background-position: center;
     }
+    .carouselHero-item {
+        margin-top: 0vh;
+    }
     .carouselHero-button {
-        top: 53%;
+        top: 50%;
     }
     .carouselHero-button.prevHero {
         left: 30px;
@@ -411,9 +414,9 @@
     .alojamientoP {
         font-size: 18px;
     }
-    .carouselHero-button {
+    /* .carouselHero-button {
         top: 40%;
-    }
+    } */
 }
 @media(min-width: 1800px) {
     
