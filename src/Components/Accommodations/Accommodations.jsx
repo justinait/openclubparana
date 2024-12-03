@@ -127,7 +127,6 @@ function Accommodations() {
       <div className="carouselHero">
         <div className="carouselHero-container">
           {images.map((image, index) => (
-            // Eliminamos el div que contenía la imagen
             <img
               key={index}
               className={`carouselHero-item ${

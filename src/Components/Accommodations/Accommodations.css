@@ -385,7 +385,11 @@
         width: 49%;
     }
     .popupContent {
-        width: 70%;
+        width: 55%;
+    }
+    .closeButton {
+        top: 20px;
+        right: 120px;
     }
     .carouselHero {
         aspect-ratio: unset !important;
@@ -414,9 +418,10 @@
     .alojamientoP {
         font-size: 18px;
     }
-    /* .carouselHero-button {
-        top: 40%;
-    } */
+    .closeButton {
+        top: 20px;
+        right: 150px;
+    }
 }
 @media(min-width: 1800px) {
     
@@ -428,5 +433,9 @@
     }
     .alojamientosInfoContainer, .ourTouristsContainerAlojamientos, .alojamientosInfoContainer h6     {
         font-size: 17px;
+    }
+    .closeButton {
+        top: 20px;
+        right: 180px;
     }
 }
