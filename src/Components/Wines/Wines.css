@@ -51,6 +51,9 @@
     .boxContainerWines .box {
         margin: 1%;
     }
+    .contactBoxWine .contactTitle {
+      margin-left: 15px;
+    }
 }
 
 @media(min-width:1000px) {
