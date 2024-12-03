@@ -124,35 +124,31 @@ function Accommodations() {
   ];
   return (
     <div>
-      <div className='accommodationsContainer'>
-        <div className="carouselHero">
-          <div className="carouselHero-container">
-            {images.map((image, index) => (
-              <div
-                key={index}
-                className={`carouselHero-item ${
-                  index === currentIndexHero ? "active" : ""
-                }`}
-              >
-                {index === currentIndexHero && (
-                  <img
-                    src={image}
-                    alt={`Slide ${index + 1}`}
-                    loading="lazy" // Lazy loading aquí
-                  />
-                )}
-              </div>
-            ))}
-          </div>
-          {/* Flechitas */}
-          <button className="carouselHero-button prevHero" onClick={handlePrevHero}>
-            <img src={prev} alt="<" />
-          </button>
-          <button className="carouselHero-button nextHero" onClick={handleNextHero}>
-            <img src={next} alt=">" />
-          </button>
+      <div className="carouselHero">
+        <div className="carouselHero-container">
+          {images.map((image, index) => (
+            // Eliminamos el div que contenía la imagen
+            <img
+              key={index}
+              className={`carouselHero-item ${
+                index === currentIndexHero ? "active" : ""
+              }`}
+              src={image}
+              alt={`Slide ${index + 1}`}
+              loading="lazy" // Lazy loading
+              style={{ display: index === currentIndexHero ? "block" : "none" }} // Mostrar solo la imagen activa
+            />
+          ))}
         </div>
+        {/* Flechitas */}
+        <button className="carouselHero-button prevHero" onClick={handlePrevHero}>
+          <img src={prev} alt="<" />
+        </button>
+        <button className="carouselHero-button nextHero" onClick={handleNextHero}>
+          <img src={next} alt=">" />
+        </button>
       </div>
+
 
       <div className='accomodationsContainer2'>
         <div className='boxCookies'>
