@@ -21,13 +21,13 @@
 }
 .aboutUsHomeContainer {
     background-color: #F6F6F6;
-    padding: 5% 10%;
+    padding: 5% 11%;
     border-top: 3px var(--mainYellow) solid;
     border-bottom: 3px var(--mainYellow) solid;
 }
 .homeContainer2 {
     background-color: #F1F1F1;
-    padding: 5% 10%;
+    padding: 5% 11%;
 }
 .touristImagesHomeContainer {
     display: flex;

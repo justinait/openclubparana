@@ -41,7 +41,7 @@ h1, h4 {
 }
 .box h4 {
   margin: 0em 1em;
-  line-height: 20px;
+  line-height: 17px;
 }
 .reservarButton {
   font-family: 'Montserrat Variable', sans-serif;
@@ -67,7 +67,7 @@ h1, h4 {
 
 .boxContainer {
   background-color: #F6F6F6;
-  padding: 10%;
+  padding: 11%;
   border-top: 3px var(--mainYellow) solid;
   border-bottom: 3px var(--mainYellow) solid;
 }
