@@ -159,11 +159,12 @@ h1, h4 {
   .boxCookies {
     background-color: #000000B2;
     color: white;
-    width: 91%;
+    width: 86%;
+    padding: 3% 5%;
+    padding-left: 10%;
     font-size: 15px;
     position: absolute;
     transform: translateY(-108%) translateX(-5%);
-    padding: 3% 5%;
     border-top: 3px solid var(--mainYellow);
     display: flex;
     align-items: center;
