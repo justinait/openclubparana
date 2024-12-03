@@ -125,12 +125,12 @@ function Accommodations() {
   return (
     <div>
       <div className='accommodationsContainer'>
-        <div className="carousel">
-          <div className="carousel-container">
+        <div className="carouselHero">
+          <div className="carouselHero-container">
             {images.map((image, index) => (
               <div
                 key={index}
-                className={`carousel-item ${
+                className={`carouselHero-item ${
                   index === currentIndexHero ? "active" : ""
                 }`}
               >
@@ -145,10 +145,10 @@ function Accommodations() {
             ))}
           </div>
           {/* Flechitas */}
-          <button className="carousel-button prevHero" onClick={handlePrevHero}>
+          <button className="carouselHero-button prevHero" onClick={handlePrevHero}>
             <img src={prev} alt="<" />
           </button>
-          <button className="carousel-button nextHero" onClick={handleNextHero}>
+          <button className="carouselHero-button nextHero" onClick={handleNextHero}>
             <img src={next} alt=">" />
           </button>
         </div>
