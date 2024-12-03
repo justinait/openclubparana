@@ -9,6 +9,7 @@
 .linkStar {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 .linkStar img {
     width: 30px;
@@ -70,7 +71,11 @@
         height: 35px;
         margin-top: 8px;
     }
-
+    .linkStarP {
+        padding: 1px 7px 0px 15px;
+        right: 15px;
+        font-size: 10px;
+    }
     .linkStar img {
         width: 40px;
         z-index: 50;
@@ -93,6 +98,9 @@
     .linkStar img {
         width: 45px;
         z-index: 50;
+    }
+    .linkStarP {
+        font-size: 11px;
     }
 }
 @media(min-width:1200px) {
@@ -118,6 +126,10 @@
       visibility: hidden;
     }
 
+    .linkStarP {
+        font-size: 13px;
+        margin-top: 7px;
+    }
     .top75 {
         top: 84vh;
     }
@@ -138,5 +150,27 @@
     
     .top50 {
         top: 60vh;
+    }
+}
+@media(min-width:1800px) {
+    .linksContainer {
+        padding-left: 30px;
+    }
+    .linkWsp img {
+        width: 35px;
+    }
+    .linkWsp {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .linkStar img {
+        width: 55px;
+        z-index: 50;
+    }
+    .linkStarP {
+        font-size: 14px;
+        margin-top: 7px;
     }
 }

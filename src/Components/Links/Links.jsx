@@ -31,7 +31,7 @@ function Links() {
         setShowText(true);
   
           const hideTimeout = setTimeout(() => {
-              setHideText(true);
+            setHideText(true);
           }, 3000);
   
           return () => clearTimeout(hideTimeout);
