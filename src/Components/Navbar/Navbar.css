@@ -240,6 +240,10 @@ a:hover {
     .navbarContainer {
         padding: 0.3% 4%;
     }
+    .activeNavbar::after {
+        bottom: -9px;
+        height: 2px;
+    }
 }
 @media(min-width:1800px) {
     .logoNavbarA, .logoNavbar {
@@ -250,5 +254,9 @@ a:hover {
     }
     .navbarContainer {
         padding: 0.5% 4%;
+    }
+    .activeNavbar::after {
+        bottom: -10px;
+        height: 2px;
     }
 }
