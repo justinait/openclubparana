@@ -6,7 +6,6 @@ import airbnb from '../../assets/icons/airbnb.png'
 import booking from '../../assets/icons/booking.png'
 import instagram from '../../assets/icons/instagram.png'
 import wsp from '../../assets/icons/wsp.png'
-import { Link } from 'react-router-dom'
 
 function Contact() {
   return (

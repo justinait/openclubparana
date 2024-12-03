@@ -3,6 +3,7 @@ import './Wines.css'
 import logoWines from '../../assets/logoVinos.png'
 import { Link } from 'react-router-dom';
 import item from '../../assets/icons/itemO.png'
+import wsp from '../../assets/icons/wsp.png'
 
 
 function Wines() {
@@ -49,7 +50,10 @@ function Wines() {
 
         <div className='contactBoxWine'>
           <p className='contactTitle'>CONTACTO</p>
-          <Link className='contactLinkButton'>Vinos de Ríos</Link>
+          <div>
+          <a className='contactCircleIcons' target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></a>
+            <Link className='contactLinkButton'>Vinos de Ríos</Link>
+          </div>
         </div>
 
       </div>

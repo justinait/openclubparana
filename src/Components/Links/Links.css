@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 .linkStar img {
-    width: 30px;
+    width: 35px;
     z-index: 50;
 }
 .linkStarP {
@@ -23,16 +23,17 @@
     font-weight: 700;
     height: fit-content;
     padding: 1px 7px 0px 10px;
-    margin-top: 5px;
+    margin-top: 6px;
     border-radius: 25px;
     position: relative;
-    right: 10px;
+    right: 13px;
     opacity: 0;
     text-decoration: none;
     transform: translateY(10px);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .linkStar:hover .linkStarP {
+    transform: translateY(0px);
     opacity: 1;
 }
 .linkWsp {
@@ -43,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 3px;
+    margin-left: 5px;
     margin-top: 4px;
 }
 .linkWsp img {
@@ -101,6 +102,7 @@
     }
     .linkStarP {
         font-size: 11px;
+        right: 18px;
     }
 }
 @media(min-width:1200px) {
@@ -118,7 +120,7 @@
     }
 
     .linkStar img {
-        width: 45px;
+        width: 55px;
         z-index: 50;
     }
     .linksContainer.hidden {
@@ -128,7 +130,8 @@
 
     .linkStarP {
         font-size: 13px;
-        margin-top: 7px;
+        margin-top: 9px;
+        right: 20px;
     }
     .top75 {
         top: 84vh;
@@ -163,10 +166,11 @@
         width: 50px;
         height: 50px;
         margin-top: 10px;
+        margin-left: 10px;
     }
 
     .linkStar img {
-        width: 55px;
+        width: 70px;
         z-index: 50;
     }
     .linkStarP {

@@ -341,6 +341,9 @@
     .alojamientosInfoContainer, .ourTouristsContainerAlojamientos {
         font-size: 13px;
     }
+    .carouselHero-item {
+        margin-top: 5vh;
+    }
 }
 
 @media(min-width:1200px) {
