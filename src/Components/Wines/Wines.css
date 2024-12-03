@@ -25,14 +25,17 @@
 }
 .contactBoxWine {
     width: fit-content;
-    margin: 40px auto 0 auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .winesEventsContainer {
     margin: 9% 0;
     font-weight: 500;
 }
 .contactBoxWine .contactTitle {
-    margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 @media(min-width: 700px) {
