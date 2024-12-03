@@ -401,6 +401,9 @@
     .alojamientoP {
         font-size: 18px;
     }
+    .carousel-button {
+        top: 40%;
+    }
 }
 @media(min-width: 1800px) {
     
