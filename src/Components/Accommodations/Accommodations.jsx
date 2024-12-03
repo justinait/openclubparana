@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Accommodations.css'
 import hero1 from '../../assets/alojamientoshero.jpg'
-import hero2 from '../../assets/alojamientoshero2.jpg'
+import hero2 from '../../assets/alojamientoshero5.jpg'
 import hero3 from '../../assets/alojamientoshero3.jpg'
 
 import monostd1 from '../../assets/accommodations/monostd/PORTADA.jpg'
