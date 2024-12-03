@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import './Accommodations.css'
+import hero1 from '../../assets/alojamientoshero.jpg'
+import hero2 from '../../assets/alojamientoshero2.jpg'
+import hero3 from '../../assets/alojamientoshero3.jpg'
 
 import monostd1 from '../../assets/accommodations/monostd/PORTADA.jpg'
 import monostd2 from '../../assets/accommodations/monostd/2.jpg'
@@ -53,6 +56,7 @@ function Accommodations() {
   const [currentImages, setCurrentImages] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [currentIndexHero, setCurrentIndexHero] = useState(0);
 
   const icons = [
     { name: 'wifi', image: wifi},
@@ -103,11 +107,53 @@ function Accommodations() {
       setImagesLoaded(true);
     }
   };
-  
+  const handlePrevHero = () => {
+    setCurrentIndexHero((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleNextHero = () => {
+    setCurrentIndexHero((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const images = [
+    hero1, hero2, hero3
+  ];
   return (
     <div>
       <div className='accommodationsContainer'>
+        <div className="carousel">
+          <div className="carousel-container">
+            {images.map((image, index) => (
+              <div
+                key={index}
+                className={`carousel-item ${
+                  index === currentIndexHero ? "active" : ""
+                }`}
+              >
+                {index === currentIndexHero && (
+                  <img
+                    src={image}
+                    alt={`Slide ${index + 1}`}
+                    loading="lazy" // Lazy loading aquí
+                  />
+                )}
+              </div>
+            ))}
+          </div>
+          {/* Flechitas */}
+          <button className="carousel-button prevHero" onClick={handlePrevHero}>
+            <img src={prev} alt="<" />
+          </button>
+          <button className="carousel-button nextHero" onClick={handleNextHero}>
+            <img src={next} alt=">" />
+          </button>
+        </div>
       </div>
+
       <div className='accomodationsContainer2'>
         <div className='boxCookies'>
           <p>Nuestro complejo ofrece una alternativa distinta de alojamiento, ubicado a trescientos metros del Río Paraná. 

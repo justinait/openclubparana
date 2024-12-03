@@ -1,10 +1,61 @@
 .accommodationsContainer {
     width: 100%;
     aspect-ratio: 3/2 !important;
-    background-image: url('../../assets/alojamientoshero.jpg');
-    background-size: cover;
+    /* background-image: url('../../assets/alojamientoshero.jpg');
+    background-size: cover; */
     position: relative;
 }
+.carousel {
+    width: 100%;
+    aspect-ratio: 3/2;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-container {
+    /* display: flex; */
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+  
+.carousel-item.active {
+    opacity: 1;
+}
+  
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 8vh;
+}
+  
+.carousel-button {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-button.prevHero {
+    left: 10px;
+}
+  
+.carousel-button.nextHero {
+    right: 10px;
+}
+  
+.carousel-button img {
+    width: 10px;
+    height: auto;
+} 
 .accomodationsContainer2 {
     padding: 8% 8% 0 8%;
     margin: auto;
@@ -247,6 +298,10 @@
         border-bottom: 4px var(--mainYellow) solid;
     }
 
+    .carousel-button img {
+        width: 20px;
+        height: auto;
+    } 
 }
 @media(min-width:1000px) {
     .accommodationsContainer {
@@ -326,6 +381,15 @@
         aspect-ratio: unset !important;
         height: 99vh;
         background-position: center;
+    }
+    .carousel-button {
+        top: 53%;
+    }
+    .carousel-button.prevHero {
+        left: 30px;
+    }
+    .carousel-button.nextHero {
+        right: 30px;
     }
 }
 
