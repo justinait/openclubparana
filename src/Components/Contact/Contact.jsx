@@ -34,17 +34,17 @@ function Contact() {
           <div className='contactSocialContainer'>
             <p className='contactTitle'>CONTACTO</p>
             <div className='contactIconsSocialContainer'>
-              <a className='contactCircleIcons' href=''> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></a>
-              <a className='contactCircleIcons' href=''> <img  className='contactLinksIcons' src={airbnb} alt="Airbnb" /></a>
-              <a className='contactCircleIcons' href='https://booking.bebetterhotels.com/reservation/openclub'> <img  className='contactLinksIcons' src={booking} alt="booking" /></a>
-              <a className='contactCircleIcons' href=''> <img  className='contactLinksIcons' src={instagram} alt="instagram" /></a>
+              <a className='contactCircleIcons' target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></a>
+              <a className='contactCircleIcons' target="_blank" rel="noopener noreferrer" href='https://es.airbnb.com/rooms/1233462678402373833?_set_bev_on_new_domain=1733261624_EAODUxNTk0MGJkN2&source_impression_id=p3_1733261628_P3ZukGqyhGoCmWl9'> <img  className='contactLinksIcons' src={airbnb} alt="Airbnb" /></a>
+              <a className='contactCircleIcons' target="_blank" rel="noopener noreferrer" href='https://www.booking.com/hotel/ar/open-club.es.html?label=Spanish_Argentina_ES_AR_20153587225-6h15TH8LvM25bNckrW9zZwS217247257083%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atidsa-162435869305%3Alp1000078%3Ali%3Adec%3Adm&sid=68b6d2ebddba48b4b64612057f6a9553&gclid=CjwKCAiA9bq6BhAKEiwAH6bqoPsjvbfdANjGahW7wMzBxpGeDO_2iHVxftHf983mSP27zg54dBJaNRoCJ-0QAvD_BwE&aid=318615&ucfs=1&arphpl=1&dest_id=-1006942&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=bd409819425400b4&srepoch=1733261882&from_sustainable_property_sr=1&from=searchresults'> <img  className='contactLinksIcons' src={booking} alt="booking" /></a>
+              <a className='contactCircleIcons' target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/openclubparana/?hl=es'> <img  className='contactLinksIcons' src={instagram} alt="instagram" /></a>
             </div>
           </div>
 
           <p className='mailContact'>openclub@costanera241.tur.ar</p>
           <p className='mailContactDescription'>*También podes encontrarnos en Booking o Airbnb</p>
 
-          <button className='reservarButton'>Contactános</button>
+          <button className='reservarButton'>Contactanos</button>
         </div>
 
       </div>
