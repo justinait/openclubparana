@@ -178,7 +178,7 @@
         padding: 1% 3% 0 3%;
     }
     .alojamientoItem {
-        width: 25%;
+        width: 23%;
         margin-top: 0;
     }
     .alojamientoP {
@@ -188,12 +188,14 @@
     .alojamientoImage {
         border-radius: 8px;
     }
-      
+    .accommodationsItemsContainer {
+        justify-content: center;
+    }
     .alojamientosInfoContainer {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 7% 1.5%;
+        padding: 7% 5%;
         font-size: 11px;
         justify-content: space-between;
     }

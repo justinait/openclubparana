@@ -44,11 +44,7 @@
     margin-right: 5px;
 }
 @media(min-width:700px) {
-    .eventsBoxCookiesSeparator {
-        background-color: #000000B2;
-        padding: 3% 4%;
-        transform: translateY(-100%) translateX(0%);
-    }
+   
     .eventsH4Title {
         width: 90%;
         margin: 5% auto;
@@ -70,14 +66,16 @@
         width: 18px;
         margin-right: 8px;
     }
-    .eventsBoxCookiesSeparator {
-        border-top: 4px var(--mainYellow) solid;
-    }
 }
 
 
 @media(min-width:1000px) {
-    
+    .eventsBoxCookiesSeparator {
+        border-top: 4px var(--mainYellow) solid;
+        background-color: #000000B2;
+        padding: 3% 4%;
+        transform: translateY(-100%) translateX(0%);
+    }
     .eventsContainer {
         aspect-ratio: 16 / 9 !important;
     }

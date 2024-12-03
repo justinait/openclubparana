@@ -128,11 +128,39 @@ h1, h4 {
   .box::before {
     width: 6px;
   }
+  .tabletOff {
+    display: none;
+  }
+  .contactTitle {
+    font-size: 15px;
+    padding: 14px 20px;
+  }
+  .contactLinkButton {
+    font-size: 13px;
+    padding: 8px 15px;
+    margin: 0 0 8px 0;
+  }
+  .contactBoxWine .contactTitle {
+    margin-bottom: 25px;
+  }
+  
+  .boxContainer {
+    border-top: 4px var(--mainYellow) solid;
+    border-bottom: 4px var(--mainYellow) solid;
+  }
+  .boxCookies {
+    padding: 3% 5% 0;
+  }
+}
+
+@media(min-width:1000px) {
+  
+  
   .boxCookies {
     background-color: #000000B2;
     color: white;
-    font-size: 12.5px;
-    width: 92%;
+    width: 91%;
+    font-size: 15px;
     position: absolute;
     transform: translateY(-108%) translateX(-5%);
     padding: 3% 5%;
@@ -157,33 +185,6 @@ h1, h4 {
   .boxCookies p {
     width: 80%;
     text-align: left;
-  }
-  .tabletOff {
-    display: none;
-  }
-  .contactTitle {
-    font-size: 15px;
-    padding: 14px 20px;
-  }
-  .contactLinkButton {
-    font-size: 13px;
-    padding: 8px 15px;
-    margin: 0 0 8px 0;
-  }
-  .contactBoxWine .contactTitle {
-    margin-bottom: 25px;
-  }
-  
-  .boxContainer {
-    border-top: 4px var(--mainYellow) solid;
-    border-bottom: 4px var(--mainYellow) solid;
-  }
-}
-
-@media(min-width:1000px) {
-  .boxCookies {
-    width: 91%;
-    font-size: 15px;
   }
   body {
     font-size: 15px;
