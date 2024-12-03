@@ -1,5 +1,6 @@
 import React from 'react'
 import './Events.css'
+import item from '../../assets/icons/itemO.png'
 
 function Events() {
   
@@ -40,7 +41,7 @@ function Events() {
           {
             items.map((e, i)=> (
               <div key={i} className={`itemsEvents ${i < 4 ? "group1" : "group2"}`}>
-                <img loading='lazy' src="" alt="-" />
+                <img loading='lazy' src={item} alt="-" className='itemImg'/>
                 <p>{e.name}</p>
               </div>
             ))

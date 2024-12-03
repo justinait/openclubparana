@@ -2,6 +2,8 @@ import React from 'react'
 import './Wines.css'
 import logoWines from '../../assets/logoVinos.png'
 import { Link } from 'react-router-dom';
+import item from '../../assets/icons/itemO.png'
+
 
 function Wines() {
   
@@ -34,7 +36,7 @@ function Wines() {
           {
             items.map((e, i)=> (
               <div key={i} className={`itemsEvents itemsWines ${i < 3 ? "group1" : "group2"}`}>
-                <img loading='lazy' src="" alt="-" />
+                <img loading='lazy' src={item} alt="-" className='itemImg'/>
                 <div>
                   <p>{e.name}</p>
                   <p className='descriptionItemText'>{e.description}</p>
