@@ -28,20 +28,19 @@
     margin: 6%;
 }
 .itemsEvents p {
-    width: 32vw;
     font-size: 9px;
 }
-.group1,
-.group2 {
-    flex: 1;
+.itemsEvents {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top: 5px;
+    width: 50%;
 }
 .itemImg {
     width: 15px;
+    margin-right: 5px;
 }
 @media(min-width:700px) {
     .eventsBoxCookiesSeparator {

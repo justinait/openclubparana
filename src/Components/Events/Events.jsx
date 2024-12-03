@@ -40,7 +40,7 @@ function Events() {
         <div className='itemsEventsContainer'>
           {
             items.map((e, i)=> (
-              <div key={i} className={`itemsEvents ${i < 4 ? "group1" : "group2"}`}>
+              <div key={i} className="itemsEvents">
                 <img loading='lazy' src={item} alt="-" className='itemImg'/>
                 <p>{e.name}</p>
               </div>
