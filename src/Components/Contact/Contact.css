@@ -37,6 +37,9 @@
     display: flex;
     padding: 5px 11.5px;
 }
+.contactContainer .logoHero {
+    top: 10%;
+}
 @media(min-width:700px){
     
     .contactContainer2 {
@@ -69,6 +72,9 @@
 
 }
 @media(min-width:1200px){
+    .contactContainer .logoHero {
+        top: 20%;
+    }
     .contactContainer {
         background-position-y: 35%;
         aspect-ratio: unset !important;
