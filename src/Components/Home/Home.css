@@ -163,7 +163,9 @@
     }
 }
 @media(min-width:1800px) {
-    
+    .logoHero {
+        top: 25%;
+    }
     .touristImagesHomeContainer {
         padding: 0px 7%;
     }    

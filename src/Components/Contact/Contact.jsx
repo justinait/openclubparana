@@ -1,11 +1,13 @@
 import React from 'react'
 import './Contact.css'
 import GoogleMap from './GoogleMap'
+import logo from '../../assets/logoblanco.png'
 
 function Contact() {
   return (
     <div>
       <div className='contactContainer'>
+        <img loading='lazy' src={logo} alt="Open Club - Complejo turístico" className='logoHero' />
       </div>
       <div className='boxCookies eventsBoxCookiesSeparator'>
         <p>
