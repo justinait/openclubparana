@@ -45,24 +45,32 @@ function Links() {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
         const footerPosition = document.querySelector('#footerContainer')?.offsetTop;
-  
-        if (location.pathname === '/' && window.innerWidth >= 1200) {
-          if (footerPosition && scrollPosition + window.innerHeight >= footerPosition - 300) {
-            setIsHidden(true);  // Ocultar el componente cuando esté a 200px del footer
-          }
-        } else {
-          if (footerPosition && scrollPosition + window.innerHeight >= footerPosition + 50) {
-            setIsHidden(true);  // Ocultar el componente cuando esté a 200px del footer
+    
+        if (footerPosition) {
+          if (location.pathname === '/' && window.innerWidth >= 1200) {
+            
+            if (scrollPosition + window.innerHeight >= footerPosition - 300) {
+              setIsHidden(true); 
+            } else {
+              setIsHidden(false); 
+            }
           } else {
-            setIsHidden(false);  // Mostrar el componente si no estamos cerca del footer
+            
+            if (scrollPosition + window.innerHeight >= footerPosition - 50) {
+              setIsHidden(true); 
+            } else {
+              setIsHidden(false); 
+            }
           }
         }
       };
-  
+    
       window.addEventListener('scroll', handleScroll);
-      
-      return () => window.removeEventListener('scroll', handleScroll);  // Limpieza al desmontar
-    }, [location]);
+    
+      handleScroll();
+    
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, [location]);    
 
     const topClass = getTopPosition();
     
