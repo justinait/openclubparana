@@ -127,6 +127,9 @@ h1, h4 {
   left: 25px; /* Ajusta la posición horizontal del círculo */
   transform: translate(-50%, -50%);
 }
+.contactLinkButtonContainer .contactLinksIcons {
+  width: 25px;
+}
 @media(min-width:700px) {
 
   body {
@@ -174,6 +177,9 @@ h1, h4 {
     margin: 0;
     width: 40px;
     height: 40px;
+  }
+  .contactLinkButtonContainer .contactLinksIcons {
+    width: 30px;
   }
 }
 
