@@ -2,6 +2,11 @@ import React from 'react'
 import './Contact.css'
 import GoogleMap from './GoogleMap'
 import logo from '../../assets/logoblanco.png'
+import airbnb from '../../assets/icons/airbnb.png'
+import booking from '../../assets/icons/booking.png'
+import instagram from '../../assets/icons/instagram.png'
+import wsp from '../../assets/icons/wsp.png'
+import { Link } from 'react-router-dom'
 
 function Contact() {
   return (
@@ -26,10 +31,14 @@ function Contact() {
         <GoogleMap />
 
         <div className='contactContainer3'>
-          <p className='contactTitle'>CONTACTO</p>
-          <div>
-            {/* icons */}
-            {/* https://booking.bebetterhotels.com/reservation/openclub */}
+          <div className='contactSocialContainer'>
+            <p className='contactTitle'>CONTACTO</p>
+            <div className='contactIconsSocialContainer'>
+              <a className='contactCircleIcons' href=''> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></a>
+              <a className='contactCircleIcons' href=''> <img  className='contactLinksIcons' src={airbnb} alt="Airbnb" /></a>
+              <a className='contactCircleIcons' href='https://booking.bebetterhotels.com/reservation/openclub'> <img  className='contactLinksIcons' src={booking} alt="booking" /></a>
+              <a className='contactCircleIcons' href=''> <img  className='contactLinksIcons' src={instagram} alt="instagram" /></a>
+            </div>
           </div>
 
           <p className='mailContact'>openclub@costanera241.tur.ar</p>

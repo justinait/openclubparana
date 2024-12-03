@@ -40,6 +40,27 @@
 .contactContainer .logoHero {
     top: 10%;
 }
+.contactIconsSocialContainer {
+    display: flex;
+}
+.contactSocialContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactCircleIcons {
+    background-color: white;
+    margin: 3px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactLinksIcons {
+    width: 25px;
+}
 @media(min-width:700px){
     
     .contactContainer2 {
