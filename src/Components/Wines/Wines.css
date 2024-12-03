@@ -12,11 +12,16 @@
     bottom: 0px;
 }
 .descriptionItemText{
-    font-size: 7px !important;
-    font-size: 5px !important;
+    font-size: 6px !important;
+    white-space: nowrap; /* Evita que el texto haga un salto de línea */
+    overflow: hidden;    /* Opcional: oculta el exceso de texto */
+    text-overflow: ellipsis;
 }
 .boxContainerWines {
-    padding: 6% 11%;
+    padding: 6% 8%;
+}
+.boxContainerWines .box {
+    margin: 5%;
 }
 .contactBoxWine {
     width: fit-content;
@@ -36,10 +41,12 @@
     }    
     .winesEventsContainer {
         margin: 9% auto;
-        width: 71vw;
     }
     .descriptionItemText {
         font-size: 9px !important;
+    }
+    .boxContainerWines .box {
+        margin: 1%;
     }
 }
 
@@ -49,6 +56,9 @@
     }
     .winesContainer  {
         aspect-ratio: 16 / 9 !important;
+    }
+    .boxContainerWines .box {
+        margin: 0%;
     }
 }
 
@@ -69,7 +79,6 @@
         margin-bottom: 3%;
     }
     .winesEventsContainer {
-        width: 60vw;
         margin: 0% auto;
     }
     .winesLogoImage {
