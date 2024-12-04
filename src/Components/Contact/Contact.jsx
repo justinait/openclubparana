@@ -20,8 +20,7 @@ function Contact() {
           Entre ellos destacamos, apartamentos premium, eventos exclusivos, nuestra propia agencia de viajes, vinoteca de vinos 
           entrerrianos, temporada de verano con bar y piscinas, y otros.
         </p>
-        
-        <a>Contactanos</a>
+        <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762'>Contactanos</a>
       </div>
 
       <div className='contactContainer2'>
@@ -40,7 +39,7 @@ function Contact() {
             </div>
           </div>
 
-          <p className='mailContact'>openclub@costanera241.tur.ar</p>
+          <a href="mailto:openclub@costanera241.tur.ar" target='_blank' className='mailContact'>openclub@costanera241.tur.ar</a>
           <p className='mailContactDescription'>*También podes encontrarnos en Booking o Airbnb</p>
 
 
