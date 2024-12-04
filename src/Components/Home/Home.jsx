@@ -7,7 +7,7 @@ import events from '../../assets/eventshome.jpg'
 import Reviews from './Reviews'
 import { Link } from 'react-router-dom'
 import video from '/hero.mp4'
-
+import video2 from '../../../public/hero.mp4'
 function Home() {
   
   useEffect(() => {
@@ -26,7 +26,7 @@ function Home() {
     <div>
 
       <div className='homeContainer'>
-        <video src={video}       muted loop autoPlay playsInline        className='videoHero'>        </video>
+        <video src={video2}  preload="auto"     muted loop autoPlay playsInline        className='videoHero'>        </video>
         <img loading='lazy' src={logo} alt="Open Club - Complejo turístico" className='logoHero' />
       </div>
       <div className='aboutUsHomeContainer'>
