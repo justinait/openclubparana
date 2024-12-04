@@ -21,7 +21,7 @@ function Contact() {
           entrerrianos, temporada de verano con bar y piscinas, y otros.
         </p>
         
-        <button>Contactanos</button>
+        <a>Contactanos</a>
       </div>
 
       <div className='contactContainer2'>
@@ -43,7 +43,8 @@ function Contact() {
           <p className='mailContact'>openclub@costanera241.tur.ar</p>
           <p className='mailContactDescription'>*También podes encontrarnos en Booking o Airbnb</p>
 
-          <button className='reservarButton'>Contactanos</button>
+
+          <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762'  className='reservarButton'>Contactanos</a>
         </div>
 
       </div>

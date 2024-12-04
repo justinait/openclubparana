@@ -107,6 +107,7 @@ h1, h4 {
   border: none;
   text-decoration: none;
   margin: 4px;
+  width: 100%;
 }
 .contactLinkButtonContainer {
   display: flex;

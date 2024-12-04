@@ -36,6 +36,7 @@
     margin: 11% auto 12%;
     display: flex;
     padding: 5px 11.5px;
+    width: fit-content;
 }
 .contactContainer .logoHero {
     top: 10%;
