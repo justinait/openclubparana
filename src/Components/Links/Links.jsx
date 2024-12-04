@@ -81,10 +81,10 @@ function Links() {
         <p className={`linkStarP ${showText ? "show" : ""} ${hideText ? "hide" : ""}`}>Accede a los beneficios exclusivos</p>
       </Link>
 
-      <div className='linkWsp'>
+      <a href='https://api.whatsapp.com/send?phone=5493434052762' rel="noopener noreferrer" target='_blank' className='linkWsp'>
         <img src={wsp} alt="WhatsApp" />
-      </div>
-      {/* +54 9 3434 05-2762 */}
+      </a>
+
     </div>
   )
 }

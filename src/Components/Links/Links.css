@@ -71,6 +71,7 @@
         width: 35px;
         height: 35px;
         margin-top: 8px;
+        margin-left: 2px;
     }
     .linkStarP {
         padding: 1px 7px 0px 15px;
@@ -117,6 +118,7 @@
         width: 40px;
         height: 40px;
         margin-top: 10px;
+        margin-left: 8px;
     }
 
     .linkStar img {
