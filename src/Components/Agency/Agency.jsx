@@ -3,7 +3,7 @@ import './Agency.css'
 import nautico from '../../assets/agencyrio.jpg'
 import wines from '../../assets/agencywines.jpg'
 import costanera from '../../assets/logoCostanera.png'
-import video from '../../assets/agencyhero.mp4'
+import video from '/agencyhero.mp4'
 import wsp from '../../assets/icons/wsp.png'
 
 function Agency() {
@@ -16,10 +16,7 @@ function Agency() {
   return (
     <div>
       <div className='agencyContainer'>
-        <video autoPlay muted loop playsInline className='videoHeroAgency' loading='lazy'>
-          <source src={video} type="video/mp4" /> 
-          Tu navegador no soporta videos HTML5.
-        </video>
+        <video src={video} autoPlay muted loop playsInline className='videoHeroAgency' loading='lazy'> </video>
         <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />
       </div>
 
