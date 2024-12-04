@@ -20,6 +20,8 @@
 .contactDirection {
     text-align: center;
     margin: 1rem;
+    color: black;
+    text-decoration: none;
 }
 .mailContact {
     text-decoration: underline;
