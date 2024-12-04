@@ -7,6 +7,7 @@ import season4 from '../../assets/season4.png'
 import season5 from '../../assets/season5.jpg'
 import season6 from '../../assets/season6.png'
 import { Link } from 'react-router-dom'
+import wsp from '../../assets/icons/wsp.png'
 
 function Season() {
 
@@ -65,9 +66,16 @@ function Season() {
 
             <div className='seasonContactDiv'>
               <p className='contactTitle'>CONTACTO</p>
+
               <div className='contactSeasonLinks'>
-                <a href='https://api.whatsapp.com/send?phone=5493434052762' rel="noopener noreferrer" target='_blank' className='contactLinkButton'>Whatsapp</a>
-                <a href='https://www.instagram.com/openclubparana/' rel="noopener noreferrer" target='_blank'  className='contactLinkButton'>Intagram</a>
+                <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762' className='contactLinkButtonContainer'>
+                  <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+                  <p className='contactLinkButton'>Whatsapp</p>
+                </a>
+                <a target='_blank' rel="noopener noreferrer"  href='https://www.instagram.com/openclubparana/' className='contactLinkButtonContainer'>
+                  <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+                  <p className='contactLinkButton'>Intagram</p>
+                </a>
               </div>
 
               <p className='aclarationSeason desktop1200On'>*No es necesario reservar la visita por el día, se abona al ingresar.</p>

@@ -86,6 +86,13 @@
 .desktop1200On {
     display: none;
 }
+.contactSeasonLinks .contactLinkButtonContainer{
+    padding: 5px 0 5px 20px;
+}
+
+.seasonContactDiv .contactTitle{
+    margin: 10px;
+}
 @media(min-width:700px){
     
     .seasonContactDiv .contactTitle {
