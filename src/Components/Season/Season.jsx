@@ -66,8 +66,8 @@ function Season() {
             <div className='seasonContactDiv'>
               <p className='contactTitle'>CONTACTO</p>
               <div className='contactSeasonLinks'>
-                <Link className='contactLinkButton'>Whatsapp</Link>
-                <Link className='contactLinkButton'>Intagram</Link>
+                <a href='https://api.whatsapp.com/send?phone=5493434052762' rel="noopener noreferrer" target='_blank' className='contactLinkButton'>Whatsapp</a>
+                <a href='https://www.instagram.com/openclubparana/' rel="noopener noreferrer" target='_blank'  className='contactLinkButton'>Intagram</a>
               </div>
 
               <p className='aclarationSeason desktop1200On'>*No es necesario reservar la visita por el día, se abona al ingresar.</p>
