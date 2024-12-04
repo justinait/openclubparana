@@ -73,11 +73,14 @@ function Navbar() {
             
 
             <div className='navbarMenuAndSearchContainer'>
-                <>
-                    {showSearchBar && <SearchBar secciones={secciones} onClose={toggleSearchBar} />}
-                    <img className='searchIcon' src={search} onClick={toggleSearchBar} />
-                    <img src={star} alt="DESTACADOS" className='starNavbar'/>
-                </> 
+                {
+                    !openMenu &&
+                    <>
+                        {showSearchBar && <SearchBar secciones={secciones} onClose={toggleSearchBar} />}
+                        <img className='searchIcon' src={search} onClick={toggleSearchBar} />
+                        <img src={star} alt="DESTACADOS" className='starNavbar'/>
+                    </> 
+                }
                 <div className='menuNavbarIconsContainer'>
                     {
                         !openMenu ?
