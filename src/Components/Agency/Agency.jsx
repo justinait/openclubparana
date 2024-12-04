@@ -3,7 +3,7 @@ import './Agency.css'
 import nautico from '../../assets/agencyrio.jpg'
 import wines from '../../assets/agencywines.jpg'
 import costanera from '../../assets/logoCostanera.png'
-import video from '/agencyhero.mp4'
+import video from '/agencyhero_1.mp4'
 import wsp from '../../assets/icons/wsp.png'
 
 function Agency() {
