@@ -53,6 +53,7 @@ h1, h4 {
   background-color: var(--mainYellow);
   color: var(--color-darkWhite);
   border-radius: 20px;
+  text-decoration: none;
   border: none;
 }
 
@@ -60,9 +61,10 @@ h1, h4 {
   padding: 0 5%;
   text-align: center;
 }
-.boxCookies button {
+.boxCookies a {
   display: none;
   font-family: 'Montserrat Variable', sans-serif;
+  text-decoration: none;
 }
 
 .boxContainer {
@@ -112,6 +114,7 @@ h1, h4 {
   position: relative;
   width: fit-content;
   padding: 10px 20px;
+  text-decoration: none;
 }
 .contactLinkButtonContainer .contactLinkButton {
   margin: 0;
@@ -200,7 +203,7 @@ h1, h4 {
     justify-content: space-between;
   }
   
-  .boxCookies button, .reservarButton {
+  .boxCookies a, .reservarButton {
     font-size: 13px;
     font-weight: 600;
     padding: 4px 20px;
@@ -211,6 +214,8 @@ h1, h4 {
     border-radius: 20px;
     border: none;
     display: unset;
+    text-decoration: none;
+
   }
   .boxCookies p {
     width: 80%;
@@ -223,7 +228,7 @@ h1, h4 {
   h1, h4 {
     font-size: 19px;
   }    
-  .boxCookies button, .reservarButton {
+  .boxCookies a, .reservarButton {
     font-size: 18px;
     padding: 7px 25px;
   }
@@ -263,7 +268,7 @@ h1, h4 {
     width: 85%;
     transform: translateY(-110%) translateX(-11%);
   }
-  .boxCookies button, .reservarButton {
+  .boxCookies a, .reservarButton {
     font-size: 20px;
     padding: 10px 25px;
   }

@@ -30,7 +30,7 @@ function Events() {
           lo cual nos brindan distintas alternativas para brindar una experiencia completa. 
           De la mano de nuestro equipo listo para garantizar un momento especial. 
         </p>
-        <button>Reservar</button>
+        <a href='https://api.whatsapp.com/send?phone=5493434052762' rel="noopener noreferrer"  target='_blank'>Reservar</a>
       </div>
 
       <div className='boxContainer eventsBoxContainer'>
@@ -46,7 +46,7 @@ function Events() {
               </div>
             ))
           }
-          <button className='reservarButton tabletOff'>Reservar</button>
+          <a href='https://api.whatsapp.com/send?phone=5493434052762' target='_blank' rel="noopener noreferrer"  className='reservarButton tabletOff'>Reservar</a>
         </div>
       </div>
     </div>

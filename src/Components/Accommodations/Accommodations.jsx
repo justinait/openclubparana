@@ -155,7 +155,7 @@ function Accommodations() {
             Esta opción única no solo te brinda acceso a las instalaciones mencionadas, sino también una cercanía privilegiada 
             a todos los servicios y amenidades que ofrecemos a través del paquete de beneficios “Nuestro Turista”.
           </p>
-          <button>Reservar</button>
+          <a href='https://api.whatsapp.com/send?phone=5493434052762' target='_blank' rel="noopener noreferrer" >Reservar</a>
         </div>
 
         <div className='accommodationsItemsContainer'>
@@ -190,7 +190,7 @@ function Accommodations() {
             </div>
           </div>
             <div className='reservarAlojamientoContainer'>
-              <button className='reservarButton'>Reservar</button>
+              <a href='https://api.whatsapp.com/send?phone=5493434052762' rel="noopener noreferrer"  target='_blank' className='reservarButton'>Reservar</a>
             </div>
         </div>
 

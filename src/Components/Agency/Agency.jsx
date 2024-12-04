@@ -55,9 +55,9 @@ function Agency() {
           <p className='contactTitle'>CONTACTO</p>
           
           <div className='agencyContactLinksDiv'>
-            <Link className='contactLinkButton'>Costanera 241</Link>
-            <Link className='contactLinkButton'>Paraná tu rio</Link>
-            <Link className='contactLinkButton'>Vinos de ríos</Link>
+            <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493435241636' className='contactLinkButton'>Costanera 241</a>
+            <a target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434762040' className='contactLinkButton'>Paraná tu rio</a>
+            <a target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434718404' className='contactLinkButton'>Vinos de ríos</a>
           </div>
 
         </div>
