@@ -77,7 +77,7 @@ function Navbar() {
                     !openMenu &&
                     <>
                         {showSearchBar && <SearchBar secciones={secciones} onClose={toggleSearchBar} />}
-                        <img className='searchIcon' src={search} onClick={toggleSearchBar} />
+                        <img className='searchIcon' src={search} onClick={toggleSearchBar} alt='Buscar'/>
                         <img src={star} alt="DESTACADOS" className='starNavbar'/>
                     </> 
                 }
