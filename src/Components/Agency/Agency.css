@@ -29,7 +29,7 @@
 
 .agencyTitle {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 .agencyTitle p {
     font-size: 9px;
