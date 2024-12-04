@@ -16,7 +16,7 @@ function Agency() {
   return (
     <div>
       <div className='agencyContainer'>
-        <video src="https://res.cloudinary.com/dsgxxcikg/video/upload/v1732548439/caiventures/openclub/gtssxqmrhr5hrauq71gr.mp4" preload="auto" autoPlay muted loop playsInline className='videoHeroAgency'> </video>
+        <video src='/agencyhero.mp4' preload="auto" autoPlay muted loop playsInline className='videoHeroAgency'> </video>
         <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />
       </div>
 
