@@ -54,10 +54,6 @@ function Agency() {
         <div className='agencyContactDiv'>
           
           <p className='contactTitle'>CONTACTO</p>
-          {/* <a target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434718404' className='contactLinkButtonContainer'>
-            <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
-            <p className='contactLinkButton'>Vinos de Ríos</p>
-          </a> */}
           <div className='agencyContactLinksDiv'>
 
             <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493435241636' className='contactLinkButtonContainer'>

@@ -59,6 +59,12 @@
     display: flex;
     flex-direction: column;
 }
+.agencyContactDiv .contactLinkButtonContainer {
+    padding: 5px 20px;
+}
+.agencyContactDiv .contactTitle{
+    margin: 10px;
+}
 @media(min-width:700px){
     .agencyTitle p {
         font-size: 10px;
@@ -75,7 +81,7 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        margin-top: 35px;
+        margin-top: 45px;
     }
     .agencyContactLinksDiv {
         display: flex;
@@ -83,6 +89,13 @@
     }
     .costaneraAgency {
         width: 250px;
+    }
+        
+    .agencyContactDiv .contactTitle{
+        margin: 0px;
+    }
+    .agencyContactDiv .contactLinkButtonContainer {
+        padding: 5px 0px 5px 20px;
     }
 }
 @media(min-width:1000px) {
@@ -117,8 +130,16 @@
         height: 99vh;
     }
 }
+@media(min-width:1400px) {
+    .agencyContactDiv .contactTitle {
+        margin-right: 20px;
+    }
+}
 @media(min-width:1800px) {
     .agencyTitle p {
         font-size: 14px;
+    }
+    .agencyContactDiv .contactTitle {
+        margin-right: 30px;
     }
 }
