@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Accommodations.css'
 import hero1 from '../../assets/alojamientoshero.jpg'
 import hero2 from '../../assets/alojamientoshero5.jpg'
@@ -57,6 +57,13 @@ function Accommodations() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imagesLoaded, setImagesLoaded] = useState(false);
   const [currentIndexHero, setCurrentIndexHero] = useState(0);
+  const [showBox, setShowBox] = useState(false);
+
+  useEffect(() => {
+    // Aparece el componente después de 1 segundo
+    const timer = setTimeout(() => setShowBox(true), 1000);
+    return () => clearTimeout(timer); // Limpia el timeout al desmontar
+  }, []);
 
   const icons = [
     { name: 'wifi', image: wifi},
@@ -150,7 +157,7 @@ function Accommodations() {
 
 
       <div className='accomodationsContainer2'>
-        <div className='boxCookies'>
+        <div className={`boxCookies ${showBox ? "active" : ""}`}>
           <p>Nuestro complejo ofrece una alternativa distinta de alojamiento, ubicado a trescientos metros del Río Paraná. 
             Esta opción única no solo te brinda acceso a las instalaciones mencionadas, sino también una cercanía privilegiada 
             a todos los servicios y amenidades que ofrecemos a través del paquete de beneficios “Nuestro Turista”.

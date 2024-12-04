@@ -3,7 +3,6 @@ import './Agency.css'
 import nautico from '../../assets/agencyrio.jpg'
 import wines from '../../assets/agencywines.jpg'
 import costanera from '../../assets/logoCostanera.png'
-import { Link } from 'react-router-dom'
 import video from '../../assets/agencyhero.mp4'
 import wsp from '../../assets/icons/wsp.png'
 
