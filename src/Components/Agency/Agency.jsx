@@ -5,6 +5,7 @@ import wines from '../../assets/agencywines.jpg'
 import costanera from '../../assets/logoCostanera.png'
 import { Link } from 'react-router-dom'
 import video from '../../assets/agencyhero.mp4'
+import wsp from '../../assets/icons/wsp.png'
 
 function Agency() {
   
@@ -53,11 +54,25 @@ function Agency() {
         <div className='agencyContactDiv'>
           
           <p className='contactTitle'>CONTACTO</p>
-          
+          {/* <a target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434718404' className='contactLinkButtonContainer'>
+            <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+            <p className='contactLinkButton'>Vinos de Ríos</p>
+          </a> */}
           <div className='agencyContactLinksDiv'>
-            <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493435241636' className='contactLinkButton'>Costanera 241</a>
-            <a target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434762040' className='contactLinkButton'>Paraná tu rio</a>
-            <a target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434718404' className='contactLinkButton'>Vinos de ríos</a>
+
+            <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493435241636' className='contactLinkButtonContainer'>
+              <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+              <p className='contactLinkButton'>Costanera 241</p>
+            </a>
+            <a target='_blank' rel="noopener noreferrer"  href='https://api.whatsapp.com/send?phone=5493434762040' className='contactLinkButtonContainer'>
+              <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+              <p className='contactLinkButton'>Paraná tu Río</p>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434718404' className='contactLinkButtonContainer'>
+              <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+              <p className='contactLinkButton'>Vinos de Ríos</p>
+            </a>
+
           </div>
 
         </div>
