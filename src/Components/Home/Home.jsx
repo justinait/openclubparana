@@ -26,7 +26,10 @@ function Home() {
     <div>
 
       <div className='homeContainer'>
-        <video autoPlay muted loop playsInline className='videoHero'  loading='lazy'>
+        <video 
+        // autoPlay muted loop playsInline
+        muted loop autoPlay playsInline
+        className='videoHero'>
           <source src={video} type="video/mp4" />
           Tu navegador no soporta videos HTML5.
         </video>
