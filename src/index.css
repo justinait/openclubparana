@@ -272,9 +272,9 @@ h1, h4 {
     width: 85%;
     transform: translateY(-110%) translateX(-11%);
   }
-  .boxCookies.active {
-    /* transform: translateY(-163%) translateX(-11%); */
-  }
+  /* .boxCookies.active {
+    transform: translateY(-163%) translateX(-11%);
+  } */
   .boxCookies a, .reservarButton {
     font-size: 20px;
     padding: 10px 25px;

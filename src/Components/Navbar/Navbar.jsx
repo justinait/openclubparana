@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 import logoWhite from '../../assets/logoblanco.png'
 import './Navbar.css'
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import SearchBar from './SearchBar';
 import star from '../../assets/icons/star.png'
@@ -16,12 +16,17 @@ function Navbar() {
     const [selectedCategory, setSelectedCategory] = useState('')
     const [showSearchBar, setShowSearchBar] = useState( windowWidth <= 1200 ? false : true); 
     
+    const location = useLocation(); 
+
     useEffect(() => {
         const handleResize = () => setWindowWidth(window.innerWidth);
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
-
+    useEffect(() => {
+        const activePath = location.pathname.replace('/', '');
+        setSelectedCategory(activePath || '');
+    }, [location]);
     const handleOpen = () => {
         if (windowWidth <= 1200) {
             setOpenMenu(!openMenu);
@@ -51,7 +56,7 @@ function Navbar() {
         { nombre: 'Agencia de viajes', id: 'agencia', keywords: ['viajes', 'tours', 'excursiones'], className: '' },
         { nombre: 'Temporada', id: 'temporada', keywords: ['verano', 'otoño'], className: '' },
         { nombre: 'Contacto', id: 'contacto', keywords: ['info', 'mensaje', 'consulta'], className: '' },
-        { nombre: 'Reservar', id: 'book', keywords: ['booking', 'reserva'], className: 'bookNavbar' }
+        // { nombre: 'Reservar', id: 'book', keywords: ['booking', 'reserva'], className: 'bookNavbar' }
     ];
     
 
