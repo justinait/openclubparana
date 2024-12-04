@@ -16,7 +16,7 @@ function Agency() {
   return (
     <div>
       <div className='agencyContainer'>
-        <video src={video} autoPlay muted loop playsInline className='videoHeroAgency' loading='lazy'> </video>
+        <video src='/agencyhero.mp4' autoPlay muted loop playsInline className='videoHeroAgency' loading='lazy'> </video>
         <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />
       </div>
 
