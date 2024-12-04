@@ -203,8 +203,7 @@ h1, h4 {
     justify-content: space-between;
     transition: transform 0.8s ease, opacity 0.8s ease;
     opacity: 0;
-  }
-  .boxCookies.active {
+    
     transform: translateY(-108%) translateX(-5%);
     opacity: 1;
   }
@@ -272,6 +271,9 @@ h1, h4 {
   .boxCookies {
     width: 85%;
     transform: translateY(-110%) translateX(-11%);
+  }
+  .boxCookies.active {
+    /* transform: translateY(-163%) translateX(-11%); */
   }
   .boxCookies a, .reservarButton {
     font-size: 20px;
