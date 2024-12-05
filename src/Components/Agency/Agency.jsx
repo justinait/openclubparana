@@ -16,7 +16,19 @@ function Agency() {
   return (
     <div>
       <div className='agencyContainer'>
-        <video src={video} preload="metadata" autoPlay muted loop playsInline className='videoHeroAgency'> </video>
+      <video
+        src={video}
+        preload="metadata"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className='videoHeroAgency'
+        onLoadedMetadata={() => console.log('Video cargado correctamente')}
+        onError={(e) => console.error('Error al cargar el video:', e)}
+      >
+        <p>Tu navegador no soporta este formato de video.</p>
+      </video>
         <img loading='lazy' className='costaneraAgency' src={costanera} alt="Costanera 241" />
       </div>
 
