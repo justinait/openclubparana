@@ -217,7 +217,7 @@ function Accommodations() {
             <li><strong>20% OFF</strong> en Excursiones Náuticas con Paraná Tu Río.</li>
             <li><strong>20% OFF</strong> en Visitas a Bodegas y Viñedos con Vinos de Ríos.</li>
             <li><strong>10% OFF</strong> en la compra de Vinos Entrerrianos, en nuestra Vinoteca.</li>
-            <li><strong>10% OFF</strong> en Excursiones Exclusivas a la ciudad de Santa Fe, de la mano de Mirá Santa Fé.</li>
+            {/* <li><strong>10% OFF</strong> en Excursiones Exclusivas a la ciudad de Santa Fe, de la mano de Mirá Santa Fé.</li> */}
           </ul>
         </div>
 

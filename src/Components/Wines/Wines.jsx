@@ -1,6 +1,6 @@
 import React from 'react'
 import './Wines.css'
-import logoWines from '../../assets/logoVinos.png'
+import logoWines from '../../assets/logovinossombra.png'
 import { Link } from 'react-router-dom';
 import item from '../../assets/icons/itemO.png'
 import wsp from '../../assets/icons/wsp.png'
