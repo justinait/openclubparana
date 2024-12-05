@@ -7,7 +7,7 @@
 .videoHeroAgency {
     object-fit: cover;
     aspect-ratio: 3 / 2 !important;
-    top: 0;
+    top: 1%;
     width: 100%;
     position: relative;
 }

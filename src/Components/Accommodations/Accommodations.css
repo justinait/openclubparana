@@ -388,7 +388,7 @@
     }
     .carouselHero {
         aspect-ratio: unset !important;
-        height: 99vh;
+        height: 90vh;
         background-position: center;
     }
     .carouselHero-item {

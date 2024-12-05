@@ -16,6 +16,8 @@
     border-bottom: 3px var(--mainYellow) solid;
     border-top: 3px var(--mainYellow) solid;
     padding: 0% 15%;
+    display: flex;
+    flex-direction: column;
 }
 .contactDirection {
     text-align: center;
