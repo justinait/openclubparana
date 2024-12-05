@@ -6,7 +6,7 @@ import alojamiento from '../../assets/alojamientohome.jpg'
 import events from '../../assets/eventshome.jpg'
 import Reviews from './Reviews'
 import { Link } from 'react-router-dom'
-import video from '/hero2.mp4'
+import video from '/Herohb.mp4'
 // import video2 from '../../../public/hero.mp4'
 function Home() {
   
