@@ -26,7 +26,10 @@ function Home() {
     <div>
 
       <div className='homeContainer'>
-        <video src={video} preload="auto" muted loop autoPlay playsInline        className='videoHero'>        </video>
+        <video src={video}
+        
+        onLoadedMetadata={() => console.log('Video cargado correctamente')}
+        onError={(e) => console.error('Error al cargar el video:', e)} preload="auto" muted loop autoPlay playsInline        className='videoHero'>        </video>
         <img loading='lazy' src={logo} alt="Open Club - Complejo turístico" className='logoHero' />
       </div>
       <div className='aboutUsHomeContainer'>
