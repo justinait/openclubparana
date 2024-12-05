@@ -37,6 +37,7 @@
 .touristTitlesHome {
     font-family: 'Nokora', sans-serif;
     font-size: 9px;
+    font-size: clamp(8px, 2.2vw, 9.5px);
     border-radius:  0 0 10px 10px;
     height: 20px;
     display: flex;
