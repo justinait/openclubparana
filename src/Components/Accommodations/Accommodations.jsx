@@ -47,6 +47,7 @@ import parrilla from '../../assets/icons/parrilla.png'
 import tv from '../../assets/icons/tv.png'
 import vigilance from '../../assets/icons/vigilance.png'
 import coktail from '../../assets/icons/coktail.png'
+import ac from '../../assets/icons/ac.svg'
 
 import prev from '../../assets/icons/arrowPrev.png'
 import next from '../../assets/icons/arrowNext.png'
@@ -68,8 +69,9 @@ function Accommodations() {
     { name: 'resto', image: resto},
     { name: 'parrilla', image: parrilla},
     { name: 'tv', image: tv},
-    { name: 'Vigilancia', image: vigilance},
+    { name: 'Aire acondicionado', image: ac},
     { name: 'Tragos', image: coktail},
+    { name: 'Vigilancia', image: vigilance},
     // faltan 1
   ];
 
