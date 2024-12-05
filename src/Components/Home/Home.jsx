@@ -10,12 +10,12 @@ import video from '/hero2.mp4'
 // import video2 from '../../../public/hero.mp4'
 function Home() {
   
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://trustmary.com/widget.js';
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
+  // useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://trustmary.com/widget.js';
+  //   script.async = true;
+  //   document.body.appendChild(script);
+  // }, []);
   const home = [
     { name: 'TEMPORADA DE VERANO', image: gerva, id: '/temporada'},
     { name: 'ALOJAMIENTOS', image: alojamiento, id: '/alojamientos'},
@@ -64,7 +64,7 @@ function Home() {
         </div>
       </div>
 
-      <Reviews/>
+      {/* <Reviews/> */}
 
     </div>
   )
