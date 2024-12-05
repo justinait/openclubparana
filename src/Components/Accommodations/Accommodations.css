@@ -407,6 +407,9 @@
 
 @media(min-width: 1400px) {
     
+    .carouselHero {
+        height: 99vh;
+    }
     .ourTouristsContainerAlojamientos {
         padding: 4% 18%;
     }

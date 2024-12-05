@@ -3,6 +3,7 @@ import './Accommodations.css'
 import hero1 from '../../assets/alojamientoshero6.jpg'
 import hero2 from '../../assets/alojamientoshero4.jpg'
 import hero3 from '../../assets/alojamientoshero3.jpg'
+import hero4 from '../../assets/contacthero.jpg'
 
 import monostd1 from '../../assets/accommodations/monostd/PORTADA.jpg'
 import monostd2 from '../../assets/accommodations/monostd/2.jpg'
@@ -72,7 +73,6 @@ function Accommodations() {
     { name: 'Aire acondicionado', image: ac},
     { name: 'Tragos', image: coktail},
     { name: 'Vigilancia', image: vigilance},
-    // faltan 1
   ];
 
   const alojamiento = [
@@ -125,9 +125,8 @@ function Accommodations() {
     );
   };
 
-  const images = [
-    hero1, hero2, hero3
-  ];
+  const images = [hero1, hero2, hero3, hero4];
+
   return (
     <div>
       <div className="carouselHero">
