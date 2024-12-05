@@ -132,9 +132,10 @@ a:hover {
 }
 .searchIcon {
     background-color: var(--mainYellow);
-    padding: 8px;
+    padding: 5px;
     border-radius: 50%;
     z-index: 10;
+    width: 20px;
 }
 .starNavbar {    
     width: auto;
@@ -226,9 +227,6 @@ a:hover {
         order: 3;
     }
     
-    .searchIcon {
-        padding: 10px;
-    }
 }
 @media(min-width:1400px) {
     .navbarOptionsContainer {

@@ -45,6 +45,8 @@ import bath from '../../assets/icons/bath.png'
 import resto from '../../assets/icons/resto.png'
 import parrilla from '../../assets/icons/parrilla.png'
 import tv from '../../assets/icons/tv.png'
+import vigilance from '../../assets/icons/vigilance.png'
+import coktail from '../../assets/icons/coktail.png'
 
 import prev from '../../assets/icons/arrowPrev.png'
 import next from '../../assets/icons/arrowNext.png'
@@ -66,7 +68,9 @@ function Accommodations() {
     { name: 'resto', image: resto},
     { name: 'parrilla', image: parrilla},
     { name: 'tv', image: tv},
-    // faltan 3
+    { name: 'Vigilancia', image: vigilance},
+    { name: 'Tragos', image: coktail},
+    // faltan 1
   ];
 
   const alojamiento = [
