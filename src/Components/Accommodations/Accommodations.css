@@ -224,7 +224,34 @@
     background: transparent;
     border: none;
 }
+.accommodationsServicesIcons {
+    width: 20px;
+    object-fit: cover;
+}
 
+.iconContainer {
+    position: relative;
+    display: inline-block;
+}
+.overlayText {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: fit-content;
+    background: #F1F1F1;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px; /* Ajusta según tu necesidad */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border: 0.5px solid black;
+    z-index: 5;
+}
+
+.iconContainer:hover .overlayText {
+    opacity: 1;
+}
 @media(min-width:700px) {
     .accomodationsContainer2 {
         position: relative;

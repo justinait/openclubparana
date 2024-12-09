@@ -63,14 +63,14 @@ function Accommodations() {
   const [currentIndexHero, setCurrentIndexHero] = useState(0);
   
   const icons = [
-    { name: 'wifi', image: wifi},
-    { name: 'estacionamiento', image: parking},
-    { name: 'pileta', image: pool},
+    { name: 'Wifi', image: wifi},
+    { name: 'Estacionamiento', image: parking},
+    { name: 'Piscinas', image: pool},
     { name: 'Vestuarios', image: bath },
-    { name: 'resto', image: resto},
-    { name: 'parrilla', image: parrilla},
-    { name: 'tv', image: tv},
-    { name: 'Aire acondicionado', image: ac},
+    { name: 'Cocina', image: resto},
+    { name: 'Mesas, Sillas, Reposeras, Parrillas', image: parrilla},
+    { name: 'Tv', image: tv},
+    { name: 'Aire Acondicionado', image: ac},
     { name: 'Tragos', image: coktail},
     { name: 'Vigilancia', image: vigilance},
   ];
@@ -189,7 +189,10 @@ function Accommodations() {
             <div className='accommodationsIconsDiv'>
               {
                 icons.map((e, i) => (
-                  <img loading='lazy' key={i} src={e.image} alt={e.name} width='20' />
+                  <div className='iconContainer' key={i}>
+                    <img loading='lazy' src={e.image} alt={e.name} className='accommodationsServicesIcons' />
+                    <div className='overlayText'>{e.name}</div>
+                  </div>
                 ))
               }
             </div>
