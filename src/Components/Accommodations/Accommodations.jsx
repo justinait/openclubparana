@@ -63,16 +63,16 @@ function Accommodations() {
   const [currentIndexHero, setCurrentIndexHero] = useState(0);
   
   const icons = [
-    { name: 'Wifi', image: wifi},
+    { name: 'WIFI', image: wifi},
     { name: 'Estacionamiento', image: parking},
-    { name: 'Piscinas', image: pool},
-    { name: 'Vestuarios', image: bath },
-    { name: 'Cocina', image: resto},
+    { name: 'Acceso a las piscinas', image: pool},
+    { name: 'Ropa blanca', image: bath },
+    { name: 'Kitchenette', image: resto},
     { name: 'Mesas, Sillas, Reposeras, Parrillas', image: parrilla},
-    { name: 'Tv', image: tv},
-    { name: 'Aire Acondicionado', image: ac},
-    { name: 'Tragos', image: coktail},
-    { name: 'Vigilancia', image: vigilance},
+    { name: 'Smart TV', image: tv},
+    { name: 'Climatización', image: ac},
+    { name: 'Bar de temporada', image: coktail},
+    { name: 'Sistema de Cámaras', image: vigilance},
   ];
 
   const alojamiento = [
