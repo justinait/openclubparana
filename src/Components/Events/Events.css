@@ -1,7 +1,7 @@
 .eventsContainer {
     width: 100%;
     aspect-ratio: 3/2 !important;
-    background-image: url('../../assets/eventshero.jpg');
+    /* background-image: url('../../assets/eventshero.jpg'); */
     background-size: cover;
     position: relative;
 }

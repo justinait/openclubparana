@@ -1,7 +1,7 @@
 .winesContainer {
     width: 100%;
     aspect-ratio: 3/2 !important;
-    background-image: url('../../assets/wineshero.jpg');
+    /* background-image: url('../../assets/wineshero.jpg'); */
     background-size: cover;
     position: relative;
 }
