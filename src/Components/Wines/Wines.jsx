@@ -4,7 +4,7 @@ import logoWines from '../../assets/logovinossombra.png'
 import { Link } from 'react-router-dom';
 import item from '../../assets/icons/itemO.png'
 import wsp from '../../assets/icons/wsp.png'
-
+import video from '/Vinotecahb.mp4'
 
 function Wines() {
   
@@ -20,6 +20,19 @@ function Wines() {
   return (
     <div>
       <div className='winesContainer'>
+        <video
+          src={video}
+          preload="metadata"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className='videoHeroAgency'
+          onLoadedMetadata={() => console.log('Video cargado correctamente')}
+          onError={(e) => console.error('Error al cargar el video:', e)}
+        >
+          <p>Tu navegador no soporta este formato de video.</p>
+        </video>
         <img loading='lazy' src={logoWines} className='winesLogoImage' alt="VINOS DE RIOS" width={100}/>
       </div>
       
