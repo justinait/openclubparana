@@ -2,6 +2,7 @@ import React from 'react'
 import './Agency.css'
 import nautico from '../../assets/agencyrio.jpg'
 import wines from '../../assets/agencywines.jpg'
+import brindis from '../../assets/agencybrindiss.jpg'
 import costanera from '../../assets/logoCostanera.png'
 import video from '/agency.mp4'
 import wsp from '../../assets/icons/wsp.png'
@@ -9,7 +10,7 @@ import wsp from '../../assets/icons/wsp.png'
 function Agency() {
   
   const agency = [
-    { name: 'ATARDECER CON BRINDIS', image: nautico },
+    { name: 'ATARDECER CON BRINDIS', image: brindis },
     { name: 'ISLA CURUPÍ', image: nautico},
     { name: 'VISITA A VIÑEDOS', image: wines},
   ];
