@@ -15,7 +15,7 @@
 }
 .eventsH4Title {
     width: 85%;
-    margin: 8% auto;
+    margin: 0 auto 8%;
 }
 .itemsEventsContainer {
     display: flex;
@@ -124,12 +124,18 @@
 .popup-next {
     right: 10px;
 }
+.eventsBoxContainer .carouselImage {
+    aspect-ratio: 3 / 2 !important;
+}
   
+.eventsImagePopUpTrigger:hover {
+    cursor: pointer;
+}
 @media(min-width:700px) {
    
     .eventsH4Title {
         width: 90%;
-        margin: 5% auto;
+        margin: 0 auto 5%;
         padding: 0;
     }
     .itemsEventsContainer {
@@ -179,6 +185,7 @@
 @media(min-width:1200px) {
     .itemsEventsContainer {
         width: 56vw;
+        margin-bottom: auto;
     }
     .eventsH4Title {
         margin: 4% auto;
@@ -191,12 +198,25 @@
     .eventsBoxCookiesSeparator {
         width: 85%;
     }
+    .eventsBoxContainer {
+        display: flex;
+    }
+    .eventsImagesContainer {
+        width: 50%;
+    }
 }
 @media (min-width: 1400px) {
     .itemsEvents {
         margin-top: 20px;
         width: 40%;
     }
+    .itemsEventsContainer {
+        width: 50vw;
+    }
+    .eventsH4Title{
+        width: 80%;
+    }
+
 }
 @media(min-width:1800px) {
     .itemsEvents p {
@@ -208,4 +228,7 @@
         justify-content: space-between;
     }
     
+    .eventsH4Title{
+        width: 100%;
+    }
 }

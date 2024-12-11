@@ -138,10 +138,10 @@ function Events() {
           </div>
         </div>
       )}
+        <div className='itemsEventsContainer'>
         <div className='box eventsH4Title'>
           <h4>Nuestras instalaciones y servicios pensados para el éxito de tu evento</h4>
         </div>
-        <div className='itemsEventsContainer'>
           {
             items.map((e, i)=> (
               <div key={i} className="itemsEvents">
