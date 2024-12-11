@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './Accommodations.css'
-import hero1 from '../../assets/alojamientoshero6.jpg'
-import hero2 from '../../assets/alojamientoshero4.jpg'
-import hero3 from '../../assets/alojamientoshero3.jpg'
-import hero4 from '../../assets/contacthero.jpg'
+import hero1 from '../../assets/accommodations/alojamientoshero1.jpg'
+import hero2 from '../../assets/accommodations/alojamientoshero2.jpg'
+import hero3 from '../../assets/accommodations/alojamientoshero3.jpg'
+import hero4 from '../../assets/accommodations/alojamientoshero4.jpg'
 import wsp from '../../assets/icons/wsp.png'
 
 import monostd1 from '../../assets/accommodations/monostd/PORTADA.jpg'
