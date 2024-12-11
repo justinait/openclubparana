@@ -5,6 +5,7 @@
     align-items: center;
     width: 100%;
     aspect-ratio: 3/2 !important;
+    position: relative;
 }
 .videoHero {
     object-fit: cover;
@@ -16,7 +17,7 @@
 .logoHero {
     width: 60%;
     position: absolute;
-    top: 5%;
+    top: 45%;
     right: 20%;
 }
 .aboutUsHomeContainer {
@@ -132,7 +133,7 @@
     .logoHero {
         width: 30%;
         right: 35%;
-        top: 20%;
+        top: 50%;
     }
     .touristImagesHomeContainer {
         padding: 0 2%;
@@ -164,9 +165,7 @@
     }
 }
 @media(min-width:1800px) {
-    .logoHero {
-        top: 25%;
-    }
+    
     .touristImagesHomeContainer {
         padding: 0px 7%;
     }    

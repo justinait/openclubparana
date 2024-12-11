@@ -4,6 +4,7 @@
     background-image: url('../../assets/contacthero.jpg');
     background-size: cover;    
     position: relative;
+    background-position-y: bottom;
 }
 .googleMapIframe, #mapDiv {
     margin: auto !important;
@@ -44,7 +45,7 @@
     width: fit-content;
 }
 .contactContainer .logoHero {
-    top: 10%;
+    top: 50%;
 }
 .contactIconsSocialContainer {
     display: flex;
@@ -103,18 +104,21 @@
     
     .contactContainer {
         aspect-ratio: 16 / 9 !important;
-        background-position-y: 25%;
+        background-position-y: 75%;
+    }
+    .contactContainer .logoHero {
+        top: 45%;
     }
 
 }
 @media(min-width:1200px){
-    .contactContainer .logoHero {
-        top: 20%;
-    }
     .contactContainer {
-        background-position-y: 35%;
+        background-position-y: 65%;
         aspect-ratio: unset !important;
         height: 99vh;
+    }    
+    .contactContainer .logoHero {
+        top: 50%;
     }
     .contactContainer2 {
         display: grid;
