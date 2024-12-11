@@ -21,14 +21,11 @@ function Wines() {
       <div className='winesContainer'>
         <video
           src={video}
-          preload="metadata"
           autoPlay
           muted
           loop
           playsInline
           className='videoHeroAgency'
-          onLoadedMetadata={() => console.log('Video cargado correctamente')}
-          onError={(e) => console.error('Error al cargar el video:', e)}
         >
           <p>Tu navegador no soporta este formato de video.</p>
         </video>
