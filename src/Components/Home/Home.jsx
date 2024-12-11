@@ -7,7 +7,7 @@ import events from '../../assets/eventshome.jpg'
 import Reviews from './Reviews'
 import { Link } from 'react-router-dom'
 import video from '/heroultimo.mp4'
-// import video2 from '../../../public/hero.mp4'
+
 function Home() {
   
   useEffect(() => {
