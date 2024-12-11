@@ -48,7 +48,7 @@ import parrilla from '../../assets/icons/parrilla.png'
 import tv from '../../assets/icons/tv.png'
 import vigilance from '../../assets/icons/vigilance.png'
 import coktail from '../../assets/icons/coktail.png'
-import ac from '../../assets/icons/ac.svg'
+import ac from '../../assets/icons/ac.png'
 
 import prev from '../../assets/icons/arrowPrev.png'
 import next from '../../assets/icons/arrowNext.png'
