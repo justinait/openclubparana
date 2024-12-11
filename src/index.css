@@ -133,6 +133,30 @@ h1, h4 {
 .contactLinkButtonContainer .contactLinksIcons {
   width: 25px;
 }
+.contactLinkButtonContainerCookies {
+  width: auto;
+  display: none;
+}
+.contactLinkButtonContainerCookies .contactLinkButton {
+  padding-left: 35px;
+}
+.contactLinkButtonContainerCookies .contactCircleIcons {
+  left: 30px;
+}
+.reservarAlojamientoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.reservarAlojamientoContainer .contactLinkButtonContainer {
+  width: auto;
+}
+.reservarAlojamientoContainer .reservarButton {
+  height: fit-content;
+  padding: 5px 15px;
+  line-height: 20px;
+}
 @media(min-width:700px) {
 
   body {
@@ -183,6 +207,9 @@ h1, h4 {
   }
   .contactLinkButtonContainer .contactLinksIcons {
     width: 30px;
+  }
+  .contactLinkButtonContainerCookies {
+    display: flex;
   }
 }
 
@@ -239,6 +266,12 @@ h1, h4 {
   .contactLinkButton {
     font-size: 12px;
   } 
+  .contactLinkButtonContainerCookies {
+    padding-right: 0;
+  }
+  .reservarAlojamientoContainer .contactLinkButtonContainer {
+    display: none;
+  }
 }
 
 

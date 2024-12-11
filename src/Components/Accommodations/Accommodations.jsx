@@ -4,6 +4,7 @@ import hero1 from '../../assets/alojamientoshero6.jpg'
 import hero2 from '../../assets/alojamientoshero4.jpg'
 import hero3 from '../../assets/alojamientoshero3.jpg'
 import hero4 from '../../assets/contacthero.jpg'
+import wsp from '../../assets/icons/wsp.png'
 
 import monostd1 from '../../assets/accommodations/monostd/PORTADA.jpg'
 import monostd2 from '../../assets/accommodations/monostd/2.jpg'
@@ -160,7 +161,11 @@ function Accommodations() {
             Esta opción única no solo te brinda acceso a las instalaciones mencionadas, sino también una cercanía privilegiada 
             a todos los servicios y amenidades que ofrecemos a través del paquete de beneficios “Nuestro Turista”.
           </p>
-          <a href='https://api.whatsapp.com/send?phone=5493434052762' target='_blank' rel="noopener noreferrer" >Reservar</a>
+
+          <div className='contactLinkButtonContainer contactLinkButtonContainerCookies'>
+            <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+            <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762' className='contactLinkButton'>Reservar</a>
+          </div>
         </div>
 
         <div className='accommodationsItemsContainer'>
@@ -198,8 +203,13 @@ function Accommodations() {
             </div>
           </div>
             <div className='reservarAlojamientoContainer'>
-            <h6>VER DISPONIBILIDAD Y TARIFAS</h6>
+              <h6>VER DISPONIBILIDAD Y TARIFAS</h6>
               <a href='https://booking.bebetterhotels.com/reservation/openclub' rel="noopener noreferrer"  target='_blank' className='reservarButton'>Reservar</a>
+              
+              <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762' className='contactLinkButtonContainer'>
+                <div className='contactCircleIcons'> <img  className='contactLinksIcons' src={wsp} alt="Whatsapp" /></div>
+                <p className='contactLinkButton'>Reservar</p>
+              </a>
             </div>
         </div>
 
