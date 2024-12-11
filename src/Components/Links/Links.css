@@ -32,7 +32,7 @@
     transform: translateY(10px);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
-.linkStar:hover .linkStarP {
+.linkStarIcon:hover .linkStarP {
     transform: translateY(0px);
     opacity: 1;
 }

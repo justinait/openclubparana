@@ -105,6 +105,7 @@
     font-weight: 700;
     font-size: 11px;
     font-family: 'Nokora';
+    margin-bottom: 2px;
 }
 .accommodationsIconsDiv {
     display: flex;
@@ -297,6 +298,8 @@
         order: 3;
         display: flex;
         justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .ourTouristsContainerAlojamientos {
         flex-direction: row;
@@ -331,6 +334,9 @@
         width: 20px;
         height: auto;
     } 
+    .alojamientosInfoContainer h6 {
+        line-height: 2;
+    }
 }
 @media(min-width:1000px) {
     .carouselHero {
@@ -355,7 +361,6 @@
     }
     .alojamientosInfoContainer h6 {
         font-size: 14px;
-        line-height: 24px;
     }
     .alojamientosInfoContainer, .ourTouristsContainerAlojamientos {
         font-size: 13px;
@@ -387,7 +392,7 @@
     }
     .alojamientosInfoContainer h6 {
         font-size: 15px;
-        line-height: 24px;
+        line-height: 2;
     }
     .alojamientosInfoContainer, .ourTouristsContainerAlojamientos {
         font-size: 15px;
@@ -429,6 +434,15 @@
     }
     .carouselHero-button.nextHero {
         right: 30px;
+    }
+    .accommodationsIconsDiv {
+        width: 100%;
+    }
+    .accommodationsIconsDiv img {
+        width: 23px;
+    }
+    .overlayText {
+        bottom: 16px;
     }
 }
 

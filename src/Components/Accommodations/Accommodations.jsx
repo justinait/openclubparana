@@ -177,7 +177,7 @@ function Accommodations() {
         <div className='alojamientosInfoContainer'>
 
           <div className='horariosAlojamientos'>
-            <h6>HORARIO DE INGRESOS Y EGRESOS:</h6>
+            <h6>HORARIO DE INGRESOS Y EGRESOS</h6>
             <p>
               CHECK-IN: A PARTIR DE LAS 13:00 HS <br />
               CHECK-OUT: HASTA LAS 11:00 HS
@@ -198,7 +198,8 @@ function Accommodations() {
             </div>
           </div>
             <div className='reservarAlojamientoContainer'>
-              <a href='https://api.whatsapp.com/send?phone=5493434052762' rel="noopener noreferrer"  target='_blank' className='reservarButton'>Reservar</a>
+            <h6>VER DISPONIBILIDAD Y TARIFAS</h6>
+              <a href='https://booking.bebetterhotels.com/reservation/openclub' rel="noopener noreferrer"  target='_blank' className='reservarButton'>Reservar</a>
             </div>
         </div>
 

@@ -77,7 +77,7 @@ function Links() {
   return (
     <div className={`linksContainer ${topClass} ${isHidden ? 'hidden' : ''}`}>
       <Link to='/alojamientos' className='linkStar'>
-        <img src={star} alt="Destacados" />
+        <img src={star} alt="Destacados" className='linkStarIcon'/>
         <p className={`linkStarP ${showText ? "show" : ""} ${hideText ? "hide" : ""}`}>Accede a los beneficios exclusivos</p>
       </Link>
 
