@@ -65,6 +65,7 @@ function Events() {
   return (
     <div>
       <div className='eventsContainer'>
+        <video src="/Eventsvideohb.mp4" muted className='videoHeroAgency' autoPlay playsInline loop></video>
       </div>
       
       <div className='boxCookies eventsBoxCookiesSeparator'>
