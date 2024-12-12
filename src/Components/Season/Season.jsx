@@ -1,22 +1,22 @@
 import React from 'react'
 import './Season.css'
-import gerva from '../../assets/summerhome.jpg'
+import gerva from '../../assets/season.jpg'
+import season3 from '../../assets/season10.jpg'
+import season6 from '../../assets/season9.jpg'
+
 import season2 from '../../assets/season2.png'
-import season3 from '../../assets/season3.png'
 import season4 from '../../assets/season4.png'
 import season5 from '../../assets/season5.jpg'
-import season6 from '../../assets/season6.png'
-import { Link } from 'react-router-dom'
 import wsp from '../../assets/icons/wsp.png'
 
 function Season() {
 
   const season = [
-    {  image: gerva},
     {  image: season2},
-    {  image: season3 },
     {  image: season5},
+    {  image: gerva},
     {  image: season4},
+    {  image: season3},
     {  image: season6 }
   ];
 
