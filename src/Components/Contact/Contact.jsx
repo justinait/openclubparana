@@ -40,7 +40,7 @@ function Contact() {
           </div>
 
           <a href="mailto:openclub@costanera241.tur.ar" target='_blank' className='mailContact'>openclub@costanera241.tur.ar</a>
-          <p className='mailContactDescription'>*También podes encontrarnos en Booking o Airbnb</p>
+          {/* <p className='mailContactDescription'>*También podes encontrarnos en Booking o Airbnb</p> */}
 
 
           <a target='_blank' rel="noopener noreferrer" href='https://api.whatsapp.com/send?phone=5493434052762'  className='reservarButton'>Contactanos</a>

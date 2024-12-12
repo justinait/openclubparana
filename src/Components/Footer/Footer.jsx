@@ -12,7 +12,7 @@ function Footer() {
         <p>Bravard 276 <br />Paraná - Entre Ríos <br />Argentina</p>
 
         <div>
-          <p>+54 9 343 512-1551</p>
+          <p>+54 9 343 405-2762</p>
           <p>openclub@costanera241.tur.ar</p>
         </div>
 
