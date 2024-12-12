@@ -15,7 +15,7 @@
 }
 .eventsH4Title {
     width: 85%;
-    margin: 0 auto 8%;
+    margin: 0 auto 25px;
 }
 .itemsEventsContainer {
     display: flex;
@@ -25,7 +25,7 @@
     flex-direction: row;
 }
 .itemsEventsContainer .reservarButton {
-    margin: 6%;
+    margin: 25px;
 }
 .itemsEvents p {
     font-size: 9px;
@@ -135,13 +135,13 @@
    
     .eventsH4Title {
         width: 90%;
-        margin: 0 auto 5%;
+        margin: 0 auto 30px;
         padding: 0;
     }
     .itemsEventsContainer {
         width: 67vw;
         margin: auto;
-        margin-bottom: 4%;
+        margin-bottom: 35px;
     }
     .itemsEvents p {
         font-size: 12px;
@@ -179,6 +179,9 @@
     }
     .itemsEventsContainer .reservarButton {
         display: none;
+    }
+    .itemsEventsContainer {
+        margin-bottom: 10%;
     }
 }
 

@@ -106,6 +106,7 @@
     font-size: 11px;
     font-family: 'Nokora';
     margin-bottom: 2px;
+    width: 100%;
 }
 .accommodationsIconsDiv {
     display: flex;
