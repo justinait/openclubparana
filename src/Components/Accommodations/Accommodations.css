@@ -295,12 +295,17 @@
 
     .reservarAlojamientoContainer {        
         min-width: 24%;
-        max-width: 30%;
+        max-width: 40%;
         order: 3;
         display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
+    }
+    .reservarAlojamientoContainer .reservarButton {
+        height: fit-content;
+        padding: 8px 20px;
+        line-height: 20px;
+        font-size: 13px;
     }
     .ourTouristsContainerAlojamientos {
         flex-direction: row;
@@ -445,6 +450,10 @@
     .overlayText {
         bottom: 16px;
     }
+    .reservarAlojamientoContainer {
+        width: 25%; 
+        white-space: nowrap;
+    }
 }
 
 @media(min-width: 1400px) {
@@ -461,6 +470,10 @@
     .closeButton {
         top: 20px;
         right: 150px;
+    }
+    .reservarAlojamientoContainer {
+        width: 19%;
+        min-width: unset;
     }
 }
 @media(min-width: 1800px) {
