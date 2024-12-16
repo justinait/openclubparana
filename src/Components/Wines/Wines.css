@@ -5,14 +5,14 @@
     background-size: cover;
     position: relative;
 }
-.winesContainer::before {
+.winesContainer::before, .agencyContainer::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: -1px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, #000000 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 75%, #000000 100%);
     z-index: 1;
 }
 .winesLogoImage {
@@ -67,7 +67,7 @@
       margin-left: 15px;
     }
     
-    .winesContainer::before {
+    .winesContainer::before, .agencyContainer::before {
         bottom: -1.5px;
     }
 }
@@ -82,7 +82,7 @@
     .boxContainerWines .box {
         margin: 0%;
     }
-    .winesContainer::before {
+    .winesContainer::before, .agencyContainer::before {
         bottom: -1px;
     }
 }
@@ -110,8 +110,8 @@
         width: 300px;
         right: 37.5%;
     }
-    .winesContainer::before {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+    .winesContainer::before, .agencyContainer::before {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 64%, #000000 100%);
     }
 }
 @media(min-width: 1400px) {
@@ -126,8 +126,5 @@
     }
     .descriptionItemText {
         font-size: 11px !important;
-    }
-    .winesContainer::before {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55%, #000000 100%);
     }
 }

@@ -38,7 +38,8 @@
     width: 100px;
     position: absolute;
     top: 90%;
-    right: 5px;
+    right: 35%;
+    z-index: 10;
 }
 .boxContainerAgency {
     padding: 5% 11%;
@@ -89,6 +90,7 @@
     }
     .costaneraAgency {
         width: 250px;
+        top: 88%;
     }
         
     .agencyContactDiv .contactTitle{
@@ -112,6 +114,9 @@
     .agencyItemsContainer .touristHomeItem {
         margin: 3% 0;
     }
+    .costaneraAgency {
+        right: 37.5%;
+    }
 }
 @media(min-width:1200px){
     .boxContainerAgency {
@@ -130,10 +135,17 @@
         height: 99vh;
         top: 0;
     }
+    .costaneraAgency {
+        right: 40%;
+        top: 92%;
+    }
 }
 @media(min-width:1400px) {
     .agencyContactDiv .contactTitle {
         margin-right: 20px;
+    }
+    .costaneraAgency {
+        top: 91%;
     }
 }
 @media(min-width:1800px) {
@@ -142,5 +154,9 @@
     }
     .agencyContactDiv .contactTitle {
         margin-right: 30px;
+    }
+    .costaneraAgency {
+        top: 93%;
+        right: 43%;
     }
 }
