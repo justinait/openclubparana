@@ -4,12 +4,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    aspect-ratio: 3/2 !important;
+    /* aspect-ratio: 3/2 !important; */
     position: relative;
 }
 .videoHero {
     object-fit: cover;
-    aspect-ratio: 3 / 2 !important;
+    /* aspect-ratio: 3 / 2 !important; */
+    height: 99vh;
     top: 0;
     width: 100%;
     position: relative;
@@ -17,7 +18,7 @@
 .logoHero {
     width: 60%;
     position: absolute;
-    top: 45%;
+    top: 50%;
     right: 20%;
 }
 .aboutUsHomeContainer {
@@ -101,6 +102,13 @@
     .aboutUsHomeContainer {
         border-top: 4px var(--mainYellow) solid;
         border-bottom: 4px var(--mainYellow) solid;
+    }
+    
+    .logoHero {
+        width: 60%;
+        position: absolute;
+        top: 48%;
+        right: 20%;
     }
 }
 @media(min-width:1000px) {
