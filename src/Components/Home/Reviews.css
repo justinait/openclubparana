@@ -1,0 +1,43 @@
+
+#reviewsContainerYellow {
+    background-color: var(--mainYellow);
+    padding: 50px 0 40px;
+}
+
+/* google icon y brand, date, control line, stars */
+.ti-footer, .ti-stars,
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e'] .ti-controls-line,
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e'] .ti-widget-container .ti-date,
+
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e']:not(.ti-no-profile-img) .ti-review-header .ti-platform-icon {
+    display: none !important;
+}
+/* card */
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e'] .ti-reviews-container-wrapper {
+    margin: auto;
+    padding-top: 0;
+    /* width: 300px; */
+    /* height: 100px; */
+}
+/* card */
+.ti-widget[data-layout-id='37'][data-set-id='light-background'] {
+    /* bottom: 200px; */
+    /* position: relative; */
+}
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e'] .ti-review-item>.ti-inner {
+    height: 110px;
+}
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e'] .ti-review-header .ti-profile-img {
+    margin-top: 0;
+}
+/* img */
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e'] .ti-review-header .ti-profile-img img {
+    width: 30px !important;
+    height: 30px !important;
+}
+/* header */
+.ti-widget[data-layout-id='37'][data-set-id='light-background'][data-pid='8bda46e41598343be6267dfd86e'] .ti-widget-container * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

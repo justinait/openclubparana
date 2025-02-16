@@ -1,0 +1,22 @@
+#reviewsContainerYellow {
+    background-color: var(--mainYellow);
+    padding: 100px 0 40px;
+    /* position: relative; */
+    /* min-height: 300px; */
+}
+.ti-widget[data-layout-id='17'][data-set-id='light-background'] {
+    
+    transform: translateY(-50%);
+    width: auto;
+    max-width: 90%;
+    z-index: 9999;
+    bottom: 90px !important;
+    position: absolute !important;
+    left: 50%;
+}
+.disable-widget, .displayNone, .displayNone.ti-widget {
+    display: none !important;
+}
+.aaa {
+    background-color: blue;
+}

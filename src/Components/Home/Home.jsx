@@ -10,12 +10,6 @@ import video from '/heroultimo.mp4'
 
 function Home() {
   
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://trustmary.com/widget.js';
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
   const home = [
     { name: 'TEMPORADA DE VERANO', image: gerva, id: '/temporada'},
     { name: 'ALOJAMIENTOS', image: alojamiento, id: '/alojamientos'},
