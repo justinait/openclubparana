@@ -28,12 +28,18 @@
     text-overflow: ellipsis !important; 
     white-space: normal !important; 
     word-wrap: break-word !important; 
-    max-height: auto !important; 
+    max-height: fit-content !important; 
+}
+.ti-widget[data-layout-id='17'][data-set-id='light-background'] .ti-review-item>.ti-inner {
+    height: 105px !important;
 }
 .ti-reviews-container-wrapper {
     overflow: hidden !important; 
 }
+.ti-widget[data-layout-id='17'][data-set-id='light-background'] .ti-review-text {
 
+    max-height: 37.7px !important;
+}
 
 .ti-widget {
     overflow: hidden !important; 
