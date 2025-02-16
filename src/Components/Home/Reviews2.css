@@ -10,6 +10,7 @@
     bottom: 95px !important;
     position: absolute !important;
     left: 50% !important;
+    height: fit-content;
 }
 .disable-widget, .displayNone, .displayNone.ti-widget {
     display: none !important;
@@ -22,6 +23,24 @@
     opacity: 1 !important;
     color: inherit !important;
     cursor: default !important;
+    overflow: hidden !important;
+    height: fit-content;
+    text-overflow: ellipsis !important; 
+    white-space: normal !important; 
+    word-wrap: break-word !important; 
+    max-height: auto !important; 
+}
+.ti-reviews-container-wrapper {
+    overflow: hidden !important; 
+}
+
+
+.ti-widget {
+    overflow: hidden !important; 
+}
+
+
+.ti-reviews-container-wrapper div {
     overflow: hidden !important;
 }
 @media (min-width: 600px){
