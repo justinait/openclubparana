@@ -30,7 +30,7 @@ const TrustindexWidget = () => {
 
   return (
     <div id="reviewsContainerYellow" >
-      <div className={`trustindex-widget displayNone }`}>
+      <div className={`trustindex-widget }`}>
       {/* Aquí es donde el widget se renderiza automáticamente */}
       </div>
     </div>
