@@ -11,7 +11,7 @@
     background-color: white;
     padding: 16px;
     border-radius: 15px;
-    max-width: 600px;
+    max-width: 400px;
     width: 80%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: opacity 0.5s ease-in-out;
@@ -38,6 +38,41 @@
 }
 
 .review-author {
-    font-weight: bold;
-    color: #000;
+    font-size: 11px;
+}
+
+@media(min-width: 1000px ){
+    
+    .review-author, .review-text {
+        font-size: 13px;
+    }
+}
+@media(min-width: 1200px ){
+    
+    .review-author, .review-text {
+        font-size: 15px;
+        text-wrap: pretty !important;
+    }
+    .review-card{
+        max-width: unset;
+        width: 40%;
+        padding: 30px 50px;
+    }
+    .review-text {
+        height: 50px;
+    }
+    .reviews-container {
+        height: 300px;
+    }
+    .review-avatar {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media(min-width: 1000px ){
+    
+    .review-author, .review-text {
+        font-size: 17px;
+    }
 }
